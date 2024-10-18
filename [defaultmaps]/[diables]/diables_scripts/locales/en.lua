@@ -1,13 +1,13 @@
 Locales['en'] = {
     --Mains
-    ['hands_use']           = "Se laver les mains",
-    ['hands_progress']      = "Vous vous lavez les mains",
-    ['hands_notif']         = "Vous avez lavez vos mains",
+    ['hands_use']           = "Wash your hands",
+    ['hands_progress']      = "You wash your hands",
+    ['hands_notif']         = "You washed your hands",
 
     --Douches
-    ['showers_use']           = "Prendre une douche",
-    ['showers_progress']      = "Vous vous lavez",
-    ['showers_notif']         = "Vous vous êtes lavez",
+    ['showers_use']           = "Take a shower",
+    ['showers_progress']      = "You wash yourself",
+    ['showers_notif']         = "You washed yourself",
 	
     -- Perf
     ['TakePerf']           = "Take perfusion",

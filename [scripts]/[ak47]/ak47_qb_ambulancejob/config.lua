@@ -3,28 +3,28 @@ Config.Locale = 'en'
 Config.Debug = false
 
 Config.TargetScript = 'qb-target'  --don't change the name if you are using ox_target
-Config.SocietyInManagement = false --enable if your society is inside qb-management
+Config.SocietyInManagement = true --enable if your society is inside qb-management
 
 Config.JobNames  = {
     ['ambulance'] = true,
-    ['firefighter'] = true,
+    ['firefighter'] = false,
 }
 
 Config.MaxHealth = 200
 Config.BleedOutTime = 60 * 4 --seconds
 Config.BrainDeadTime = 60 * 10 --seconds
 Config.ForceRespawnWait = 60 * 3 --seconds
-Config.AutoRespawnAfterBrainDead = true
+Config.AutoRespawnAfterBrainDead = false
 
-Config.CrawlEnabled = true --crawl when down
+Config.CrawlEnabled = false --crawl when down
 Config.MuteDeadPlayer = true
 Config.KeepDeadPlayerInsideVehicle = true
 
-Config.SetCrutchAfterCheckin = true -- require ak47_qb_crutch
+Config.SetCrutchAfterCheckin = false -- require ak47_qb_crutch
 Config.CrutchTimer = 5 -- 5 minutes
 
 Config.Blips = {
-    {label = 'Pillbox Hospital', pos = vector3(307.06, -595.07, 43.28), sprite = 61, size = 1.2, color = 2},
+    {label = 'Pillbox Hospital', pos = vector3(307.06, -595.07, 43.28), sprite = 61, size = 0.7, color = 2},
 }
 
 Config.DisableForceRespawnWhenOnlineEms = 5
@@ -32,8 +32,8 @@ Config.DisableForceRespawnWhenOnlineEms = 5
 Config.CombatLogAutoRespawn = true
 Config.CombatLogPunishment = { --after relog
     RemoveMoney         = false,
-    RemoveItems         = false,
-    RemoveWeapons       = false,
+    RemoveItems         = true,
+    RemoveWeapons       = true,
     IgnoreItemList = {
         water       = true,
         bread       = true,
@@ -47,8 +47,8 @@ Config.CombatLogPunishment = { --after relog
 
 Config.ForceRespawnPunishment = { --hold E to respawn
     RemoveMoney         = false,
-    RemoveItems         = false,
-    RemoveWeapons       = false,
+    RemoveItems         = true,
+    RemoveWeapons       = true,
     IgnoreItemList = {
         water       = true,
         bread       = true,
@@ -62,8 +62,8 @@ Config.ForceRespawnPunishment = { --hold E to respawn
 
 Config.AutoRespawnPunishment = { --after brain dead
     RemoveMoney         = false,
-    RemoveItems         = false,
-    RemoveWeapons       = false,
+    RemoveItems         = true,
+    RemoveWeapons       = true,
     IgnoreItemList = {
         water       = true,
         bread       = true,
@@ -78,9 +78,9 @@ Config.AutoRespawnPunishment = { --after brain dead
 Config.RespawnOptions = {
     {
         Name = 'Pillbox Hospital',
-        Description = 'Transport Fee: $500 | Medical Fee: $2500',
-        TotalCost = 3000,
-        Transport = true,
+        Description = 'Transport Fee: $500 | Medical Fee: $1000',
+        TotalCost = 1500,
+        Transport = false,
         Vehicle = 'ambulance',
         Offset = vector3(0.0, -2.5, -0.4), --attach offset
         Gps = vector3(363.99, -592.57, 28.68),

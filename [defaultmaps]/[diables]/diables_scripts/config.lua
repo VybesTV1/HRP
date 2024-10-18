@@ -1,13 +1,13 @@
 Config = {}
 
-Config.Locale = 'fr' -- en, fr
-Config.Target = 'luck-contextmenu' -- 'q-target', 'qb-target', 'ox-target'
+Config.Locale = 'en' -- en, fr
+Config.Target = 'qb-target' -- 'q-target', 'qb-target', 'ox-target'
 
 Config.framework = 'QB' -- ESX or QB or custom or standalone
 
 Config.job = 'ambulance' -- attorised job
 
-Config.Debug = true -- Enables debugging
+Config.Debug = false -- Enables debugging
 
 Config.Perfusions = true
 

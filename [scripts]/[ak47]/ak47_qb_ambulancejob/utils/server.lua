@@ -176,7 +176,7 @@ end
 function addSocietyMoney(money)
 	Citizen.CreateThread(function()
 		if Config.SocietyInManagement then
-			exports['qb-management']:AddMoney('ambulance', money)
+			exports['qb-banking']:AddMoney('ambulance', money)
 		else
 			exports['qb-banking']:AddMoney('ambulance', money)
 		end

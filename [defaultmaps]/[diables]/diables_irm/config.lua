@@ -4,19 +4,19 @@ Config.debug = false
 
 -- TARGET CONFIG
 
-Config.target = 'luck-contextmenu' -- qb-target, ox-target, qtarget, luck-contextmenu, custom,
+Config.target = 'qb-target' -- qb-target, ox-target, qtarget, luck-contextmenu, custom,
 
 Config.menu = false -- for no user target, set true for active menu set Config.target false for no target
-Config.menuTextControl = '~g~Appuyez sur E pour ouvrir le menu'
-Config.menuTextSit = '~g~Appuyez sur E pour vous coucher'
+Config.menuTextControl = '~g~Press E to open the menu'
+Config.menuTextSit = '~g~Press E to lie down'
 
-Config.TargetLabelStop = 'Finir l\'IRM'
-Config.TargetLabelStart = 'Lancer l\'IRM'
-Config.TargetLabelSit = 'S\'allonger'
+Config.TargetLabelStop = 'Finish the MRI'
+Config.TargetLabelStart = 'Start MRI'
+Config.TargetLabelSit = 'Lie down'
 
 Config.KeyLeave = true -- true = players may leave the table at any time | false = players leave the table only when the doctor stops the machine
 Config.KeyLeaveTable = 'X' -- Key for players to lower themselves from the table
-Config.KeyTextLeaveTable = 'Descendre de l\'irm' -- Key text visible in FiveM keys
+Config.KeyTextLeaveTable = 'Getting off the MRI' -- Key text visible in FiveM keys
 
 --Camera
 Config.Camera = true

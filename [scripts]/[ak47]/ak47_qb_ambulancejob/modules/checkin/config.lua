@@ -1,7 +1,8 @@
-Config.DisableCheckinWhenOnlineEms = 5
+Config.DisableCheckinWhenOnlineEms = 1
 Config.CheckInWithLowBalance = false
 Config.CheckIn = {
-    {--PillBox
+    --pillbox upstairs
+    {
         PedPosition = vector4(311.63, -594.1, 43.28, 339.31), --last value is heading
         PedModel = 's_m_m_doctor_01',
         Time = 5, --seconds
@@ -14,8 +15,9 @@ Config.CheckIn = {
             {pos = vector4(313.89, -578.84, 43.2, 160.0)},
         },
     },
-    {--PillBox
-        PedPosition = vector4(349.53, -587.79, 28.8, 250.3),
+    ---pillbox downstairs
+    {
+        PedPosition = vector4(339.42, -583.80, 28.80, 249.85),
         PedModel = 's_m_m_doctor_01',
         Time = 5, --seconds
         Price = 2000,
@@ -27,22 +29,4 @@ Config.CheckIn = {
             {pos = vector4(313.89, -578.84, 43.2, 160.0)},
         },
     },
-    --[[
-    {--Central Hospital
-        PedPosition = vector4(358.94, -1415.19, 32.51, 45.0),
-        PedModel = 's_m_m_doctor_01',
-        Time = 5, --seconds
-        Price = 2000,
-        Beds = {
-            {pos = vector4(326.81, -1416.15, 38.83, 50.0)},
-            {pos = vector4(329.24, -1413.32, 38.83, 50.0)},
-            {pos = vector4(331.56, -1410.39, 38.83, 50.0)},
-            {pos = vector4(333.94, -1407.59, 38.83, 50.0)},
-            {pos = vector4(329.36, -1403.57, 38.83, 230.0)},
-            {pos = vector4(326.98, -1406.37, 38.83, 230.0)},
-            {pos = vector4(324.51, -1409.23, 38.83, 230.0)},
-            {pos = vector4(322.16, -1412.12, 38.83, 230.0)},
-        },
-    },
-    ]]
 }

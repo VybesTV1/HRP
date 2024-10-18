@@ -1,19 +1,19 @@
 Config = {}
 
 -- TARGET CONFIG
-Config.target = 'luck-contextmenu' -- qb-target, ox-target, qtarget, luck-contextmenu
+Config.target = 'qb-target' -- qb-target, ox-target, qtarget, luck-contextmenu
 
-Config.menu = true -- for no user target, set true for active menu set Config.target false for no target
-Config.menuTextControl = '~g~Appuyez sur E pour ouvrir le menu'
-Config.menuTextSit = '~g~Appuyez sur E pour vous coucher'
+Config.menu = false -- for no user target, set true for active menu set Config.target false for no target
+Config.menuTextControl = '~g~Press E to open the menu'
+Config.menuTextSit = '~g~Press E to lie down'
 
-Config.TargetLabelStop = 'Finir la radio'
-Config.TargetLabelStart = 'Lancer la radio'
-Config.TargetLabelSit = 'S\'allonger'
+Config.TargetLabelStop = 'Finish the Xray'
+Config.TargetLabelStart = 'Start the Xray'
+Config.TargetLabelSit = 'Lie down'
 
 Config.KeyLeave = true -- true = players may leave the table at any time | false = players leave the table only when the doctor stops the machine
 Config.KeyLeaveTable = 'X' -- Key for players to lower themselves from the table
-Config.KeyTextLeaveTable = 'Descendre de la radio' -- Key text visible in FiveM keys
+Config.KeyTextLeaveTable = 'Get off the Xray' -- Key text visible in FiveM keys
 
 --Camera position
 Config.Camera = true
