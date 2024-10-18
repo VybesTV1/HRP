@@ -1,6 +1,6 @@
 function setVehicleFuel(vehicle, fuel)
-    if GetResourceState('LegacyFuel') == 'started' then
-        exports['LegacyFuel']:SetFuel(vehicle, fuel + 0.0)
+    if GetResourceState('cdn-fuel') == 'started' then
+        exports['cdn-fuel']:SetFuel(vehicle, fuel + 0.0)
     else
         SetVehicleFuelLevel(vehicle, fuel)
         --custom fuel code here

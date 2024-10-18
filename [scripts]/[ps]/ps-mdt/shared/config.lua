@@ -35,7 +35,7 @@ Config.RegisterWeaponsAutomatically = true
 -- Set to true to register all weapons that are added via AddItem in ox_inventory
 Config.RegisterCreatedWeapons = true
 
--- "LegacyFuel", "lj-fuel", "ps-fuel"
+-- "cdn-fuel", "lj-fuel", "ps-fuel"
 Config.Fuel = "ps-fuel"
 
 -- Google Docs Link
