@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+  <variationData> 
+    <Item>
+      <modelName>ukamborhinehart</modelName>
+      <colors>
+		  <Item>
+          <indices content="char_array">
+            111
+            111
+            0
+            156 
+			4
+			0
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>495_rhinehart_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="187" />
+      <sirenSettings value="7108" />
+    </Item> 
+    <Item>
+      <modelName>ukambobike</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            111
+            111
+            0
+            156 
+			4
+			0
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits/>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1"/>
+      <sirenSettings value="7107"/>
+    </Item>
+     <Item>
+      <modelName>ukambojackal</modelName>
+      <colors>
+		  <Item>
+          <indices content="char_array">
+            111
+            111
+            0
+            156 
+			4
+			0
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>22_jackal_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="56"/>
+      <sirenSettings value="7101"/>
+    </Item>
+    <Item>
+      <modelName>ukamboheli</modelName>
+      <colors>
+		  <Item>
+          <indices content="char_array">
+            0
+            0
+            0
+            156 
+			4
+			0
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits />
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities />
+      </plateProbabilities>
+      <lightSettings value="451" />
+      <sirenSettings value="0" />
+    </Item>
+    <Item>
+      <modelName>ukamboeveron</modelName>
+      <colors>
+		  <Item>
+          <indices content="char_array">
+            111
+            111
+            0
+            156 
+			4
+			0
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="226"/>
+      <sirenSettings value="7106"/>
+    </Item>
+  <Item>
+      <modelName>ukambooracle</modelName>
+      <colors>
+		  <Item>
+          <indices content="char_array">
+            111
+            111
+            0
+            156 
+			4
+			0
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>68_oracle2_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="35"/>
+      <sirenSettings value="7101"/>
+    </Item>
+  <Item>
+      <modelName>ukamboballer</modelName>
+      <colors>
+		  <Item>
+          <indices content="char_array">
+            111
+            111
+            0
+            156 
+			4
+			0
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>15_baller_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1"/>
+      <sirenSettings value="7104"/>
+    </Item>
+  	<Item>
+      <modelName>ukamborebla</modelName>
+      <colors>
+		  <Item>
+          <indices content="char_array">
+            111
+            111
+            0
+            156 
+			4
+			0
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>3881_medicalrebla_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="150" />
+      <sirenSettings value="7101" />
+    </Item>
+   	<Item>
+      <modelName>ukambotailgater</modelName>
+      <colors>
+		  <Item>
+          <indices content="char_array">
+            111
+            111
+            0
+            156 
+			4
+			0
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>466_tailgater2_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="164" />
+      <sirenSettings value="7101" />
+    </Item>    
+		<Item>
+      <modelName>ukambostreiter</modelName>
+      <colors>
+		  <Item>
+          <indices content="char_array">
+            111
+            111
+            0
+            156 
+			4
+			0
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="996" />
+      <sirenSettings value="7105" />
+    </Item> 
+	   <Item>
+      <modelName>ukambospeedo</modelName>
+      <colors>
+		  <Item>
+          <indices content="char_array">
+            111
+            111
+            0
+            156 
+			4
+			0
+          </indices>
+          <liveries>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+            <Item value="true"/>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1"/>
+      <sirenSettings value="7102"/>
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>

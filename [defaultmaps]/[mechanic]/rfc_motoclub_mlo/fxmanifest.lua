@@ -1,0 +1,13 @@
+fx_version 'cerulean'
+games {'gta5'}
+
+this_is_a_map 'yes'
+
+Author 'Rfc_Mapping'
+description 'Motoclub'
+
+version '1.0'
+
+dependency '/assetpacks'
+
+dependency '/assetpacks'
