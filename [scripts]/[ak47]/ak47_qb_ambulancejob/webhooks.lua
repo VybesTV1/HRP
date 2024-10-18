@@ -1,6 +1,6 @@
-ScreenshotWebhook   = 'https://discord.com/api/webhooks/1280152249225576512/_FFwyzP09uqkGoXTEyeQd0IHAMe0PV3_GWWewdHROc4_h3E21GBySuAQ9kdjB0CJj0cl' --Discord webhook link
-DownLogWebhook      = 'https://discord.com/api/webhooks/1280152249225576512/_FFwyzP09uqkGoXTEyeQd0IHAMe0PV3_GWWewdHROc4_h3E21GBySuAQ9kdjB0CJj0cl' --Discord webhook link
-DeathLogWebhook     = 'https://discord.com/api/webhooks/1280152249225576512/_FFwyzP09uqkGoXTEyeQd0IHAMe0PV3_GWWewdHROc4_h3E21GBySuAQ9kdjB0CJj0cl' --Discord webhook link
+ScreenshotWebhook   = 'https://discord.com/api/webhooks/1296583707775209472/yD14JcVwCEtq798H7JdKpG1J2YR7m-QxT_MrLGHpN_ZtmWzCMA8_XZW7vkOpe4Dezx-t' --Discord webhook link
+DownLogWebhook      = 'https://discord.com/api/webhooks/1296583707775209472/yD14JcVwCEtq798H7JdKpG1J2YR7m-QxT_MrLGHpN_ZtmWzCMA8_XZW7vkOpe4Dezx-t' --Discord webhook link
+DeathLogWebhook     = 'https://discord.com/api/webhooks/1296583707775209472/yD14JcVwCEtq798H7JdKpG1J2YR7m-QxT_MrLGHpN_ZtmWzCMA8_XZW7vkOpe4Dezx-t' --Discord webhook link
 
 function CreateLog(source, data, type)
     message = {
