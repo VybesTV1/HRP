@@ -21,7 +21,7 @@ Config.MuteDeadPlayer = true
 Config.KeepDeadPlayerInsideVehicle = true
 
 Config.SetCrutchAfterCheckin = false -- require ak47_qb_crutch
-Config.CrutchTimer = 5 -- 5 minutes
+Config.CrutchTimer = 15 -- 5 minutes
 
 Config.Blips = {
     {label = 'Pillbox Hospital', pos = vector3(307.06, -595.07, 43.28), sprite = 61, size = 0.7, color = 2},
