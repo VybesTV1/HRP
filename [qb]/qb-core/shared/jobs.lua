@@ -151,4 +151,27 @@ QBShared.Jobs = {
 			['4'] = { name = 'Manager', isboss = true, payment = 150 },
         },
 	},
+	fishnchips = {
+		label = 'Fish N Chips',
+		defaultDuty = false,
+		offDutyPay = false,
+		grades = {
+            ['0'] = { name = 'Kitchen Porter', payment = 25 },
+            ['1'] = { name = 'Team Member', payment = 50 },
+            ['2'] = { name = 'Sales Manager', payment = 75 },
+            ['3'] = { name = 'Restaurant Manager', isboss= true, payment = 100 },
+			
+        },
+    },
+	icecream = {
+		label = 'Polar Ice Cream',
+		defaultDuty = false,
+		offDutyPay = false,
+		grades = {
+            ['0'] = { name = 'Kitchen Porter', payment = 25 },
+            ['1'] = { name = 'Team Member', payment = 50 },
+            ['2'] = { name = 'Sales Manager', payment = 75 },
+            ['3'] = { name = 'Shop Manager', isboss= true, payment = 100 },
+        },
+	},
 }
