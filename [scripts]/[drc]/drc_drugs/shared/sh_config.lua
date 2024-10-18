@@ -23,22 +23,22 @@ Config.AnticheatBan = false -- Change in server/sv_Utils.lua!!! WIll not work by
 
 --BLIPS
 Config.Blips = {
-    FlowerShop = { -- do not use same value twice (will result in overwriting of blip)
-        BlipCoords = vec3(124.89, -1488.50, 29.29), -- Blip coords
-        Sprite = 40, -- Blip Icon
-        Display = 4, -- keep 4
-        Scale = 0.6, -- Size of blip
-        Colour = 69, -- colour
-        Name = "Flower Shop" -- Blip name
-    },
-    ComicShop = {
-        BlipCoords = vec3(-143.52, 229.53, 93.94),
-        Sprite = 280,
-        Display = 4,
-        Scale = 0.8,
-        Colour = 50,
-        Name = "Comic Shop"
-    },
+    -- FlowerShop = { -- do not use same value twice (will result in overwriting of blip)
+    --     BlipCoords = vec3(124.89, -1488.50, 29.29), -- Blip coords
+    --     Sprite = 40, -- Blip Icon
+    --     Display = 4, -- keep 4
+    --     Scale = 0.6, -- Size of blip
+    --     Colour = 69, -- colour
+    --     Name = "Flower Shop" -- Blip name
+    -- },
+    -- ComicShop = {
+    --     BlipCoords = vec3(-143.52, 229.53, 93.94),
+    --     Sprite = 280,
+    --     Display = 4,
+    --     Scale = 0.8,
+    --     Colour = 50,
+    --     Name = "Comic Shop"
+    -- },
 }
 
 --Madrazo Trade

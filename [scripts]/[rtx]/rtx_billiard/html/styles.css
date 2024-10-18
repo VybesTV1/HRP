@@ -1,0 +1,332 @@
+:root {
+  --color: #ff66ff;
+}
+
+@import url('https://kit-pro.fontawesome.com/releases/v5.14.0/css/pro.min.css');
+
+@font-face {
+  font-family: BebasNeueBold;
+  src: url(BebasNeueBold.ttf);
+}
+
+*{
+	user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+html {
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	display: none;
+	color: #a8a8aa;
+}
+
+.infonotify-container {
+	width: 17%;
+	background-color: rgba(0, 0, 0, 0.70);
+	border-bottom: 3px solid var(--color);	
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+	border-radius: 10px;
+	display: none;
+}
+
+.infonotifytext {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 2px;
+	padding-right: 2px;	
+	vertical-align: middle;
+	text-align: center;
+	font-size: 25px;
+	font-family: BebasNeueBold;
+	color: #ffffff;
+}
+
+#infobindcolor {
+	color: var(--color);
+}
+
+.billiardprogress-container {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+	display: none;
+}
+
+.billiardprogressbartext {
+	position: absolute;
+	margin: 0;
+	text-decoration: none;
+	text-align: center;
+	top: 95%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);	
+	font-size: 30px;
+	color: #ffffff;
+	text-align:center;
+	font-family: BebasNeueBold;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	background-color: rgba(0, 0, 0, 0.70);
+	border-left: 3px solid var(--color);		
+	border-right: 3px solid var(--color);	
+	border-radius: 10px;
+}
+
+.billiardprogressbarmaincontainer {
+	width: 3%;
+	height: 50%;
+	background-color: rgba(0, 0, 0, 0.70);
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 95%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+	border-radius: 10px;
+}
+
+.billiardprogressbarmaincontainerdata {
+	overflow: hidden;
+	outline: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: var(--color);
+	z-index: 9999999;
+	bottom: 0;
+}
+
+#billiardreactkey {
+	color: var(--color);
+}
+
+.billiardkey-container {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.0);
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+	display: none;
+}
+
+.billiardkeykeys {
+	position: absolute;
+	margin: 0;
+	text-decoration: none;
+	text-align: center;
+	top: 92%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);	
+	font-size: 30px;
+	color: #ffffff;
+	text-align:center;
+	font-family: BebasNeueBold;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	background-color: rgba(0, 0, 0, 0.70);
+	border-left: 3px solid var(--color);		
+	border-right: 3px solid var(--color);	
+	border-radius: 10px;
+	display: block;
+}
+
+#billiardkeykeysdata1 {
+	font-size: 30px;
+	color: var(--color);
+	text-align:center;
+	font-family: BebasNeueBold;
+}
+
+#billiardkeykeysdata2 {
+	font-size: 30px;
+	color: var(--color);
+	text-align:center;
+	font-family: BebasNeueBold;
+}
+
+#billiardkeykeysdata3 {
+	font-size: 30px;
+	color: var(--color);
+	text-align:center;
+	font-family: BebasNeueBold;
+}
+
+
+#billiardkeychangeshow {
+	display: none;
+}
+
+.billiardchange-container {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+	display: none;
+}
+
+.billiardchangetext {
+	position: absolute;
+	margin: 0;
+	text-decoration: none;
+	text-align: center;
+	top: 95%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);	
+	font-size: 30px;
+	color: #ffffff;
+	text-align:center;
+	font-family: BebasNeueBold;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	background-color: rgba(0, 0, 0, 0.70);
+	border-left: 3px solid var(--color);		
+	border-right: 3px solid var(--color);	
+	border-radius: 10px;
+}
+
+
+#billiardchangekey {
+	color: var(--color);
+}
+
+.billiardchoose-container {
+	width: 20%;
+	height: 20%;
+	background-color: rgba(22, 22, 22, 1.0);
+	border-bottom: 3px solid var(--color);
+	border-radius: 10px;	
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+	display: none;
+}
+
+.closechoose {
+	position: absolute;
+	margin: 0;
+	font-size: 25px;
+	color: #ffffff;
+	text-align: center;
+	top: 10%;
+	left: 92%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.closechoose:hover {
+	color: var(--color);
+	text-decoration: none;	
+}
+
+.buttonchoose1 {
+	position: absolute;
+	margin: 0;
+	background-color: rgba(43, 43, 43, 1.0);
+	border-bottom: 3px solid var(--color);
+	color: #ffffff;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+	text-align: center;
+	top: 30%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 99999999;
+	width: 50%;
+	border-radius: 8px;
+}
+
+.buttonchoose1:hover {
+	background: var(--color);
+	text-decoration: none;	
+	color: #ffffff;
+}
+
+.buttonchoose2 {
+	position: absolute;
+	margin: 0;
+	background-color: rgba(43, 43, 43, 1.0);
+	border-bottom: 3px solid var(--color);
+	color: #ffffff;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+	text-align: center;
+	top: 70%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 99999999;
+	width: 50%;
+	border-radius: 8px;
+}
+
+.buttonchoose2:hover {
+	background: var(--color);
+	text-decoration: none;	
+	color: #ffffff;
+}
+
+*{
+	font-family: BebasNeueBold;
+}
