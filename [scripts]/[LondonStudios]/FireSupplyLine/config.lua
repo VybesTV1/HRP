@@ -76,7 +76,7 @@ translations = {
 
 vehicles = {
     {
-        model = `firetruk`,
+        model = `lsfdtruck`,
         bone = "",
         offSet = {2.0, -18.0, -1.2},
         rotation = {0.0, 0.0, 180.0},
