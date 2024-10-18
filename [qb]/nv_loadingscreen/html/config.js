@@ -63,6 +63,6 @@ var videoOpacity = 0.3
 // Youtube link EXAMPLE: https://www.youtube.com/watch?v=4CiESD8IjmM \\
 // video.mp4 \\ for local video
 // X \\ for nothing
-const video = "https://www.youtube.com/watch?v=MN7QZA_ouew"
+const video = "https://www.youtube.com/watch?v=aUjmuVOYWZU"
 const muteVideo = false
 const showVideo = false
