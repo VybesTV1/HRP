@@ -5,7 +5,7 @@ Config.HandCuffItem = 'handcuffs'
 Config.LicenseRank = 2
 Config.ArmoryWhitelist = {}
 Config.WhitelistedVehicles = {}
-Config.PoliceHelicopter = 'POLMAV'
+Config.PoliceHelicopter = 'ukpolheli'
 Config.FuelResource = 'cdn-fuel' -- supports any that has a GetFuel() and SetFuel() export
 
 Config.AmmoLabels = {
@@ -31,9 +31,7 @@ Config.Locations = {
         vector3(-449.811, 6012.909, 31.815),
     },
     vehicle = {
-        vector4(-576.63, -423.96, 31.16, 297.39),
-        vector4(471.13, -1024.05, 28.17, 274.5),
-        vector4(-455.39, 6002.02, 31.34, 87.93),
+        vector4(-576.21, -423.74, 30.52, 88.67),
     },
     stash = {
         vector3(-603.81, -416.57, 35.17),
@@ -127,14 +125,16 @@ Config.CarItems = {
 Config.AuthorizedVehicles = {
     -- Grade 0 and higher
     [0] = {
-        police = 'Police Car 1',
-        police2 = 'Police Car 2',
-        police3 = 'Police Car 3',
-        police4 = 'Police Car 4',
-        policeb = 'Police Car 5',
-        policet = 'Police Car 6',
-        sheriff = 'Sheriff Car 1',
-        sheriff2 = 'Sheriff Car 2',
+        ukpolballer = 'Police Car 1',
+        ukpolbike = 'Police Car 2',
+        ukpoleveron = 'Police Car 3',
+        ukpoljackal = 'Police Car 4',
+        ukpoloracle = 'Police Car 5',
+        ukpolrebla = 'Police Car 6',
+        ukpolrhinehart = 'Police Car 7',
+        ukpolspeedo = 'Police Car 8',
+        ukpolstreiter = 'Police Car 9',
+        ukpoltailgater = 'Police Car 10',
     },
 }
 

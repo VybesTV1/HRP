@@ -1,15 +1,23 @@
 Config.Vehicles = {
 	--PillBox
-	-- {
-	-- 	zone 		= vector3(297.35, -606.62, 43.26),  		--zone position
-	-- 	rotation 	= 68.43,									--zone rotation
-	-- 	size 		= vector3(10.0, 6.0, 2.0),					--zone size
-	-- 	spawn 		= vector4(295.05, -607.27, 43.01, 68.43), 	--vehicle spawn point with heading
-	-- 	vehicles = {
-	-- 		{model = 'ambulance', label = 'Ambulance', rank = 0, props = {modLivery = 0}}, --props is optional
-	-- 		{model = 'fordambo',  label = 'Ford E450', rank = 0, props = {modLivery = 0}},
-	-- 	}
-	-- },
+	{
+		zone 		= vector3(322.34, -572.97, 28.70),  		--zone position
+		rotation 	= 68.43,									--zone rotation
+		size 		= vector3(10.0, 6.0, 2.0),					--zone size
+		spawn 		= vector4(322.34, -572.97, 28.70, 250.63), 	--vehicle spawn point with heading
+		vehicles = {
+			{model = 'ambulance', label = 'Ambulance', rank = 0, props = {modLivery = 0}},
+			{model = 'ukamboballer',  label = 'Ambilance baller', rank = 0, props = {modLivery = 0}},
+			{model = 'ukambobike', label = 'Ambulance bike', rank = 0, props = {modLivery = 0}},
+			{model = 'ukamboeveron',  label = 'Ambilance everon', rank = 0, props = {modLivery = 0}},
+			{model = 'ukambojackal', label = 'Ambulance jackal', rank = 0, props = {modLivery = 0}},
+			{model = 'ukambooracle',  label = 'Ambilance oracle', rank = 0, props = {modLivery = 0}},
+			{model = 'ukamborebla', label = 'Ambulance rebla', rank = 0, props = {modLivery = 0}},
+			{model = 'ukamborhinehart',  label = 'Ambilance rhinehart', rank = 0, props = {modLivery = 0}},
+			{model = 'ukambostreiter', label = 'Ambulance streiter', rank = 0, props = {modLivery = 0}},
+			{model = 'ukambotailgater',  label = 'Ambilance tailgater', rank = 0, props = {modLivery = 0}},
+		}
+	},
 	-- {
 	-- 	zone 		= vector3(326.18, -588.72, 28.8),
 	-- 	rotation 	= 340.0,
