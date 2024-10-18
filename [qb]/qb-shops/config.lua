@@ -754,7 +754,7 @@ Config.Locations = {
 
     ['police'] = {
         ['label'] = 'Police Shop',
-        ['coords'] = vector4(461.8498, -981.0677, 30.6896, 91.5892),
+        ['coords'] = vector4(-601.1, -412.9, 35.17, 274.58),
         ['ped'] = 'mp_m_securoguard_01',
         ['scenario'] = 'WORLD_HUMAN_COP_IDLES',
         ['radius'] = 1.5,
