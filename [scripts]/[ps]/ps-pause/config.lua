@@ -42,9 +42,9 @@ Config.Header = {
     ["EDITOR"] = "Rockstar Editor",
 
     -- RIGHT MENU CONFIG
-    ["SERVER_NAME"] = "Project Sloth",
-    ["SERVER_TEXT"] = "LeSiiN is cool",
-    ["SERVER_DISCORD"] = "YOUR DISCORD HERE"
+    ["SERVER_NAME"] = "Hypnotize RolePlay",
+    ["SERVER_TEXT"] = "Devs Are Cool",
+    ["SERVER_DISCORD"] = "https://discord.gg/2E9BkBSk2t"
 }
 
 --Allows you to Change the Colour ( Use this Website: https://rgbacolorpicker.com/ )
