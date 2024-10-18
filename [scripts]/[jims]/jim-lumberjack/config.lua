@@ -1,20 +1,20 @@
 Config = {
 	Debug = false, -- enable debug mode
-	img = "ox_inventory/web/images/", -- Change this to your inventory's name and image folder
+	img = "qb-inventory/html/images/", -- Change this to your inventory's name and image folder
 
 	Blips = true, -- Enable Blips?
 
 	Lan = "en", -- Pick your language here
 
 	Inv = "qb", -- set to "ox" if using OX Inventory
-	Menu = "qb",
+	Menu = "ox",
 	Notify = "qb",
 	ProgressBar = "qb",
 
 	Job = nil, -- leave this as nil to have no job restriction
 	JimShops = false, -- Set this to true if using jim-shops
 
-	SawBreak = true, -- If true, chance to break powersaw/chainsaw on use
+	SawBreak = false, -- If true, chance to break powersaw/chainsaw on use
 
 	ChainsawMod = false, -- Set to true if using Mrs. BzZz's Chainsaw prop (https://bzzz.tebex.io/package/5449983)
 						-- This replaces the built in powersaw prop with a chainsaw
@@ -51,12 +51,10 @@ Config = {
 			{ name = "Wood Cutting", coords = vec4(-483.9, 5321.86, 80.61, 338.15), sprite = 514, col = 0, disp = 6, scale = 0.7, cat = nil, blipTrue = false, prop = "gr_prop_gr_speeddrill_01b" },
 		},
 		['Illegal'] = {
-			{ name = "Illegal Shit", coords = vec4(1744.18, 3298.76, 41.22, 13.32), sprite = 514, col = 0, disp = 6, scale = 0.7, cat = nil, blipTrue = false, prop = "gr_prop_gr_speeddrill_01b" },
+			{ name = "Illegal Shit", coords = vec4(1113.16, -2011.16, -31.49, 50.50), sprite = 514, col = 0, disp = 6, scale = 0.7, cat = nil, blipTrue = false, prop = "gr_prop_gr_speeddrill_01b" },
 		},
 		["Debark"] = {
 			{ name = "De-Barking", coords = vec4(-477.1, 5303.64, 86.05, 70.0), sprite = 162, col = 36, disp = 6, scale = 0.7, cat = nil, blipTrue = true },
-			{ name = "De-Barking", coords = vec4(-475.82, 5305.81, 86.15, 70.0), sprite = 162, col = 36, disp = 6, scale = 0.7, cat = nil, blipTrue = false },
-			{ name = "De-Barking", coords = vec4(-516.28, 5272.37, 80.49, 70.0), sprite = 162, col = 36, disp = 6, scale = 0.7, cat = nil,blipTrue = false },
 		},
 		["Pulper"] = {
 			{ name = "Pulper", coords = vec4(-523.85, 5298.43, 78.79, 69), sprite = 162, col = 0, disp = 6, scale = 0.7, cat = nil, blipTrue = true },
@@ -165,21 +163,17 @@ Config = {
 	},
 
 	SellItems = { -- Selling Prices
-		['wood'] = 100,
-		['log'] = 100,
-		['debarkedlog'] = 100,
-		['paper'] = 100,
-		['bark'] = 10,
+		['wood'] = 50,
+		['log'] = 25,
+		['debarkedlog'] = 15,
+		['paper'] = 5,
+		['bark'] = 5,
 	},
 
 	Items = {
-		label = "Lumberyard Store",  slots = 5,
+		label = "Lumberyard Store",  slots = 1,
 		items = {
-			{ name = "powersaw", price = 5000, amount = 100, info = {}, type = "item", slot = 1, },
-			{ name = "water_bottle", price = 10, amount = 100, info = {}, type = "item", slot = 2, },
-			{ name = "sandwich", price = 10, amount = 250, info = {}, type = "item", slot = 3, },
-			{ name = "bandage", price = 10, amount = 100, info = {}, type = "item", slot = 4, },
-			{ name = "weapon_flashlight", price = 5, amount = 100, info = {}, type = "item", slot = 5, },
+			{ name = "powersaw", price = 15000, amount = 100, info = {}, type = "item", slot = 1, },
 		},
 	},
 }
