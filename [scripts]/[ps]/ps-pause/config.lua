@@ -4,7 +4,7 @@ Config = Config or {}
 -- # BACKGROUND SECTION # --
 ----------------------------------------------------------------------------------------------------
 -- Allows you to set the preferred background Color from a list of available options.
-Config.Background = "background_projectsloth"
+Config.Background = "background_darkerblue"
 
 -- Available Options --
 -- background_blue
