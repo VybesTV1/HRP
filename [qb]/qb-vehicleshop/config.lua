@@ -44,62 +44,62 @@ Config.Shops = {
         ['FinanceZone'] = vector3(-29.53, -1103.67, 26.42),          -- Where the finance menu is located
         ['ShowroomVehicles'] = {
             [1] = {
-                coords = vector4(-55.83, -1096.98, 25.85, 134.56), --car
+                coords = vector4(-55.83, -1096.98, 25.85 -0.5, 134.56), --car
                 defaultVehicle = 'club', 
                 chosenVehicle = 'club',
             },
             [2] = {
-                coords = vector4(-50.86, -1098.87, 25.85, 134.77), --car
+                coords = vector4(-50.86, -1098.87, 25.85 -0.5, 134.77), --car
                 defaultVehicle = 'kanjo',
                 chosenVehicle = 'kanjo'
             },
             [3] = {
-                coords = vector4(-41.28, -1102.30, 25.85, 135.44), --car
+                coords = vector4(-41.28, -1102.30, 25.85 -0.5, 135.44), --car
                 defaultVehicle = 'boor',
                 chosenVehicle = 'boor'
             },
             [4] = {
-                coords = vector4(-36.21, -1104.15, 25.85, 135.93), --car
+                coords = vector4(-36.21, -1104.15, 25.85 -0.5, 135.93), --car
                 defaultVehicle = 'asterope2',
                 chosenVehicle = 'asterope2'
             },
             [5] = {
-                coords = vector4(-33.37, -1096.34, 25.85, 135.99), --car
+                coords = vector4(-33.37, -1096.34, 25.85 -0.5, 135.99), --car
                 defaultVehicle = 'xls',
                 chosenVehicle = 'xls'
             },
             [6] = {
-                coords = vector4(-38.36, -1094.37, 25.85, 133.94), --car
+                coords = vector4(-38.36, -1094.37, 25.85 -0.5, 133.94), --car
                 defaultVehicle = 'f620',
                 chosenVehicle = 'f620'
             },
             [7] = {
-                coords = vector4(-43.78, -1089.34, 25.85, 180.87), --bike
+                coords = vector4(-43.78, -1089.34, 25.85 -0.5, 180.87), --bike
                 defaultVehicle = 'akuma',
                 chosenVehicle = 'akuma'
             },
             [8] = {
-                coords = vector4(-46.58, -1088.01, 25.85, 182.32), --bike
+                coords = vector4(-46.58, -1088.01, 25.85 -0.5, 182.32), --bike
                 defaultVehicle = 'bati',
                 chosenVehicle = 'bati'
             },
             [9] = {
-                coords = vector4(-49.31, -1087.30, 25.85, 183.09), --bike
+                coords = vector4(-49.31, -1087.30, 25.85 -0.5, 183.09), --bike
                 defaultVehicle = 'faggio3', 
                 chosenVehicle = 'faggio3'
             },
             [10] = {
-                coords = vector4(-51.97, -1086.15, 25.85, 177.70), --bike
+                coords = vector4(-51.97, -1086.15, 25.85 -0.5, 177.70), --bike
                 defaultVehicle = 'manchez',
                 chosenVehicle = 'manchez'
             },
             [11] = {
-                coords = vector4(-54.85, -1085.24, 25.85, 180.45), --bike
+                coords = vector4(-54.85, -1085.24, 25.85 -0.5, 180.45), --bike
                 defaultVehicle = 'ratbike',
                 chosenVehicle = 'ratbike'
             },
             [12] = {
-                coords = vector4(-24.20, -1098.61, 26.09, 125.57),--stage
+                coords = vector4(-24.20, -1098.61, 26.09 -0.5, 125.57),--stage
                 defaultVehicle = 'prototipo',
                 chosenVehicle = 'prototipo'
             },
