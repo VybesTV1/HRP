@@ -39,7 +39,7 @@ main = {
     },
 
     societyPayments = {
-        qbManagement = false,
+        qbManagement = true,
         qbBossMenu = false,
         esxAddonAccount = false,
         societyName = "firefighters",
@@ -77,7 +77,7 @@ main = {
                 ESX = {
                     enabled = false,
                     checkJob = {
-                        enabled = true, -- Enable this to use ESX job check
+                        enabled = false, -- Enable this to use ESX job check
                         jobs = {"fire", "firefighter"} -- A user can have any of the following jobs, allowing you to add multiple
                     }
                 },
@@ -119,7 +119,7 @@ main = {
                 ESX = {
                     enabled = false,
                     checkJob = {
-                        enabled = true, -- Enable this to use ESX job check
+                        enabled = false, -- Enable this to use ESX job check
                         jobs = {"fire", "firefighter"} -- A user can have any of the following jobs, allowing you to add multiple
                     }
                 },
@@ -417,7 +417,7 @@ main = {
             ESX = {
                 enabled = false,
                 checkJob = {
-                    enabled = true, -- Enable this to use ESX job check
+                    enabled = false, -- Enable this to use ESX job check
                     jobs = {"fire", "firefighter"} -- A user can have any of the following jobs, allowing you to add multiple
                 }
             },
@@ -458,7 +458,7 @@ main = {
             ESX = {
                 enabled = false,
                 checkJob = {
-                    enabled = true, -- Enable this to use ESX job check
+                    enabled = false, -- Enable this to use ESX job check
                     jobs = {"fire", "firefighter"} -- A user can have any of the following jobs, allowing you to add multiple
                 }
             },
@@ -502,7 +502,7 @@ main = {
         ESX = {
             enabled = false,
             checkJob = {
-                enabled = true, -- Enable this to use ESX job check
+                enabled = false, -- Enable this to use ESX job check
                 jobs = {"fire", "firefighter"} -- A user can have any of the following jobs, allowing you to add multiple
             }
         },
@@ -562,7 +562,7 @@ main = {
         ESX = {
             enabled = false,
             checkJob = {
-                enabled = true, -- Enable this to use ESX job check
+                enabled = false, -- Enable this to use ESX job check
                 jobs = {"fire", "firefighter"} -- A user can have any of the following jobs, allowing you to add multiple
             }
         },
@@ -606,7 +606,7 @@ main = {
         ESX = {
             enabled = false,
             checkJob = {
-                enabled = true, -- Enable this to use ESX job check
+                enabled = false, -- Enable this to use ESX job check
                 jobs = {"fire", "firefighter"} -- A user can have any of the following jobs, allowing you to add multiple
             }
         },
@@ -648,7 +648,7 @@ main = {
         ESX = {
             enabled = false,
             checkJob = {
-                enabled = true, -- Enable this to use ESX job check
+                enabled = false, -- Enable this to use ESX job check
                 jobs = {"fire", "firefighter"} -- A user can have any of the following jobs, allowing you to add multiple
             }
         },
@@ -695,7 +695,7 @@ main = {
         ESX = {
             enabled = false,
             checkJob = {
-                enabled = true, -- Enable this to use ESX job check
+                enabled = false, -- Enable this to use ESX job check
                 jobs = {"fire", "firefighter"} -- A user can have any of the following jobs, allowing you to add multiple
             }
         },
@@ -739,7 +739,7 @@ main = {
         ESX = {
             enabled = false,
             checkJob = {
-                enabled = true, -- Enable this to use ESX job check
+                enabled = false, -- Enable this to use ESX job check
                 jobs = {"fire", "firefighter"} -- A user can have any of the following jobs, allowing you to add multiple
             }
         },
