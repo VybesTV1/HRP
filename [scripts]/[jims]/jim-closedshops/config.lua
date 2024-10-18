@@ -7,7 +7,7 @@ Config = {
 
 	Inv = "qb", -- set to "qb" if using qb_inventory
 				-- set to "ox" if using ox_nventory
-	Menu = "qb",
+	Menu = "ox",
 	Notify = "qb",
 	ProgressBar = "qb", -- set to "ox" if using ox_lib progressbar
 
@@ -38,7 +38,7 @@ Config = {
 		['burgershot'] = {
 			enable = true,
 			locations = {
-				[1] = vec4(-1187.05, -876.65, 13.75, 32.0),
+				[1] = vec4(-1194.50, -894.08, 13.89, 346.27),
 			},
 			ped = "U_M_Y_BurgerDrug_01",
 			--prop = "prop_vend_snak_01",
@@ -62,10 +62,10 @@ Config = {
 		['catcafe'] = {
 			enable = true,
 			locations = {
-				[1] = vec4(-579.49, -1070.62, 22.33, 180.0),
+				[1] = vec4(-585.45, -1062.15, 22.34, 176.81),
 			},
-			--ped = "A_F_Y_Hipster_02",
-			prop = "prop_vend_snak_01",
+			ped = "A_F_Y_Hipster_02",
+			--prop = "prop_vend_snak_01",
 			itemlist = {
 				--Drinks
 				['bobatea'] = 100,
