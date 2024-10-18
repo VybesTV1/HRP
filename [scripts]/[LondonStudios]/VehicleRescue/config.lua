@@ -7,8 +7,8 @@ main = {
 -- These are the job checks for the /jack and /chock commands
 
 inventory = {
-    itemEnabled = true,
-    oxInventory = true,
+    itemEnabled = false,
+    oxInventory = false,
     qbInventory = false,
     esxInventory = false,
     vRPInventory = false,
