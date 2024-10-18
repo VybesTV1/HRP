@@ -1,6 +1,6 @@
 Config = {}
 
-Config.Framework = "standalone"  -- types (standalone, qbcore, esx)
+Config.Framework = "qbcore"  -- types (standalone, qbcore, esx)
 
 Config.ESXFramework = {
 	newversion = true, -- use this if you using new esx version (if you get error with old esxsharedobjectmethod in console)
@@ -26,9 +26,9 @@ Config.ThemeParkItemsSettings = {givedistance = 2.0, givekey = "G", throwkey = "
 
 Config.MaximumParkDistance = 450.0 -- distance of view of attractions
 
-Config.Target = false -- enable this if you want use target
+Config.Target = true -- enable this if you want use target
 
-Config.Targettype = "qtarget" -- types - qtarget, qbtarget, oxtarget
+Config.Targettype = "qbtarget" -- types - qtarget, qbtarget, oxtarget
 
 Config.TargetIcons = {managmenticon = "fa-solid fa-bars-progress", ticketicon = "fa-solid fa-cart-shopping", buyicon = "fa-solid fa-cart-shopping", seaticon = "fa-solid fa-chair", controlicon = "fa-solid fa-bars-progress"} 
 
@@ -46,7 +46,7 @@ Config.ThemeParkPass = false --  -- enable this if you want use theme park pass 
 
 Config.ThemeParkPassTime = 10 -- time when normal theme park expire when player use it (in minutes)
 
-Config.ThemeParkAttractionFallChance = false -- enable this feature if you want the chance that the player will fall from the attraction, you can set the chance in Config.ThemeParkFallSettings
+Config.ThemeParkAttractionFallChance = true -- enable this feature if you want the chance that the player will fall from the attraction, you can set the chance in Config.ThemeParkFallSettings
 
 Config.ThemeParkDisabledByDefault = false -- enable this feature if you want to disable all attractions when the server starts, to enable attractions you have to enable them via the /enablethemepark command which is for administrators. (permissions for this command is in other.lua file)
 
@@ -156,7 +156,7 @@ Config.ThemeParkBlip = {
 	blipdisplay = 4, -- icon display
 	blipcolor = 3, -- icon color
 	blipshortrange = true, -- icon range
-	blipscale = 1.0, -- icon scale
+	blipscale = 0.7, -- icon scale
 	bliptext = "Theme Park", -- text of blip
 }
 

@@ -4,9 +4,9 @@ Config.InterfaceColor = "#ff66ff" -- change interface color, color must be in he
 
 Config.Language = "English" -- text language from code (English)
 
-Config.Target = false -- enable this if you want use target
+Config.Target = true -- enable this if you want use target
 
-Config.Targettype = "qtarget" -- types - qtarget, qbtarget, oxtarget
+Config.Targettype = "qbtarget" -- types - qtarget, qbtarget, oxtarget
 
 Config.TargetSystemsNames = {qtarget = "qtarget", qbtarget = "qb-target", oxtarget = "ox_target"}
 
@@ -55,26 +55,7 @@ Config.ShootForce = {
 }
 
 Config.PoolTables = {
-    {
-        poolcoords = vector3(-1575.67, -1017.76, 12.01), -- coords of pool
-		poolrotation = vector3(0.0, 0.0, 0.0), -- rotation of pool
-		pooltype = 1, -- types 1-6
-		pooldecals = true, -- pool decals
-		poolstand = false, -- pool stand
-		poolstandtype = 1, -- types 1-2
-        poolstandcoords = vector3(-1826.69, -754.6, 8.2), -- coords of stand
-		poolstandrotation = vector3(0.0, 0.0, 50.0), -- rotation of stand		 
-	},
-    {
-        poolcoords = vector3(-1580.45, -1018.32, 12.01), -- coords of pool
-		poolrotation = vector3(0.0, 0.0, 0.0), -- rotation of pool
-		pooltype = 4, -- types 1-6
-		pooldecals = true, -- pool decals
-		poolstand = false, -- pool stand
-		poolstandtype = 1, -- types 1-2
-        poolstandcoords = vector3(-1826.69, -754.6, 8.2), -- coords of stand
-		poolstandrotation = vector3(0.0, 0.0, 50.0), -- rotation of stand		 
-	},
+	
 }
 
 function DrawText3D(x, y, z, text)
