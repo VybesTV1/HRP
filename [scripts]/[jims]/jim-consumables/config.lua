@@ -11,7 +11,7 @@ Config = {
 	Inv = "qb", -- set to "ox" if using ox_inventory
 	Notify = "qb",  -- set to "ox" if using ox_lib
 
-	UseProgbar = false,
+	UseProgbar = true,
 	ProgressBar = "qb", -- set to "ox" if using ox_lib
 
 	Consumables = {
