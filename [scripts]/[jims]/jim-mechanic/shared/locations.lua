@@ -13,10 +13,10 @@ Config.Locations[#Config.Locations+1] = { --[[ GABZ ALTA STREET BENNYS ]]--
 	},
 	autoClock = { enter = false, exit = false, },
 	stash = {
-		{ coords = vec4(2707.59, 3497.63, 55.97, 63.54), w = 3.6, d = 0.8, },
+
 	},
 	store = {
-		{ coords = vec4(-228.64, -1314.19, 31.3, 90.0), w = 3.60, d = 0.8 },
+
 	},
 	crafting = {
 		{ coords = vec4(2713.06, 3477.29, 55.67, 66.63), w = 2.8, d = 1.5 },
@@ -27,7 +27,7 @@ Config.Locations[#Config.Locations+1] = { --[[ GABZ ALTA STREET BENNYS ]]--
 		{ coords = vec4(2725.77, 3507.81, 55.67, 66.62), w = 2.8, d = 1.5 },
 	},
 	clockin = {
-		{ coords = vec4(2716.53, 3457.94, 55.67, 312.47), prop = false },
+		{ coords = vec4(2724.81, 3453.57, 55.67, 162.08), prop = false },
 	},
 	manualRepair = {
 		{ coords = vec4(-200.28, -1311.62, 31.3, 0.0), prop = true, },
@@ -40,7 +40,7 @@ Config.Locations[#Config.Locations+1] = { --[[ GABZ ALTA STREET BENNYS ]]--
 	},
 	payments = {
 		img = "https://static.wikia.nocookie.net/gtawiki/images/b/be/BennysOriginalMotorWorks-GTAO-Logo.png",
-		{ coords = vec4(2727.46, 3457.17, 55.67, 68.38), prop = true },
+		{ coords = vec4(2726.88, 3457.49, 55.59, 90), prop = true },
 	},
 	Restrictions = {
 		Vehicle = { "Compacts", "Sedans", "SUVs", "Coupes", "Muscle", "Sports Classics", "Sports", "Super", "Motorcycles", "Off-road", "Industrial", "Utility", "Vans", "Cycles", "Service", "Emergency", "Commercial", },
@@ -48,7 +48,7 @@ Config.Locations[#Config.Locations+1] = { --[[ GABZ ALTA STREET BENNYS ]]--
 	},
 	blip = {
 		coords = vec3(-211.55, -1324.55, 30.9),
-		label = "Bennys Original Motorworks",
+		label = "Queen Bee Mechanics",
 		color = 1,
 		sprite = 446,
 		disp = 6,
