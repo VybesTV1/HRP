@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CMapParentTxds>
+  <txdRelationships>
+    <Item>
+      <parent>v_diables_hopital_txd_01</parent>
+      <child>1_v_diables_hopital_txd_01</child>
+    </Item>
+    <Item>
+      <parent>2_v_diables_hopital_txd_01</parent>
+      <child>v_diables_hopital_txd_01</child>
+    </Item>
+    <Item>
+      <parent>v_diables_hopital_txd_01</parent>
+      <child>txd_diables_hopital_bed02</child>
+    </Item>
+    <Item>
+      <parent>v_diables_hopital_txd_01</parent>
+      <child>3_v_diables_hopital_txd_01</child>
+    </Item>
+  </txdRelationships>
+</CMapParentTxds>

@@ -1,0 +1,4 @@
+v_diables_hopital_bed01 = -1353949751
+v_diables_hopital_bed02 = -277389790
+v_diables_hopital_barnachair = 1001487582
+v_diables_hopital_sofa_01 = -1221543542

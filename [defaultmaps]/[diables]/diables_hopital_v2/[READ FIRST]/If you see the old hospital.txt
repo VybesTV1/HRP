@@ -1,0 +1,11 @@
+🏥 Do you see the old hospital above ours ?
+
+This is normal, it is that you have an ipl script which starts it.
+
+For bob74_ipl:
+
+You just need to go into client.lua and search :
+PillboxHospital.Enable(true)
+
+Change to :
+PillboxHospital.Enable(false)
