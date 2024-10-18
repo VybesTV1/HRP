@@ -27,7 +27,7 @@ Config.Opacity = 100
 
 Config.Header = {
     -- LEFT MENU CONFIG
-    ["TITLE"] = "Project Sloth",
+    ["TITLE"] = "Hypnotize Roleplay",
     ["SUBTITLE"] = "This little Script was made by Jay <3",
 
     ["MAP"] = "Map",
@@ -42,8 +42,8 @@ Config.Header = {
     ["EDITOR"] = "Rockstar Editor",
 
     -- RIGHT MENU CONFIG
-    ["SERVER_NAME"] = "Hypnotize RolePlay",
-    ["SERVER_TEXT"] = "Devs Are Cool",
+    ["SERVER_NAME"] = "Hypnotize Roleplay",
+    ["SERVER_TEXT"] = "",
     ["SERVER_DISCORD"] = "https://discord.gg/2E9BkBSk2t"
 }
 
