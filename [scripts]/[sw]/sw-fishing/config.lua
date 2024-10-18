@@ -2,9 +2,9 @@ Locale = {}
 Config = {
 
 	Debug = false,
-	Target = 'ox_target',										-- 'qb-target' | 'ox_target'
+	Target = 'qb-target',										-- 'qb-target' | 'ox_target'
 	Skillbar = 'ox',											-- 'qb' (qb-minigames) | 'ps' (ps-ui) | 'ox' (ox_lib) | Add more in shared.lua
-	ProgressBar = 'ox',											-- 'qb' (progressbar) | 'ox' (ox_lib)
+	ProgressBar = 'qb',											-- 'qb' (progressbar) | 'ox' (ox_lib)
 	Link = 'qb-inventory/html/images/',							-- Link to your inventory images folder
 	Language = 'en',											-- Language locale file you want to use
 	SellMoneyType = 'cash',										-- Type of money you receive for selling items
