@@ -24,7 +24,7 @@ Config.AnticheatBan = false -- Change in server/sv_Utils.lua!!! WIll not work by
 --BLIPS
 Config.Blips = {
     FlowerShop = { -- do not use same value twice (will result in overwriting of blip)
-        BlipCoords = vec3(307.91, -1286.48, 29.53), -- Blip coords
+        BlipCoords = vec3(124.89, -1488.50, 29.29), -- Blip coords
         Sprite = 40, -- Blip Icon
         Display = 4, -- keep 4
         Scale = 0.6, -- Size of blip
@@ -51,7 +51,7 @@ Config.Madrazo = {
         enabled = false, from = 1, to = 22
     },
     RequiredItems = {
-        { item = "coke_figure", count = 5, remove = true },
+        { item = "coke_figure", count = 100, remove = true },
     },
     AddItems = {
         { item = "meth_access", count = 1 },
@@ -61,7 +61,7 @@ Config.Madrazo = {
         Heading = 270.7,
         radius = 0.7,
     },
-    Log = "Has Traded 5x coke figure for 1 Meth Access Card"
+    Log = "Has Traded 100x coke figure for 1 Meth Access Card"
 }
 
 --Gerald Trade
@@ -69,12 +69,12 @@ Config.Gerald = {
     enabled = true,
     Header = "Gerald",
     Title = "Buy Coke Lab access",
-    Description = "Trade 20 packages of weed for 1 Coke Lab with Gerald!",
+    Description = "Trade 100 packages of weed for 1 Coke Lab with Gerald!",
     Available = { -- Time
         enabled = false, from = 3, to = 10
     },
     RequiredItems = {
-        { item = "weed_package", count = 20, remove = true },
+        { item = "weed_package", count = 100, remove = true },
     },
     AddItems = {
         { item = "coke_access", count = 1 },
@@ -84,12 +84,12 @@ Config.Gerald = {
         Heading = 229.64,
         radius = 0.7,
     },
-    Log = "Has Traded 20x Weed Package for 1 Coke Access Card"
+    Log = "Has Traded 100x Weed Package for 1 Coke Access Card"
 }
 
 --Locate Dealer
 Config.LocateDealer = {
-    enabled = true,
+    enabled = false,
     RequiredItems = {
         --{ item = "hack_usb", count = 1, remove = true }, -- Add you hacking usb item from your server or just create one!
     },
@@ -112,10 +112,10 @@ Config.Pharmacist = {
     },
     Items = {
         { label = 'Empty Plastic Can', item = 'meth_emptysacid', description = "Buy Empty Plastic Can for: $",
-            price = 2500, MinAmount = 1, MaxAmount = 1 },
-        { label = 'Amonian', item = 'meth_amoniak', description = "Buy Amoniak for: $", price = 800, MinAmount = 1,
+            price = 250, MinAmount = 1, MaxAmount = 1 },
+        { label = 'Amonian', item = 'meth_amoniak', description = "Buy Amoniak for: $", price = 80, MinAmount = 1,
             MaxAmount = 5 },
-        { label = 'Syringe', item = 'syringe', description = "Buy Syringe for: $", price = 100, MinAmount = 1,
+        { label = 'Syringe', item = 'syringe', description = "Buy Syringe for: $", price = 10, MinAmount = 1,
             MaxAmount = 1 },
         { label = 'Meth Pipe', item = 'meth_pipe', description = "Buy Meth Pipe for: $", price = 100, MinAmount = 1,
             MaxAmount = 1 },
@@ -124,7 +124,7 @@ Config.Pharmacist = {
     },
 
     Ped = {
-        { model = "s_m_m_doctor_01", coords = vec4(75.76, -1622.35, 30.9 - 1.0, 236.13), scenario = "WORLD_HUMAN_SMOKING" },
+        { model = "s_m_m_doctor_01", coords = vec4(-683.30, -876.42, 23.50, 177.22), scenario = "WORLD_HUMAN_SMOKING" },
     },
 }
 
@@ -133,17 +133,17 @@ Config.Dealer = {
     enabled = true,
     Header = "Weed Dealer",
     Items = {
-        { label = 'Weed Access Card', item = 'weed_access', description = "Buy Weed Access for: $", price = 5000,
+        { label = 'Weed Access Card', item = 'weed_access', description = "Buy Weed Access for: $", price = 10000,
             MinAmount = 1, MaxAmount = 1 },
-        { label = 'Weed Papers', item = 'weed_papers', description = "Buy Weed Papers for: $", price = 100, MinAmount = 1,
+        { label = 'Weed Papers', item = 'weed_papers', description = "Buy Weed Papers for: $", price = 10, MinAmount = 1,
             MaxAmount = 5 },
-        { label = 'Blunt Wraps', item = 'weed_wrap', description = "Buy Blunt wraps for: $", price = 200, MinAmount = 1,
+        { label = 'Blunt Wraps', item = 'weed_wrap', description = "Buy Blunt wraps for: $", price = 20, MinAmount = 1,
             MaxAmount = 5 },
-        { label = 'Plastic Bag', item = 'plastic_bag', description = "Buy Plastic Bag for: $", price = 100, MinAmount = 1,
+        { label = 'Plastic Bag', item = 'plastic_bag', description = "Buy Plastic Bag for: $", price = 10, MinAmount = 1,
             MaxAmount = 10 },
     },
     Ped = {
-        { model = "s_m_y_dealer_01", coords = vec4(-1301.67, -776.34, 18.47, 202.49), scenario = "WORLD_HUMAN_SMOKING" },
+        { model = "s_m_y_dealer_01", coords = vec4(461.50, -1869.95, 26.01, 127.25), scenario = "WORLD_HUMAN_SMOKING" },
     },
 }
 
@@ -182,16 +182,16 @@ Config.FlowerShop = {
     enabled = true,
     Header = "Flower Shop",
     Items = {
-        { label = 'Hammer', item = 'hammer', description = "Buy Hammer for: $", price = 700, MinAmount = 1, MaxAmount = 2 },
-        { label = 'Trowel', item = 'trowel', description = "Buy Trowel for: $", price = 800, MinAmount = 1, MaxAmount = 2 },
-        { label = 'Scissors', item = 'scissors', description = "Buy Scissors for: $", price = 500, MinAmount = 1,
+        { label = 'Hammer', item = 'hammer', description = "Buy Hammer for: $", price = 50, MinAmount = 1, MaxAmount = 2 },
+        { label = 'Trowel', item = 'trowel', description = "Buy Trowel for: $", price = 50 , MinAmount = 1, MaxAmount = 2 },
+        { label = 'Scissors', item = 'scissors', description = "Buy Scissors for: $", price = 50, MinAmount = 1,
             MaxAmount = 2 },
-        { label = 'Glue', item = 'glue', description = "Buy Glue for: $", price = 100, MinAmount = 1, MaxAmount = 2 },
-        { label = 'Baking Soda', item = 'baking_soda', description = "Buy Baking Soda for: $", price = 100, MinAmount = 1,
+        { label = 'Glue', item = 'glue', description = "Buy Glue for: $", price = 25, MinAmount = 1, MaxAmount = 2 },
+        { label = 'Baking Soda', item = 'baking_soda', description = "Buy Baking Soda for: $", price = 25, MinAmount = 1,
             MaxAmount = 2 },
     },
     Ped = {
-        { model = "s_m_m_gardener_01", coords = vec4(307.91, -1286.48, 29.53, 165.26), scenario = "WORLD_HUMAN_SMOKING" },
+        { model = "s_m_m_gardener_01", coords = vec4(124.27, -1488.11, 28.14, 49.52), scenario = "WORLD_HUMAN_SMOKING" },
     },
 }
 
@@ -218,7 +218,7 @@ Config.Weed = {
     },
     --ENTER LAB
     Enterlab = {
-        coords = vector3(2855.56, 4447.03, 48.88),
+        coords = vector3(767.26, -1690.20, 37.55),
         radius = 1.2,
         teleport = vector3(1066.12, -3183.43, -40.16),
         NeedItem = true,
@@ -226,7 +226,7 @@ Config.Weed = {
     },
     --LEAVE LAB
     LeaveLab = {
-        coords = vector3(1066.57, -3183.46, -38.96), radius = 1.0, teleport = vector3(2855.99, 4445.97, 47.54),
+        coords = vector3(1066.57, -3183.46, -38.96), radius = 1.0, teleport = vector3(767.26, -1690.20, 37.55),
     },
     --Collecting weed
     Pickup = {
@@ -235,7 +235,7 @@ Config.Weed = {
             { item = "scissors", count = 1, remove = false },
         },
         AddItems = {
-            { item = "weed_bud", count = 1 },
+            { item = "weed_bud", count = 5 },
         },
         Log = "Has Picked up Weed bud With leaves"
     },
@@ -295,7 +295,7 @@ Config.Meth = {
     },
     --ENTER LAB
     Enterlab = {
-        coords = vector3(762.93, -1092.78, 22.58),
+        coords = vector3(-1148.97, 4906.79, 220.97),
         radius = 1.6,
         teleport = vector3(996.99, -3200.7, -37.39),
         NeedItem = true,
@@ -305,13 +305,13 @@ Config.Meth = {
     LeaveLab = {
         coords = vector3(996.49, -3200.62, -36.32),
         radius = 1.0,
-        teleport = vector3(763.09, -1092.92, 21.22),
+        teleport = vector3(-1148.97, 4906.79, 220.972),
     },
     --GET ACID
     GetSacid = {
-        coords = vector3(2718.76, 1558.05, 21.4),
+        coords = vector3(3607.04, 3622.62, 41.34),
         radius = 1.0,
-        teleport = vector3(2718.82, 1558.8, 19.82),
+        teleport = vector3(3607.04, 3622.62, 41.34),
         RequiredItems = {
             { item = "meth_emptysacid", count = 1, remove = true },
         },
@@ -473,7 +473,7 @@ Config.Coke = {
     },
     --ENTER LAB
     Enterlab = {
-        coords = vector3(1242.16, -3113.78, 6.01),
+        coords = vector3(892.12, -2195.50, 37.45),
         radius = 1.2,
         teleport = vector3(1088.76, -3187.68, -39.99),
         NeedItem = true,
@@ -483,11 +483,11 @@ Config.Coke = {
     LeaveLab = {
         coords = vector3(1088.66, -3187.51, -38.83),
         radius = 0.8,
-        teleport = vector3(1242.16, -3113.78, 6.01),
+        teleport = vector3(892.12, -2195.50, 37.45),
     },
     --Field
     Field = {
-        coords = vector3(2526.91, 4358.54, 40.09),
+        coords = vector3(-1880.40, 2542.63, 3.17),
         radius = 40.0,
         DebugPoly = false,
         name = "Cokefield",
@@ -496,7 +496,7 @@ Config.Coke = {
             { item = "trowel", count = 1, remove = false },
         },
         AddItems = {
-            { item = "coke_leaf", count = 1 },
+            { item = "coke_leaf", count = 5 },
         },
         Log = "Has Picked up Coke Leaf"
     },
