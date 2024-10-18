@@ -12,4 +12,4 @@
 	Total Damage value 600
 ]]
 
-Config.CprFailOverDamage = 300
+Config.CprFailOverDamage = 75
