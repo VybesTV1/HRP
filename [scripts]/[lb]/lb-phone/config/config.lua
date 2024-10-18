@@ -313,7 +313,7 @@ Config.Locales = { -- languages that the player can choose from when setting up 
 }
 
 Config.DefaultLocale = "en"
-Config.DateLocale = "en-US" -- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat
+Config.DateLocale = "en-GB" -- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat
 
 Config.FrameColor = "#39334d" -- This is the color of the phone frame. Default (#39334d) is SILVER.
 Config.AllowFrameColorChange = true -- Allow players to change the color of their phone frame?
@@ -336,7 +336,7 @@ Config.Battery.DischargeInterval = { 50, 60 } -- How many seconds for each perce
 Config.Battery.DischargeWhenInactiveInterval = { 80, 120 } -- How many seconds for each percent to be removed from the battery when the phone is inactive
 Config.Battery.DischargeWhenInactive = true -- Should the phone remove battery when the phone is closed?
 
-Config.CurrencyFormat = "$%s" -- ($100) Choose the formatting of the currency. %s will be replaced with the amount.
+Config.CurrencyFormat = "£%s" -- ($100) Choose the formatting of the currency. %s will be replaced with the amount.
 Config.MaxTransferAmount = 1000000 -- The maximum amount of money that can be transferred at once via wallet / messages.
 
 Config.TransferLimits = {}
@@ -346,12 +346,12 @@ Config.TransferLimits.Weekly = false -- The maximum amount of money that can be 
 Config.EnableMessagePay = true -- Allow players to pay other players via messages?
 Config.EnableVoiceMessages = true -- Allow players to send voice messages?
 
-Config.CityName = "Los Santos" -- The name that's being used in the weather app etc.
+Config.CityName = "Hypnotize" -- The name that's being used in the weather app etc.
 Config.RealTime = true -- if true, the time will use real life time depending on where the user lives, if false, the time will be the ingame time.
 Config.CustomTime = false -- NOTE: disable Config.RealTime if using this. you can set this to a function that returns custom time, as a table: { hour = 0-24, minute = 0-60 }
 
-Config.EmailDomain = "lbphone.com"
-Config.AutoCreateEmail = false -- should the phone automatically create an email for the player when they set up the phone?
+Config.EmailDomain = "Hypnotize.com"
+Config.AutoCreateEmail = true -- should the phone automatically create an email for the player when they set up the phone?
 Config.DeleteMail = true -- allow players to delete mails in the mail app?
 
 Config.DeleteMessages = true -- allow players to delete messages in the messages app?
@@ -360,16 +360,16 @@ Config.SyncFlash = true -- should flashlights be synced across all players? May 
 Config.EndLiveClose = false -- should InstaPic live end when you close the phone?
 
 Config.AllowExternal = { -- allow people to upload external images? (note: this means they can upload nsfw / gore etc)
-    Gallery = false, -- allow importing external links to the gallery?
-    Birdy = false, -- set to true to enable external images on that specific app, set to false to disable it.
-    InstaPic = false,
-    Spark = false,
-    Trendy = false,
-    Pages = false,
-    MarketPlace = false,
-    Mail = false,
-    Messages = false,
-    Other = false, -- other apps that don't have a specific setting (ex: setting a profile picture for a contact, backgrounds for the phone etc)
+    Gallery = true, -- allow importing external links to the gallery?
+    Birdy = true, -- set to true to enable external images on that specific app, set to false to disable it.
+    InstaPic = true,
+    Spark = true,
+    Trendy = true,
+    Pages = true,
+    MarketPlace = true,
+    Mail = true,
+    Messages = true,
+    Other = true, -- other apps that don't have a specific setting (ex: setting a profile picture for a contact, backgrounds for the phone etc)
 }
 
 -- Blacklisted domains for external images. You will not be able to upload from these domains.
@@ -381,7 +381,7 @@ Config.ExternalBlacklistedDomains = {
 
 -- Whitelisted domains for external images. If this is not empty/nil/false, you will only be able to upload images from these domains.
 Config.ExternalWhitelistedDomains = {
-    -- "fivemanage.com"
+    "fivemanage.com",
 }
 
 -- Set to false/empty to disable
@@ -443,7 +443,7 @@ Config.BirdyTrending = {}
 Config.BirdyTrending.Enabled = true -- show trending hashtags?
 Config.BirdyTrending.Reset = 7 * 24 -- How often should trending hashtags be reset on birdy? (in hours)
 
-Config.BirdyNotifications = false -- should everyone get a notification when someone posts?
+Config.BirdyNotifications = true -- should everyone get a notification when someone posts?
 
 Config.PromoteBirdy = {}
 Config.PromoteBirdy.Enabled = true -- should you be able to promote post?
