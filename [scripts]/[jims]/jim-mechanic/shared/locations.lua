@@ -47,7 +47,7 @@ Config.Locations[#Config.Locations+1] = { --[[ GABZ ALTA STREET BENNYS ]]--
 		Allow = { "tools", "cosmetics", "repairs", "nos", "perform" },
 	},
 	blip = {
-		coords = vec3(-211.55, -1324.55, 30.9),
+		coords = vec3(2725.38, 3483.30, 55.67),
 		label = "Queen Bee Mechanics",
 		color = 1,
 		sprite = 446,
