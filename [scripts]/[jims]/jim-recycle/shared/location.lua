@@ -60,7 +60,7 @@ Config.Locations =  {
     ['Recycle'] = {
         { coords = vec4(744.68, -1401.77, 26.55, 248.73),
             Ped = { model = "G_M_M_ChemWork_01", scenario = "WORLD_HUMAN_CLIPBOARD", },
-            Blip = { blipEnable = false, name = "Recycle Buyer", sprite = 642, col = 2, },
+            Blip = { blipEnable = true, name = "Recycle Buyer", sprite = 642, col = 2, },
         },
     },
     ['BottleBanks'] = {
