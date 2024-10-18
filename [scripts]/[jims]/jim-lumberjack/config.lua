@@ -36,28 +36,28 @@ Config = {
 			{ name = "Lumber Yard", coords = vec4(-560.16, 5377.44, 70.22, 256.17), sprite = 285, col = 2, disp = 6, scale = 0.7, cat = nil, blipTrue = true, },
 		},
 		['Seller'] = {
-			{ name = "Store", coords = vec4(-469.31, 5365.69, 80.79, 88.27), sprite = 527, col = 81, disp = 6, scale = 0.7, cat = nil, blipTrue = false, model = "G_M_M_ChemWork_01", scenario = "WORLD_HUMAN_CLIPBOARD",  },		-- The location where you enter the mine
+			{ name = "Store", coords = vec4(-469.31, 5365.69, 80.79, 88.27), sprite = 527, col = 81, disp = 6, scale = 0.7, cat = nil, blipTrue = true, model = "G_M_M_ChemWork_01", scenario = "WORLD_HUMAN_CLIPBOARD",  },		-- The location where you enter the mine
 		},
 		['Buyer'] = {
 			{ name = "Lumber Supply", coords = vec4(1219.98, -1269.71, 35.36, 85.67), sprite = 478, col = 81, disp = 6, scale = 0.7, cat = nil, blipTrue = true, model = "G_M_M_ChemWork_01", scenario = "WORLD_HUMAN_CLIPBOARD", },		-- The location where you enter the mine
 		},
 		['Saws'] = {
-			{ name = "Wood Saw", coords = vec4(-523.46, 5283.61, 74.28, 70.0), sprite = 162, col = 24, disp = 6, scale = 0.7, cat = nil, blipTrue = true, prop = "prop_tablesaw_01" },
+			{ name = "Wood Saw", coords = vec4(-523.46, 5283.61, 74.28, 70.0), sprite = 162, col = 24, disp = 6, scale = 0.7, cat = nil, blipTrue = false, prop = "prop_tablesaw_01" },
 			{ name = "Wood Saw", coords = vec4(-522.32, 5286.87, 74.25, 70.0), sprite = 162, col = 24, disp = 6, scale = 0.7, cat = nil, blipTrue = false, prop = "prop_tablesaw_01" },
 			{ name = "Wood Saw", coords = vec4(-525.02, 5279.09, 74.29, 70.0), sprite = 162, col = 24, disp = 6, scale = 0.7, cat = nil, blipTrue = false, prop = "prop_tablesaw_01" },
 		},
 		['WoodCut'] = {
-			{ name = "Wood Cutting", coords = vec4(-468.93, 5352.4, 80.72, 62.41), sprite = 514, col = 0, disp = 6, scale = 0.7, cat = nil, blipTrue = true, prop = "gr_prop_gr_speeddrill_01b" },
+			{ name = "Wood Cutting", coords = vec4(-468.93, 5352.4, 80.72, 62.41), sprite = 514, col = 0, disp = 6, scale = 0.7, cat = nil, blipTrue = false, prop = "gr_prop_gr_speeddrill_01b" },
 			{ name = "Wood Cutting", coords = vec4(-483.9, 5321.86, 80.61, 338.15), sprite = 514, col = 0, disp = 6, scale = 0.7, cat = nil, blipTrue = false, prop = "gr_prop_gr_speeddrill_01b" },
 		},
 		['Illegal'] = {
 			{ name = "Illegal Shit", coords = vec4(1113.16, -2011.16, -31.49, 50.50), sprite = 514, col = 0, disp = 6, scale = 0.7, cat = nil, blipTrue = false, prop = "gr_prop_gr_speeddrill_01b" },
 		},
 		["Debark"] = {
-			{ name = "De-Barking", coords = vec4(-477.1, 5303.64, 86.05, 70.0), sprite = 162, col = 36, disp = 6, scale = 0.7, cat = nil, blipTrue = true },
+			{ name = "De-Barking", coords = vec4(-477.1, 5303.64, 86.05, 70.0), sprite = 162, col = 36, disp = 6, scale = 0.7, cat = nil, blipTrue = false },
 		},
 		["Pulper"] = {
-			{ name = "Pulper", coords = vec4(-523.85, 5298.43, 78.79, 69), sprite = 162, col = 0, disp = 6, scale = 0.7, cat = nil, blipTrue = true },
+			{ name = "Pulper", coords = vec4(-523.85, 5298.43, 78.79, 69), sprite = 162, col = 0, disp = 6, scale = 0.7, cat = nil, blipTrue = false },
 		},
 	},
 
