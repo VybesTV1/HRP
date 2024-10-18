@@ -786,3 +786,24 @@ local function SignRobbery()
     TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
 end
 exports('SignRobbery', SignRobbery)
+
+local function Poaching()
+    local coords = GetEntityCoords(cache.ped)
+
+    local dispatchData = {
+        message = locale('poaching'),
+        codeName = 'poaching',
+        code = '10-13',
+        icon = 'fas fa-gun',
+        priority = 1,
+        --weapon = GetWeaponName(),
+        coords = coords,
+        gender = GetPlayerGender(),
+        street = GetStreetAndZone(coords),
+        alertTime = 10,
+        jobs = { 'leo' }
+    }
+
+    TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
+end
+exports('Poaching', Poaching)
