@@ -1,4 +1,5 @@
 Config.Locations =  {
+    ["Centres"] = {
         ["RecycleNorth"] = {
             Enable = true,
             Job = nil,
@@ -63,6 +64,6 @@ Config.Locations =  {
         },
     },
     ['BottleBanks'] = {
-        
+
     },
 }
