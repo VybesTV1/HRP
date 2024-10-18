@@ -2,7 +2,7 @@ Config.Locations = Config.Locations or {}
 
 Config.Locations[#Config.Locations+1] = { --[[ GABZ ALTA STREET BENNYS ]]--
 	Enabled = true,
-	job = "mechanic",
+	job = "queenbee",
 	zones = {
 		vec2(2765.5346679688, 3506.3024902344),
 		vec2(2687.0441894531, 3540.8635253906),
