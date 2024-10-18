@@ -20,7 +20,7 @@ Config = {
 
 	Main = { -- Main variables
 		isVehicleOwned = false, 	-- Keep this true if you only want changes to be made to owned vehicles
-		ItemRequiresJob = true, 	-- Do the specfic items require the mechanic job?
+		ItemRequiresJob = false, 	-- Do the specfic items require the mechanic job?
 		JobLocationRequired = false, -- Are the mecahanics locked to specific locations?
 		LocationBlips = true, 		-- Enable to grab the blip locations from locations.lua
 		CosmeticsJob = false, 		-- Do vehicle cosmetics require a mechanic job role?
@@ -92,7 +92,7 @@ Config = {
 	vehFailure = { 						-- Enabling these will make allow you to no longer need qb-vehiclefailure
 										-- ONLY ENABLE IF NOT USING VEHICLEFAILURE OR ANOTHER SCRIPT TO REPLACE IT
 		damages = true,					-- Makes jim-mechanic automatically handle extra damages instead of needing an edit to vehfailure
-		repairKits = true,				-- Takes control of repairkit and advancedrepairkit
+		repairKits = false,				-- Takes control of repairkit and advancedrepairkit
 		fixCommand = true,				-- takes control of /fix command
 		PreventRoll = true,			-- takes control of preventing rolling your car back over when upside down
 		increaseEngDamage = true,		-- enabling this adds extra damage based on what the body damage has just taken
@@ -136,7 +136,7 @@ Config = {
 	},
 
 	Repairs = {	--Repair Related
-		FreeRepair = false,  		-- Are repairs free? True means yes
+		FreeRepair = true,  		-- Are repairs free? True means yes
 		StashRepair = false, 		-- Enable for repair materials to be removed from a job stash (disabled if RequiresJob = false)
 
 		ExtraDamages = true,		-- When enabled, it will use the built in extra damage systems (Like qb-mechanicjobs functions)
@@ -168,7 +168,7 @@ Config = {
 	Previews = {
 		oldOxLibMenu = true,		-- Enable this to use default context menu for previews when using ox_lib
 		PreviewPhone = true, 		-- Enable this is preview menu generates an email, False if you want to give an item
-		PreviewJob = true, 		-- Enable this if you want /preview to require a Job Role
+		PreviewJob = false, 		-- Enable this if you want /preview to require a Job Role
 		PreviewLocation = false, 	-- Enable this if you want to lock /preview to a job location (ignored if LocationRequired is false)
 
 		PhoneItems = {				-- list of phones/items that are needed to get emails. IF you don't have any you will get a clipboard with the list on instead
