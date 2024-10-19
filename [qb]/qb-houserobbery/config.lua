@@ -13,7 +13,7 @@ Config.MaximumTime = 22 -- past this time players are unable to start house robb
 Config.MiniGameSettings = {
 
     LockPicking = {        
-        Type = 'lockpick', --type of minigame when lockpicking doors.  [default is lockpick]
+        Type = 'ps-ui', --type of minigame when lockpicking doors.  [default is lockpick]
         --use 'lockpick' for qb-lockpick [doesnt have any settings below as its an inbuilt function of qb-lockpick]
         --use 'ps-ui' for ps-ui skillcircle. adjust settings below accordingly for correct minigame type
         --use 'keydrop' for boii_ui keydrop. adjust settings below accordingly for correct minigame type
@@ -33,7 +33,7 @@ Config.MiniGameSettings = {
 
     Searching = {
 
-        Type = 'ps-ui', --type of minigame when lockpicking doors.  [default is skillbar]
+        Type = 'skillbar', --type of minigame when lockpicking doors.  [default is skillbar]
         --use 'skillbar' for qb-skillbar. adjust settings below accordingly for correct minigame type
         --use 'ps-ui' for ps-ui skillcircle. adjust settings below accordingly for correct minigame type
         --use 'keydrop' for boii_ui keydrop. adjust settings below accordingly for correct minigame type
@@ -71,21 +71,21 @@ Config.Rewards = { -- rewards pool for tiers, adjust to your server needs
     Tiers = {
         [1] = {
             ["cabin"] = {"diamond_ring", "goldchain", "weed_skunk", "bandage", "beer", "fitbit"},
-            ["kitchen"] = {"10kgoldchain", "rolex", "goldchain", "goldbar", "diamond_ring", "rifle_ammo"},
-            ["chest"] = {"rolex", "diamond_ring", "goldchain", "weed_skunk", "lighter", "phone"},
-            ["livingroom"] = {"weed_ak47", "rolex", "diamond_ring", "goldchain", "tablet", "pistol_ammo", "radio"},
+            ["kitchen"] = {"10kgoldchain", "rolex", "goldchain", "goldbar", "diamond_ring"},
+            ["chest"] = {"rolex", "diamond_ring", "goldchain", "weed_skunk", "lighter"},
+            ["livingroom"] = {"weed_ak47", "rolex", "diamond_ring", "goldchain"},
         },
         [2] = {
             ["cabin"] = {"diamond_ring", "goldchain", "weed_skunk", "bandage", "beer", "fitbit"},
-            ["kitchen"] = {"10kgoldchain", "rolex", "goldchain", "goldbar", "diamond_ring", "rifle_ammo"},
-            ["chest"] = {"rolex", "diamond_ring", "goldchain", "weed_skunk", "lighter", "phone"},
-            ["livingroom"] = {"weed_ak47", "rolex", "diamond_ring", "goldchain", "tablet", "pistol_ammo", "radio"},
+            ["kitchen"] = {"10kgoldchain", "rolex", "goldchain", "goldbar", "diamond_ring"},
+            ["chest"] = {"rolex", "diamond_ring", "goldchain", "weed_skunk", "lighter"},
+            ["livingroom"] = {"weed_ak47", "rolex", "diamond_ring", "goldchain"},
         },
         [3] = {
             ["cabin"] = {"diamond_ring", "goldchain", "weed_skunk", "bandage", "beer", "fitbit"},
-            ["kitchen"] = {"10kgoldchain", "rolex", "goldchain", "goldbar", "diamond_ring", "rifle_ammo"},
-            ["chest"] = {"rolex", "diamond_ring", "goldchain", "weed_skunk", "lighter", "phone"},
-            ["livingroom"] = {"weed_ak47", "rolex", "diamond_ring", "goldchain", "tablet", "pistol_ammo", "radio"},
+            ["kitchen"] = {"10kgoldchain", "rolex", "goldchain", "goldbar", "diamond_ring"},
+            ["chest"] = {"rolex", "diamond_ring", "goldchain", "weed_skunk", "lighter"},
+            ["livingroom"] = {"weed_ak47", "rolex", "diamond_ring", "goldchain"},
         },
     },        
     

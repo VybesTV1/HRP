@@ -46,7 +46,7 @@ Config.jobs = {
 	['cancel_job'] = 167,						-- Key to cancel the active job (167 = F6) [Hold key 2 seconds]
 	['cooldown'] = 5, 							-- Cooldown time (in minutes) to generate new contracts
 	['generated_amount'] = 5,					-- Number of contracts created per interval ('cooldown'). Each interval will create a quick job contract and a freight job contract, so a value of 5 will generate 5 quick job and 5 freight job contracts
-	['max_active_contracts'] = 30,				-- Maximum of contracts that can be active per page, this means that when generating a contact that exceeds this number, the oldest contract will be deleted
+	['max_active_contracts'] = 5,				-- Maximum of contracts that can be active per page, this means that when generating a contact that exceeds this number, the oldest contract will be deleted
 	['price_per_km_min'] = 150,				-- Minimum price per kilometer of the contract
 	['price_per_km_max'] = 350,				-- Maximum price per kilometer of the contract
 	['freight_job_mutiplier'] = 0.1,			-- Multiplier applied when generating FREIGHT loads (this means that freight jobs will have a 20% higher rewards)
