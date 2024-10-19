@@ -1189,3 +1189,28 @@ Config.DoorList = {
 		distance = 2.0
 	},
 }
+
+
+-- ps_mloproperty2_1 created by VybesTV
+Config.DoorList['ps_mloproperty2_1'] = {
+    locked = true,
+    doorRate = 1.0,
+    objCoords = vec3(1619.526489, -2261.063721, 105.398621),
+    fixText = false,
+    distance = 2.5,
+    objName = -1098506160,
+    doorType = 'door',
+    objYaw = 180,
+}
+
+-- ps_mloproperty3_1 created by VybesTV
+Config.DoorList['ps_mloproperty3_1'] = {
+    locked = true,
+    doorRate = 1.0,
+    objCoords = vec3(1619.526489, -2261.063721, 105.398621),
+    fixText = false,
+    distance = 2.5,
+    objName = -1098506160,
+    doorType = 'door',
+    objYaw = 180,
+}
