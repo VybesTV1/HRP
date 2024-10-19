@@ -994,5 +994,9 @@ QBShared.Items = {
     ["mdmonitor"] 	   = {["name"] = "mdmonitor",        	["label"] = "Monitor",	 				["weight"] = 2500, 		["type"] = "item", 		["image"] = "mansionlaptop.png", 	["unique"] = false, 		["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = ""},
     ["mdtablet"] 	   = {["name"] = "mdtablet",        	["label"] = "Tablet",	 				["weight"] = 2500, 		["type"] = "item", 		["image"] = "mdtablet.png", 		["unique"] = false, 		["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = ""},
     ["mdspeakers"] 	   = {["name"] = "mdspeakers",        	["label"] = "Speakers",	 				["weight"] = 2500, 		["type"] = "item", 		["image"] = "speaker.png", 			["unique"] = false, 		["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = ""},
+
+    ["stevo_policebadge"] = {['name'] =  'stevo_policebadge',['label'] =  'Police Badge',['weight'] =  250,['type'] =  'item',['image'] =  'stevo_policebadge.png',['unique'] =  false,['useable'] =  true,['shouldClose'] =  true,['combinable'] =  nil,['description'] =  ""},
+    ['pd_licence_plate_flipper'] 		 = {['name'] = 'pd_licence_plate_flipper', 			 ['label'] = 'Plate Flipper Install Kit', 	['weight'] = 10, 	['type'] = 'item', 		['image'] = 'plateflipper.png', ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Installation kit for the plate flipper mod'},
+    ['pd_screwdriver'] 				 	 = {['name'] = 'pd_screwdriver', 			    	['label'] = 'Screwdriver', 					                ['weight'] = 1, 	['type'] = 'item', 		['image'] = 'screwdriver.png',  ['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Required to install or remove Vehicle Tracking Devices'},
     
 }
