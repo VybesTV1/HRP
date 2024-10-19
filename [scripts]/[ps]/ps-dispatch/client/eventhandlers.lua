@@ -39,10 +39,11 @@ local function BlacklistedWeapon(ped)
 end
 
 AddEventHandler('CEventGunShot', function(witnesses, ped)
+    if exports["pug-paintball"]:IsInPaintball() then return end
     if IsPedCurrentWeaponSilenced(cache.ped) then return end
     if inNoDispatchZone then return end
     if BlacklistedWeapon(cache.ped) then return end
-
+        
     WaitTimer('Shooting', function()
         if cache.ped ~= ped then return end
 
