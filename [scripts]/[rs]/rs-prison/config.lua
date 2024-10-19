@@ -11,7 +11,7 @@ Config.Crafting = false -- Set to false to disable crafting or if you own qb-pri
 --Extra Config Options --
 -------------------------
 Config.PrisonMap =  'gabz' -- Set to 'gabz' or 'qb'
-Config.RemoveJobs = false -- Set to false if you don't want to remove player's job.
+Config.RemoveJobs = true -- Set to false if you don't want to remove player's job.
 
 -- If you are using qb-prisonjobs by xThrasherrr#6666 then set this to true
 -- https://thrasherrrdev.tebex.io/package/5226873
@@ -127,14 +127,14 @@ Config.SlushyMiniGame = {
         incorrect = 5
     },
     PSCircle = {
-        enabled = false,
+        enabled = true,
         circles = 3,
         time = 15
     },
 
     -- QB MINIGAMES --
     QBSkillbar = {
-        enabled = true,
+        enabled = false,
         duration = math.random(3000, 5000), -- How long the skillbar runs for
         pos = math.random(10, 30), -- How far to the right the static box is
         width = math.random(5, 15), -- How wide the static box is
@@ -156,14 +156,14 @@ Config.SodaMiniGame = {
         incorrect = 5
     },
     PSCircle = {
-        enabled = false,
+        enabled = true,
         circles = 3,
         time = 15
     },
 
     -- QB MINIGAMES --
     QBSkillbar = {
-        enabled = true,
+        enabled = false,
         duration = math.random(3000, 5000), -- How long the skillbar runs for
         pos = math.random(10, 30), -- How far to the right the static box is
         width = math.random(5, 15), -- How wide the static box is
