@@ -975,4 +975,8 @@ QBShared.Items = {
 	["liquorkey"] 					 = {["name"] = "liquorkey", 					["label"] = "Liquor Storeroom", 		["weight"] = 200, 		["type"] = "item", 		["image"] = "liquorkey.png", 			["unique"] = false, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "A curious key with the label 'Liquor Storeroom'."},
     ["dirtymoney"]                   = {["name"] = "dirtymoney",                    ["label"] = "Dirty Money",              ["weight"] = 0,         ["type"] = "item",      ["image"] = "dirtymoney.png",           ["unique"] = false,		["useable"] = true,     ["shouldClose"] = false,    ["combinable"] = nil,  ["description"] = "The ill-gotten proceeds of criminal activity."}, 
     ['usb2'] 				 	 	 = {['name'] = 'usb2', 			  	  			['label'] = 'Red USB', 					['weight'] = 100, 		['type'] = 'item', 		['image'] = 'usbred.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'The Blank USB has downloaded a particular encryption marking it red.'},
+
+    ['oldmoneywash'] = {['name'] = 'oldmoneywash',['label'] = 'T100 Washer',['weight'] = 250,['type'] = 'item',['image'] = 'oldmoneywash.png',['unique'] = false,['useable'] = true,['shouldClose'] = true,['combinable'] = nil,['description'] = "A basic money washer for handling smaller loads of dirty cash."},
+    ['deluxemoneywash'] = {['name'] = 'deluxemoneywash',['label'] = 'T2000 Washer',['weight'] = 250,['type'] = 'item',['image'] = 'deluxemoneywash.png', ['unique'] = false,['useable'] = true,['shouldClose'] = true,['combinable'] = nil,['description'] = "An advanced money washer for handling larger loads of dirty cash."},
+    
 }
