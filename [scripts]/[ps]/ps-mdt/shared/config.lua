@@ -1,7 +1,7 @@
 Config = Config or {}
 
-Config.UsingPsHousing = false
-Config.UsingDefaultQBApartments = true
+Config.UsingPsHousing = true
+Config.UsingDefaultQBApartments = false
 Config.OnlyShowOnDuty = true
 
 -- RECOMMENDED Fivemerr Images. DOES NOT EXPIRE. 
@@ -10,7 +10,7 @@ Config.OnlyShowOnDuty = true
 Config.FivemerrMugShot = true
 
 -- Discord webhook for images. NOT RECOMMENDED, IMAGES EXPIRE.
-Config.MugShotWebhook = false
+Config.MugShotWebhook = true
 Config.UseCQCMugshot = true
 
 -- Front, Back Side. Use 4 for both sides, we recommend leaving at 1 for default.
@@ -22,12 +22,12 @@ Config.BillVariation = true
 
 -- If set to false (default) = The fine amount is just being removed from the player's bank account
 -- If set to true = The fine amount is beeing added to the society account after being removed from the player's bank account
-Config.QBBankingUse = false
+Config.QBBankingUse = true
 
 -- Set up your inventory to automatically retrieve images when a weapon is registered at a weapon shop or self-registered.
 -- If you're utilizing lj-inventory's latest version from GitHub, no further modifications are necessary. 
 -- However, if you're using a different inventory system, please refer to the "Inventory Edit | Automatic Add Weapons with images" section in ps-mdt's README.
-Config.InventoryForWeaponsImages = "lj-inventory"
+Config.InventoryForWeaponsImages = "qb-inventory"
 
 -- Only compatible with ox_inventory
 Config.RegisterWeaponsAutomatically = true
@@ -36,7 +36,7 @@ Config.RegisterWeaponsAutomatically = true
 Config.RegisterCreatedWeapons = true
 
 -- "cdn-fuel", "lj-fuel", "ps-fuel"
-Config.Fuel = "ps-fuel"
+Config.Fuel = "cdn-fuel"
 
 -- Google Docs Link
 Config.sopLink = {
