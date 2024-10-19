@@ -156,7 +156,7 @@ function QBCore.Functions.Notify(text, textype, length)
     local title = text.title or 'Information'
     local description = text.description or 'Notif not found'
     local duration = length or 5000
-    local position = text.position or 'top'
+    local position = text.position or 'center-right'
     local type = textype or 'inform'
     local style = text.style or {}
     local icon = text.icon
@@ -164,7 +164,7 @@ function QBCore.Functions.Notify(text, textype, length)
 
 
   local iconAnimation = text.iconAnimation
-    local alignIcon = text.alignIcon or 'center-right'
+    local alignIcon = text.alignIcon or 'center'
 
     if type == "primary" then type = "inform" end
     if type == "success" then type = "success" end
