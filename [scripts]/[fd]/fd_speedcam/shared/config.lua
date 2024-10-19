@@ -1,6 +1,6 @@
 Config = {}
 
-Config.Locale = 'it'
+Config.Locale = 'en'
 
 Config.phonescript = "lb-phone"
 Config.PlateFlipperScript = true -- Set to true if your using PD-PlateFlipper Script
