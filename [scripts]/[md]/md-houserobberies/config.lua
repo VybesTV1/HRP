@@ -58,7 +58,7 @@ Config.Weaponone = "weapon_pistol" -- ped will have this weapon
 Config.Weapontwo = "weapon_bullpupshotgun" -- ped will have this weapon
 Config.MinCops = 0 -- how many police you want to be clocked in 
 Config.AlertPolice = 100 -- % chance a cop gets an alert
-Config.Oxmenu = false -- false = qb menu, true = ox menu
+Config.Oxmenu = true -- false = qb menu, true = ox menu
 Config.EmptyChance = 5 -- chance you wont get items
 Config.HouseTimer = 15 -- time in minutes for the shell to despawn and objects
 Config.DebugHouseNumber = false -- changes the label when you target to the house number so if someone owns a preset house, you know which one to comment out :)
