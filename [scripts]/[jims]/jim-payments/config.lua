@@ -71,36 +71,18 @@ Config = {
 	-- Commission is a percentage eg "0.10" becomes 10%
 	Jobs = {
 		-- Jim Businesses | https://jimathy666.tebex.io/
-		['bakery'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['beanmachine'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['burgershot'] = { MinAmountforTicket = 50, PayPerTicket = 50 , Commission = 0.10, },
+		['police'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+		['ambulance'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+		['realestate'] = { MinAmountforTicket = 50, PayPerTicket = 50 , Commission = 0.10, },
+		['luxdealer'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+		['boatdealer'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+		['queenbee'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+		['firefighter'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
 		['catcafe'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
 		['henhouse'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['pizzathis'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['popsdiner'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['tequilala'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['vanilla'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['upnatom'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['hornys'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-
-		-- JixelTay Businesses | https://jixeltay.tebex.io/
-		['cigarbar'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['cluckinbell'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['smokeshop'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['pearls'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['kois'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['whitewidow'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-		['bestbuds'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
-
-		-- Jim Mechanic | https://jimathy666.tebex.io/
-		['mechanic'] = { MinAmountforTicket = 1000, PayPerTicket = 500, Commission = 0.10, },
-		['tuners'] = { MinAmountforTicket = 1000, PayPerTicket = 500, Commission = 0.10, },
-		['ottos'] = { MinAmountforTicket = 1000, PayPerTicket = 500, Commission = 0.10, },
-		['lscustoms'] = { MinAmountforTicket = 1000, PayPerTicket = 500, Commission = 0.10, },
-		['bennys'] = { MinAmountforTicket = 1000, PayPerTicket = 500, Commission = 0.10, },
-
-		-- Gangs | Example of a gang being supported
-		['lostmc'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, gang = true, },
+		['burgershot'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+		['fishnchips'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
+		['icecream'] = { MinAmountforTicket = 50, PayPerTicket = 50, Commission = 0.10, },
 	},
 
 	------------------------------

@@ -9,9 +9,7 @@ version '1.0'
 files {
     'vehicles.meta',
     'carvariations.meta',
-    'carcols.meta',
     'handling.meta',
-    'vehiclelayouts.meta',
 }
 
 this_is_a_map 'yes'
