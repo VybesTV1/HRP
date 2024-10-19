@@ -79,7 +79,7 @@ Config = Config or {}
 --OUTPUT--
 ----------
 
-    Config.DirtyPayout = "dirtymoney"                       -- Change to "dirtymoney" to use dirtymoney, "cash" to use ordinary cash or "markedbills" for markedbills.
+    Config.DirtyPayout = "markedbills"                       -- Change to "dirtymoney" to use dirtymoney, "cash" to use ordinary cash or "markedbills" for markedbills.
 
     Config.RewardTypes = {
         [1] = {
