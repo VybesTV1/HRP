@@ -11,13 +11,6 @@ server_script '@oxmysql/lib/MySQL.lua'
 shared_scripts {
 	'locales/*.lua',
 	'config.lua',
-
-    -- Required core scripts
-    '@ox_lib/init.lua',
-    '@ox_core/imports/client.lua',
-    '@es_extended/imports.lua',
-    '@qbx_core/modules/playerdata.lua',
-
     --Jim Bridge
     '@jim_bridge/exports.lua',
     '@jim_bridge/functions.lua',
