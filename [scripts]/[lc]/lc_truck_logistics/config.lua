@@ -4,7 +4,7 @@ Config.account = {								-- Account configs
 	['trucker'] = 'bank',						-- Change here the account that should be used with trucker expenses
 }
 
-Config.job = { "trucker", "unemployed" }		-- Required jobs name to open the menu (set as {} to disable the permission)
+Config.job = {}		-- Required jobs name to open the menu (set as {} to disable the permission)
 
 Config.disable_loans = true					-- Set this to true if you want to disable the loans
 Config.disable_drivers = true					-- Set this to true if you want to disable the NPC drivers
@@ -47,9 +47,9 @@ Config.jobs = {
 	['cooldown'] = 5, 							-- Cooldown time (in minutes) to generate new contracts
 	['generated_amount'] = 5,					-- Number of contracts created per interval ('cooldown'). Each interval will create a quick job contract and a freight job contract, so a value of 5 will generate 5 quick job and 5 freight job contracts
 	['max_active_contracts'] = 30,				-- Maximum of contracts that can be active per page, this means that when generating a contact that exceeds this number, the oldest contract will be deleted
-	['price_per_km_min'] = 500,				-- Minimum price per kilometer of the contract
-	['price_per_km_max'] = 1000,				-- Maximum price per kilometer of the contract
-	['freight_job_mutiplier'] = 1.2,			-- Multiplier applied when generating FREIGHT loads (this means that freight jobs will have a 20% higher rewards)
+	['price_per_km_min'] = 150,				-- Minimum price per kilometer of the contract
+	['price_per_km_max'] = 350,				-- Maximum price per kilometer of the contract
+	['freight_job_mutiplier'] = 0.1,			-- Multiplier applied when generating FREIGHT loads (this means that freight jobs will have a 20% higher rewards)
 	['probability_urgent_cargo'] = 10,			-- The urgent load is generated randomly, here you can configure the probability (%)
 	['available_trucks'] = {					-- List of rented trucks that are generated in contracts
 		"hauler","packer", "blacktop", "brickades", "vetirs"
