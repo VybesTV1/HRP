@@ -970,4 +970,9 @@ QBShared.Items = {
     cigs 					= {name = 'cigs', 			 	  	  		    label = 'Cigarette', 				    weight = 200, 		type = 'item', 					image = 'cigs.png', 					unique = false, 	useable = true, 	shouldClose = true,   combinable = nil,   description = 'A Single Cigarette'},
     vape 					= {name = 'vape', 			 	  	  		    label = 'Electronic Vape', 				weight = 200, 		type = 'item', 					image = 'vape.png', 					unique = false, 	useable = true, 	shouldClose = true,   combinable = nil,   description = 'An Electronic Vape'},
     vapejuice 				= {name = 'vapejuice', 			 	  	  		label = 'Vape Juice', 				    weight = 200, 		type = 'item', 					image = 'vapejuice.png', 				unique = false, 	useable = true, 	shouldClose = true,   combinable = nil,   description = 'Vape Juice'},
+
+    -- mz-storerobbery
+	["liquorkey"] 					 = {["name"] = "liquorkey", 					["label"] = "Liquor Storeroom", 		["weight"] = 200, 		["type"] = "item", 		["image"] = "liquorkey.png", 			["unique"] = false, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "A curious key with the label 'Liquor Storeroom'."},
+    ["dirtymoney"]                   = {["name"] = "dirtymoney",                    ["label"] = "Dirty Money",              ["weight"] = 0,         ["type"] = "item",      ["image"] = "dirtymoney.png",           ["unique"] = false,		["useable"] = true,     ["shouldClose"] = false,    ["combinable"] = nil,  ["description"] = "The ill-gotten proceeds of criminal activity."}, 
+    ['usb2'] 				 	 	 = {['name'] = 'usb2', 			  	  			['label'] = 'Red USB', 					['weight'] = 100, 		['type'] = 'item', 		['image'] = 'usbred.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'The Blank USB has downloaded a particular encryption marking it red.'},
 }
