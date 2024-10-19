@@ -5,7 +5,7 @@ Config.CheckIn = {
     {
         PedPosition = vector4(301.82, -591.08, 43.27, 335.36), --last value is heading
         PedModel = 's_m_m_doctor_01',
-        Time = 5, --seconds
+        Time = 15, --seconds
         Price = 275,
         Beds = {
             {pos = vector4(323.32, -568.71, 49.11, 160.00)},
@@ -19,7 +19,7 @@ Config.CheckIn = {
     {
         PedPosition = vector4(339.42, -583.80, 28.80, 249.85),
         PedModel = 's_m_m_doctor_01',
-        Time = 5, --seconds
+        Time = 15, --seconds
         Price = 275,
         Beds = {
             {pos = vector4(301.16, -591.28, 29.70, 250.00)},

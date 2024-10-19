@@ -61,9 +61,9 @@ Config = {
 
 	Harness = {
 		JobOnly = false,			-- Only allow job roles to add a Harness to vehicle
-		HarnessControl = true,		-- Enable harness AND seatbelt features of the script, requires edits to smallresources and hud scripts
-		seatbeltEasyLeave = true,	-- if true players can exit vehicled before removing seatbelt
-		harnessEasyLeave = true,	-- if true players can exit vehicled before removing harness
+		HarnessControl = false,		-- Enable harness AND seatbelt features of the script, requires edits to smallresources and hud scripts
+		seatbeltEasyLeave = false,	-- if true players can exit vehicled before removing seatbelt
+		harnessEasyLeave = false,	-- if true players can exit vehicled before removing harness
 
 		progOn = true,				-- if true add a progressBar to buckle harness
 		progOff = true,				-- if true add a progressBar to unbuckle harness

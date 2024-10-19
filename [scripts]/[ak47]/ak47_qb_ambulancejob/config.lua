@@ -27,7 +27,7 @@ Config.Blips = {
     {label = 'Pillbox Hospital', pos = vector3(307.06, -595.07, 43.28), sprite = 61, size = 0.7, color = 2},
 }
 
-Config.DisableForceRespawnWhenOnlineEms = 5
+Config.DisableForceRespawnWhenOnlineEms = 1
 
 Config.CombatLogAutoRespawn = true
 Config.CombatLogPunishment = { --after relog
@@ -101,18 +101,18 @@ Config.RespawnOptions = {
 }
 
 Config.PlayForTask = {
-    revive      = 1000,
-    cpr         = 1000,
-    cpradvanced = 500,
-    bandage     = 200,
+    revive      = 300,
+    cpr         = 275,
+    cpradvanced = 250,
+    bandage     = 225,
     neckbrace   = 200,
-    bodybandage = 200,
-    armbrace    = 200,
-    legbrace    = 200,
-    morphine30  = 200,
-    saline      = 100,
-    firstaid    = 100,
-    medikit     = 100,
+    bodybandage = 175,
+    armbrace    = 150,
+    legbrace    = 125,
+    morphine30  = 100,
+    saline      = 75,
+    firstaid    = 50,
+    medikit     = 25,
 }
 
 Config.IgnoreAnims = { --death & down animation will be skiped if player using animations below
