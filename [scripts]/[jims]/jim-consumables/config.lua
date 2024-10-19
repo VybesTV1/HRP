@@ -64,8 +64,8 @@ Config = {
 		["meatfree"] = { 		emote = "meatfree", 	canRun = true, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(40,50), }},
 		["bleeder"] = { 		emote = "bleeder", 		canRun = true, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(40,50), }},
 		["torpedo"] = { 		emote = "torpedo", 		canRun = true, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(40,50), }},
-		["rimjob"] = { 			emote = "rimjob", 		canRun = true, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(40,50), }},
-		["creampie"] = { 		emote = "creampie", 	canRun = true, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(40,50), }},
+		["rimjob"] = { 			emote = "donut2", 		canRun = true, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(40,50), }},
+		["creampie"] = { 		emote = "desert", 		canRun = true, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(40,50), }},
 		["cheesewrap"] = { 		emote = "cheesewrap", 	canRun = true, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(40,50), }},
 		["chickenwrap"] = { 	emote = "chickenwrap", 	canRun = true, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(40,50), }},
 		["chocolate"] = { 		emote = "chocolate", 	canRun = true, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(40,50), }},
@@ -291,6 +291,9 @@ Config = {
        			 EmoteMoving = true, EmoteLoop = true, }},
    		["donut2"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger", "Donut2", AnimationOptions =
    			{ Prop = 'prop_donut_02', PropBone = 18905, PropPlacement = {0.13, 0.05, 0.02, -50.0, 100.0, 270.0},
+       			EmoteMoving = true, EmoteLoop = true, }},
+		["desert"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger", "desert", AnimationOptions =
+   			{ Prop = 'bzzz_food_dessert_a', PropBone = 18905, PropPlacement = {0.15, 0.03, 0.03, -42.0, -36.0, 0.0},
        			EmoteMoving = true, EmoteLoop = true, }},
 	},
 }

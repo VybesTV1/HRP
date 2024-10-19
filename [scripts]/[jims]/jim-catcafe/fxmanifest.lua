@@ -12,6 +12,7 @@ shared_scripts {
     'locales/*.lua*',
     'config.lua',
     'locations/*.lua',
+    '@ox_lib/init.lua',
     --Jim Bridge
     '@jim_bridge/exports.lua',
     '@jim_bridge/functions.lua',
