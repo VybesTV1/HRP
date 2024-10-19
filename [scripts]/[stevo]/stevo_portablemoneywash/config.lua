@@ -1,8 +1,8 @@
 return {
 
     dropCheaters = false, -- If cheaters should be kicked.
-    dirtyMoneyItem = 'black_money',
-    moneyItem = 'money',
+    dirtyMoneyItem = 'dirtymoney',
+    moneyItem = 'cash',
     useSlider = true, -- if slider or number input should be used for inputting wash amount
     sliderStep = 10, -- Amount slider should jump up in
     loadTime = 3, -- Time in seconds to load machine
