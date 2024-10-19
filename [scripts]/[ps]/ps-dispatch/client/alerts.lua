@@ -807,3 +807,67 @@ local function Poaching()
     TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
 end
 exports('Poaching', Poaching)
+
+
+local function mzRegisterStoreRobbery(camId)
+    local coords = GetEntityCoords(cache.ped)
+
+    local dispatchData = {
+        message = locale('storerobbery'),
+        codeName = 'mz-storerobbery-register',
+        code = '10-90',
+        icon = 'fas fa-store',
+        priority = 2,
+        coords = coords,
+        gender = GetPlayerGender(),
+        street = GetStreetAndZone(coords),
+        camId = camId,
+        alertTime = nil,
+        jobs = { 'leo' }
+    }
+
+    TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
+end
+exports('mzRegisterStoreRobbery', mzRegisterStoreRobbery)
+
+local function mz711StoreRobbery(camId)
+    local coords = GetEntityCoords(cache.ped)
+
+    local dispatchData = {
+        message = locale('mz711StoreRobbery'),
+        codeName = 'mz-storerobbery-safe',
+        code = '10-90',
+        icon = 'fas fa-store',
+        priority = 2,
+        coords = coords,
+        gender = GetPlayerGender(),
+        street = GetStreetAndZone(coords),
+        camId = camId,
+        alertTime = nil,
+        jobs = { 'leo' }
+    }
+
+    TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
+end
+exports('mz711StoreRobbery', mz711StoreRobbery)
+
+local function mzLiquorStoreRobbery(camId)
+    local coords = GetEntityCoords(cache.ped)
+
+    local dispatchData = {
+        message = locale('mzLiquorStoreRobbery'),
+        codeName = 'mz-storerobbery-liquor',
+        code = '10-90',
+        icon = 'fas fa-store',
+        priority = 2,
+        coords = coords,
+        gender = GetPlayerGender(),
+        street = GetStreetAndZone(coords),
+        camId = camId,
+        alertTime = nil,
+        jobs = { 'leo' }
+    }
+
+    TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
+end
+exports('mzLiquorStoreRobbery', mzLiquorStoreRobbery)

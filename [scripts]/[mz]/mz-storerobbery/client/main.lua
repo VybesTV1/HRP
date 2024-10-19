@@ -471,7 +471,7 @@ end
 local registerDone = true 
 
 RegisterNetEvent('mz-storerobbery:client:circleLockpick', function()
-    TriggerEvent('animations:client:EmoteCommandStart', {"uncuff"})
+    TriggerEvent('animations:client:EmoteCommandStart', {"picklock"})
     exports['ps-ui']:Circle(function(success)
         if success then
             if currentRegister ~= 0 then
@@ -552,7 +552,7 @@ RegisterNetEvent('mz-storerobbery:client:circleLockpick', function()
 end)
 
 RegisterNetEvent('mz-storerobbery:client:circleLockpickAdvanced', function()
-    TriggerEvent('animations:client:EmoteCommandStart', {"uncuff"})
+    TriggerEvent('animations:client:EmoteCommandStart', {"picklock"})
     exports['ps-ui']:Circle(function(success)
         if success then
             if currentRegister ~= 0 then

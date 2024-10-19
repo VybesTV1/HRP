@@ -152,25 +152,38 @@ end
 
 -- NUI Calls
 
-function QBCore.Functions.Notify(text, texttype, length, icon)
-    local message = {
-        action = 'notify',
-        type = texttype or 'primary',
-        length = length or 5000,
-    }
+function QBCore.Functions.Notify(text, textype, length)
+    local title = text.title or 'Information'
+    local description = text.description or 'Notif not found'
+    local duration = length or 5000
+    local position = text.position or 'top'
+    local type = textype or 'inform'
+    local style = text.style or {}
+    local icon = text.icon
+    local iconColor = text.iconColor
 
-    if type(text) == 'table' then
-        message.text = text.text or 'Placeholder'
-        message.caption = text.caption or 'Placeholder'
-    else
-        message.text = text
-    end
 
-    if icon then
-        message.icon = icon
-    end
+  local iconAnimation = text.iconAnimation
+    local alignIcon = text.alignIcon or 'center-right'
 
-    SendNUIMessage(message)
+    if type == "primary" then type = "inform" end
+    if type == "success" then type = "success" end
+    if type == "error" then type = "error" end
+    if type == "warning" then type = "warning" end
+
+
+    lib.notify({
+        title = title,
+        description = text,
+        duration = duration,
+        position = position,
+        type = type,
+        style = style,
+        icon = icon,
+        iconColor = iconColor,
+        iconAnimation = iconAnimation,
+        alignIcon = alignIcon
+    })
 end
 
 function QBCore.Functions.Progressbar(name, label, duration, useWhileDead, canCancel, disableControls, animation, prop, propTwo, onFinish, onCancel)

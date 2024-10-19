@@ -97,8 +97,8 @@ Config.circletime = 13                          -- time for player to complete o
 
 -- Reward type:
 Config.CashRegisterReturn = "dirtymoney"        -- Set to "dirtymoney", "markedbills" or "cash" to alter the reward given.
-Config.minRegisterEarn = 2000                   -- Minimum amount earnt from stealing from a cash register
-Config.maxRegisterEarn = 5000                   -- Maximum amount earnt from stealing from a cash register
+Config.minRegisterEarn = 150                   -- Minimum amount earnt from stealing from a cash register
+Config.maxRegisterEarn = 500                   -- Maximum amount earnt from stealing from a cash register
 
 Config.RegisterTime = 25                        -- progressBar time it takes for player to rob cash register after lockpicking (in seconds)
 
