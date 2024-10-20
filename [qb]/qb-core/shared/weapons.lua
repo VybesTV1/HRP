@@ -148,4 +148,5 @@ QBShared.Weapons = {
 	-- Animals
 	[`weapon_animal`]                = { name = 'weapon_animal', label = 'Animal', weapontype = 'Animals', ammotype = nil, damagereason = 'Mauled' },
 	[`weapon_cougar`]                = { name = 'weapon_cougar', label = 'Cougar', weapontype = 'Animals', ammotype = nil, damagereason = 'Mauled' },
+	[`weapon_paintball`]					= {['name'] = 'weapon_paintball',				['label'] = 'PaintBall Weapon',						['ammotype'] = nil,						['damagereason'] = 'Painted'},
 }

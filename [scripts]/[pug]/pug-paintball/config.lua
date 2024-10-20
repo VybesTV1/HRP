@@ -410,72 +410,72 @@ Config.GameModes = {
 -- this is used to display waopon information. (if you add more weapons add them here)
 Config.WeaponItems = {
     -- Handguns
-	['weapon_pistol'] 				 = {['name'] = 'weapon_pistol', 			 	['label'] = 'Beretta M9', 		        ['description'] = 'A small firearm designed to be held in one hand'},
-	['weapon_pistol_mk2'] 			 = {['name'] = 'weapon_pistol_mk2', 			['label'] = 'PD Glock', 		        ['description'] = 'An upgraded small firearm designed to be held in one hand'},
-	['weapon_combatpistol'] 		 = {['name'] = 'weapon_combatpistol', 	 	  	['label'] = 'Combat Pistol', 	        ['description'] = 'A combat version small firearm designed to be held in one hand'},
-	['weapon_appistol'] 			 = {['name'] = 'weapon_appistol', 		 	  	['label'] = 'AP Pistol', 		        ['description'] = 'A small firearm designed to be held in one hand that is automatic'},
-	['weapon_pistol50'] 			 = {['name'] = 'weapon_pistol50', 		 	  	['label'] = 'Desert Eagle', 	        ['description'] = 'A .50 caliber firearm designed to be held with both hands'},
-	['weapon_snspistol'] 			 = {['name'] = 'weapon_snspistol', 		 	  	['label'] = 'SNS Pistol', 		        ['description'] = 'A very small firearm designed to be easily concealed'},
-	['weapon_heavypistol'] 			 = {['name'] = 'weapon_heavypistol', 	 	  	['label'] = 'Heavy Pistol', 	        ['description'] = 'A hefty firearm designed to be held in one hand (or attempted)'},
-	['weapon_vintagepistol'] 		 = {['name'] = 'weapon_vintagepistol', 	 	  	['label'] = 'Vintage Pistol', 	        ['description'] = 'An antique firearm designed to be held in one hand'},
-	['weapon_marksmanpistol'] 		 = {['name'] = 'weapon_marksmanpistol', 	 	['label'] = 'Marksman Pistol', 			['description'] = 'A very accurate small firearm designed to be held in one hand'},
-	['weapon_revolver'] 			 = {['name'] = 'weapon_revolver', 		 	  	['label'] = 'Revolver', 				['description'] = 'A pistol with revolving chambers enabling several shots to be fired without reloading'},
-	['weapon_revolver_mk2'] 		 = {['name'] = 'weapon_revolver_mk2', 		 	['label'] = 'Violence', 				['description'] = 'da Violence'},
-	['weapon_doubleaction'] 	     = {['name'] = 'weapon_doubleaction', 		 	['label'] = 'Double Action Revolver', 	['description'] = 'Double Action Revolver'},
-	['weapon_snspistol_mk2'] 	     = {['name'] = 'weapon_snspistol_mk2', 		 	['label'] = 'SNS Pistol MK2', 			['description'] = 'SNS Pistol MK2'},
-	['weapon_ceramicpistol']		 = {['name'] = 'weapon_ceramicpistol', 		 	['label'] = 'Five7',		 		 	['description'] = 'Weapon Ceramicpistol'},
-	['weapon_navyrevolver']        	 = {['name'] = 'weapon_navyrevolver', 		 	['label'] = 'Weapon Navyrevolver',		['description'] = 'Weapon Navyrevolver'},
-	['weapon_gadgetpistol'] 		 = {['name'] = 'weapon_gadgetpistol', 		 	['label'] = 'Weapon Gadgetpistol',		['description'] = 'Weapon Gadgetpistol'},
-	-- Submachine Guns
-	['weapon_microsmg'] 			 = {['name'] = 'weapon_microsmg', 		 	  	['label'] = 'Micro SMG', 				['description'] = 'A handheld lightweight machine gun'},
-	['weapon_smg'] 				 	 = {['name'] = 'weapon_smg', 			 	  	['label'] = 'SMG', 						['description'] = 'A handheld lightweight machine gun'},
-	['weapon_smg_mk2'] 				 = {['name'] = 'weapon_smg_mk2', 			 	['label'] = 'PD MP5 2', 				['description'] = 'SMG MK2'},
-	['weapon_assaultsmg'] 			 = {['name'] = 'weapon_assaultsmg', 		 	['label'] = 'Assault SMG', 				['description'] = 'An assault version of a handheld lightweight machine gun'},
-	['weapon_combatpdw'] 			 = {['name'] = 'weapon_combatpdw', 		 	  	['label'] = 'Combat PDW', 				['description'] = 'A combat version of a handheld lightweight machine gun'},
-	['weapon_machinepistol'] 		 = {['name'] = 'weapon_machinepistol', 	 	  	['label'] = 'Tec-9', 					['description'] = 'A self-loading pistol capable of burst or fully automatic fire'},
-	['weapon_minismg'] 				 = {['name'] = 'weapon_minismg', 		 	  	['label'] = 'Mini SMG', 				['description'] = 'A mini handheld lightweight machine gun'},
-	['weapon_raycarbine']	         = {['name'] = 'weapon_raycarbine', 		 	['label'] = 'Raycarbine',		 		['description'] = 'Weapon Raycarbine'},
+	-- ['weapon_pistol'] 				 = {['name'] = 'weapon_pistol', 			 	['label'] = 'Beretta M9', 		        ['description'] = 'A small firearm designed to be held in one hand'},
+	-- ['weapon_pistol_mk2'] 			 = {['name'] = 'weapon_pistol_mk2', 			['label'] = 'PD Glock', 		        ['description'] = 'An upgraded small firearm designed to be held in one hand'},
+	-- ['weapon_combatpistol'] 		 = {['name'] = 'weapon_combatpistol', 	 	  	['label'] = 'Combat Pistol', 	        ['description'] = 'A combat version small firearm designed to be held in one hand'},
+	-- ['weapon_appistol'] 			 = {['name'] = 'weapon_appistol', 		 	  	['label'] = 'AP Pistol', 		        ['description'] = 'A small firearm designed to be held in one hand that is automatic'},
+	-- ['weapon_pistol50'] 			 = {['name'] = 'weapon_pistol50', 		 	  	['label'] = 'Desert Eagle', 	        ['description'] = 'A .50 caliber firearm designed to be held with both hands'},
+	-- ['weapon_snspistol'] 			 = {['name'] = 'weapon_snspistol', 		 	  	['label'] = 'SNS Pistol', 		        ['description'] = 'A very small firearm designed to be easily concealed'},
+	-- ['weapon_heavypistol'] 			 = {['name'] = 'weapon_heavypistol', 	 	  	['label'] = 'Heavy Pistol', 	        ['description'] = 'A hefty firearm designed to be held in one hand (or attempted)'},
+	-- ['weapon_vintagepistol'] 		 = {['name'] = 'weapon_vintagepistol', 	 	  	['label'] = 'Vintage Pistol', 	        ['description'] = 'An antique firearm designed to be held in one hand'},
+	-- ['weapon_marksmanpistol'] 		 = {['name'] = 'weapon_marksmanpistol', 	 	['label'] = 'Marksman Pistol', 			['description'] = 'A very accurate small firearm designed to be held in one hand'},
+	-- ['weapon_revolver'] 			 = {['name'] = 'weapon_revolver', 		 	  	['label'] = 'Revolver', 				['description'] = 'A pistol with revolving chambers enabling several shots to be fired without reloading'},
+	-- ['weapon_revolver_mk2'] 		 = {['name'] = 'weapon_revolver_mk2', 		 	['label'] = 'Violence', 				['description'] = 'da Violence'},
+	-- ['weapon_doubleaction'] 	     = {['name'] = 'weapon_doubleaction', 		 	['label'] = 'Double Action Revolver', 	['description'] = 'Double Action Revolver'},
+	-- ['weapon_snspistol_mk2'] 	     = {['name'] = 'weapon_snspistol_mk2', 		 	['label'] = 'SNS Pistol MK2', 			['description'] = 'SNS Pistol MK2'},
+	-- ['weapon_ceramicpistol']		 = {['name'] = 'weapon_ceramicpistol', 		 	['label'] = 'Five7',		 		 	['description'] = 'Weapon Ceramicpistol'},
+	-- ['weapon_navyrevolver']        	 = {['name'] = 'weapon_navyrevolver', 		 	['label'] = 'Weapon Navyrevolver',		['description'] = 'Weapon Navyrevolver'},
+	-- ['weapon_gadgetpistol'] 		 = {['name'] = 'weapon_gadgetpistol', 		 	['label'] = 'Weapon Gadgetpistol',		['description'] = 'Weapon Gadgetpistol'},
+	-- -- Submachine Guns
+	-- ['weapon_microsmg'] 			 = {['name'] = 'weapon_microsmg', 		 	  	['label'] = 'Micro SMG', 				['description'] = 'A handheld lightweight machine gun'},
+	-- ['weapon_smg'] 				 	 = {['name'] = 'weapon_smg', 			 	  	['label'] = 'SMG', 						['description'] = 'A handheld lightweight machine gun'},
+	-- ['weapon_smg_mk2'] 				 = {['name'] = 'weapon_smg_mk2', 			 	['label'] = 'PD MP5 2', 				['description'] = 'SMG MK2'},
+	-- ['weapon_assaultsmg'] 			 = {['name'] = 'weapon_assaultsmg', 		 	['label'] = 'Assault SMG', 				['description'] = 'An assault version of a handheld lightweight machine gun'},
+	-- ['weapon_combatpdw'] 			 = {['name'] = 'weapon_combatpdw', 		 	  	['label'] = 'Combat PDW', 				['description'] = 'A combat version of a handheld lightweight machine gun'},
+	-- ['weapon_machinepistol'] 		 = {['name'] = 'weapon_machinepistol', 	 	  	['label'] = 'Tec-9', 					['description'] = 'A self-loading pistol capable of burst or fully automatic fire'},
+	-- ['weapon_minismg'] 				 = {['name'] = 'weapon_minismg', 		 	  	['label'] = 'Mini SMG', 				['description'] = 'A mini handheld lightweight machine gun'},
+	-- ['weapon_raycarbine']	         = {['name'] = 'weapon_raycarbine', 		 	['label'] = 'Raycarbine',		 		['description'] = 'Weapon Raycarbine'},
 
-	-- Shotguns
-	['weapon_pumpshotgun'] 			 = {['name'] = 'weapon_pumpshotgun', 	 	  	['label'] = 'Pump Shotgun', 			['description'] = 'A pump-action smoothbore gun for firing small shot at short range'},
-	['weapon_sawnoffshotgun'] 		 = {['name'] = 'weapon_sawnoffshotgun', 	 	['label'] = 'Sawn-off Shotgun', 		['description'] = 'A sawn-off smoothbore gun for firing small shot at short range'},
-	['weapon_assaultshotgun'] 		 = {['name'] = 'weapon_assaultshotgun', 	 	['label'] = 'Assault Shotgun', 			['description'] = 'An assault version of asmoothbore gun for firing small shot at short range'},
-	['weapon_bullpupshotgun'] 		 = {['name'] = 'weapon_bullpupshotgun', 	 	['label'] = 'Bullpup Shotgun', 			['description'] = 'A compact smoothbore gun for firing small shot at short range'},
-	['weapon_musket'] 			     = {['name'] = 'weapon_musket', 			 	['label'] = 'Musket', 					['description'] = 'An infantryman\'s light gun with a long barrel, typically smooth-bored, muzzleloading, and fired from the shoulder'},
-	['weapon_heavyshotgun'] 		 = {['name'] = 'weapon_heavyshotgun', 	 	  	['label'] = 'Heavy Shotgun', 			['description'] = 'A large smoothbore gun for firing small shot at short range'},
-	['weapon_dbshotgun'] 			 = {['name'] = 'weapon_dbshotgun', 		 	  	['label'] = 'Double-barrel Shotgun', 	['description'] = 'A shotgun with two parallel barrels, allowing two single shots to be fired in quick succession'},
-	['weapon_autoshotgun'] 			 = {['name'] = 'weapon_autoshotgun', 	 	  	['label'] = 'Auto Shotgun', 			['description'] = 'A shotgun capable of rapid continous fire'},
-	['weapon_pumpshotgun_mk2']		 = {['name'] = 'weapon_pumpshotgun_mk2',		['label'] = 'Pumpshotgun MK2', 			['description'] = 'Pumpshotgun MK2'},
-	['weapon_combatshotgun']		 = {['name'] = 'weapon_combatshotgun', 		 	['label'] = 'Combatshotgun',		 	['description'] = 'Weapon Combatshotgun'},
+	-- -- Shotguns
+	-- ['weapon_pumpshotgun'] 			 = {['name'] = 'weapon_pumpshotgun', 	 	  	['label'] = 'Pump Shotgun', 			['description'] = 'A pump-action smoothbore gun for firing small shot at short range'},
+	-- ['weapon_sawnoffshotgun'] 		 = {['name'] = 'weapon_sawnoffshotgun', 	 	['label'] = 'Sawn-off Shotgun', 		['description'] = 'A sawn-off smoothbore gun for firing small shot at short range'},
+	-- ['weapon_assaultshotgun'] 		 = {['name'] = 'weapon_assaultshotgun', 	 	['label'] = 'Assault Shotgun', 			['description'] = 'An assault version of asmoothbore gun for firing small shot at short range'},
+	-- ['weapon_bullpupshotgun'] 		 = {['name'] = 'weapon_bullpupshotgun', 	 	['label'] = 'Bullpup Shotgun', 			['description'] = 'A compact smoothbore gun for firing small shot at short range'},
+	-- ['weapon_musket'] 			     = {['name'] = 'weapon_musket', 			 	['label'] = 'Musket', 					['description'] = 'An infantryman\'s light gun with a long barrel, typically smooth-bored, muzzleloading, and fired from the shoulder'},
+	-- ['weapon_heavyshotgun'] 		 = {['name'] = 'weapon_heavyshotgun', 	 	  	['label'] = 'Heavy Shotgun', 			['description'] = 'A large smoothbore gun for firing small shot at short range'},
+	-- ['weapon_dbshotgun'] 			 = {['name'] = 'weapon_dbshotgun', 		 	  	['label'] = 'Double-barrel Shotgun', 	['description'] = 'A shotgun with two parallel barrels, allowing two single shots to be fired in quick succession'},
+	-- ['weapon_autoshotgun'] 			 = {['name'] = 'weapon_autoshotgun', 	 	  	['label'] = 'Auto Shotgun', 			['description'] = 'A shotgun capable of rapid continous fire'},
+	-- ['weapon_pumpshotgun_mk2']		 = {['name'] = 'weapon_pumpshotgun_mk2',		['label'] = 'Pumpshotgun MK2', 			['description'] = 'Pumpshotgun MK2'},
+	-- ['weapon_combatshotgun']		 = {['name'] = 'weapon_combatshotgun', 		 	['label'] = 'Combatshotgun',		 	['description'] = 'Weapon Combatshotgun'},
 
-	-- Assault Rifles
-	['weapon_assaultrifle'] 		 = {['name'] = 'weapon_assaultrifle', 	 	  	['label'] = 'Assault Rifle', 			['description'] = 'A rapid-fire, magazine-fed automatic rifle designed for infantry use'},
-	['weapon_assaultrifle_mk2'] 	 = {['name'] = 'weapon_assaultrifle_mk2', 	 	['label'] = 'AK-47 MK2', 				['description'] = 'Assault Rifle MK2'},
-	['weapon_carbinerifle'] 		 = {['name'] = 'weapon_carbinerifle', 	 	  	['label'] = 'Carbine Rifle', 			['description'] = 'A lightweight automatic rifle'},
-	['weapon_carbinerifle_mk2'] 	 = {['name'] = 'weapon_carbinerifle_mk2', 	 	['label'] = 'PD 762', 					['description'] = 'Carbine Rifle MK2'},
-	['weapon_advancedrifle'] 		 = {['name'] = 'weapon_advancedrifle', 	 	  	['label'] = 'Advanced Rifle', 			['description'] = 'An assault version of a rapid-fire, magazine-fed automatic rifle designed for infantry use'},
-	['weapon_specialcarbine'] 		 = {['name'] = 'weapon_specialcarbine', 	 	['label'] = 'Scar-H', 			 		['description'] = 'An extremely versatile assault rifle for any combat situation'},
-	['weapon_bullpuprifle'] 		 = {['name'] = 'weapon_bullpuprifle', 	 	  	['label'] = 'Bullpup Rifle', 			['description'] = 'A compact automatic assault rifle'},
-	['weapon_compactrifle'] 		 = {['name'] = 'weapon_compactrifle', 	 	  	['label'] = 'Draco', 			 		['description'] = 'A compact version of an assault rifle'},
-	['weapon_specialcarbine_mk2']	 = {['name'] = 'weapon_specialcarbine_mk2', 	['label'] = 'Specialcarbine MK2', 		['description'] = 'Weapon Wpecialcarbine MK2'},
-	['weapon_bullpuprifle_mk2']		 = {['name'] = 'weapon_bullpuprifle_mk2', 		['label'] = 'Bull Puprifle MK2',		['description'] = 'Bull Puprifle MK2'},
-	['weapon_militaryrifle']		 = {['name'] = 'weapon_militaryrifle', 		 	['label'] = 'Militaryrifle',		 	['description'] = 'Weapon Militaryrifle'},
+	-- -- Assault Rifles
+	-- ['weapon_assaultrifle'] 		 = {['name'] = 'weapon_assaultrifle', 	 	  	['label'] = 'Assault Rifle', 			['description'] = 'A rapid-fire, magazine-fed automatic rifle designed for infantry use'},
+	-- ['weapon_assaultrifle_mk2'] 	 = {['name'] = 'weapon_assaultrifle_mk2', 	 	['label'] = 'AK-47 MK2', 				['description'] = 'Assault Rifle MK2'},
+	-- ['weapon_carbinerifle'] 		 = {['name'] = 'weapon_carbinerifle', 	 	  	['label'] = 'Carbine Rifle', 			['description'] = 'A lightweight automatic rifle'},
+	-- ['weapon_carbinerifle_mk2'] 	 = {['name'] = 'weapon_carbinerifle_mk2', 	 	['label'] = 'PD 762', 					['description'] = 'Carbine Rifle MK2'},
+	-- ['weapon_advancedrifle'] 		 = {['name'] = 'weapon_advancedrifle', 	 	  	['label'] = 'Advanced Rifle', 			['description'] = 'An assault version of a rapid-fire, magazine-fed automatic rifle designed for infantry use'},
+	-- ['weapon_specialcarbine'] 		 = {['name'] = 'weapon_specialcarbine', 	 	['label'] = 'Scar-H', 			 		['description'] = 'An extremely versatile assault rifle for any combat situation'},
+	-- ['weapon_bullpuprifle'] 		 = {['name'] = 'weapon_bullpuprifle', 	 	  	['label'] = 'Bullpup Rifle', 			['description'] = 'A compact automatic assault rifle'},
+	-- ['weapon_compactrifle'] 		 = {['name'] = 'weapon_compactrifle', 	 	  	['label'] = 'Draco', 			 		['description'] = 'A compact version of an assault rifle'},
+	-- ['weapon_specialcarbine_mk2']	 = {['name'] = 'weapon_specialcarbine_mk2', 	['label'] = 'Specialcarbine MK2', 		['description'] = 'Weapon Wpecialcarbine MK2'},
+	-- ['weapon_bullpuprifle_mk2']		 = {['name'] = 'weapon_bullpuprifle_mk2', 		['label'] = 'Bull Puprifle MK2',		['description'] = 'Bull Puprifle MK2'},
+	-- ['weapon_militaryrifle']		 = {['name'] = 'weapon_militaryrifle', 		 	['label'] = 'Militaryrifle',		 	['description'] = 'Weapon Militaryrifle'},
 
-	-- Light Machine Guns
-	['weapon_mg'] 					 = {['name'] = 'weapon_mg', 				 	['label'] = 'Machinegun', 				['description'] = 'An automatic gun that fires bullets in rapid succession for as long as the trigger is pressed'},
-	['weapon_combatmg'] 			 = {['name'] = 'weapon_combatmg', 		 	  	['label'] = 'Combat MG', 				['description'] = 'A combat version of an automatic gun that fires bullets in rapid succession for as long as the trigger is pressed'},
-	['weapon_gusenberg'] 			 = {['name'] = 'weapon_gusenberg', 		 	  	['label'] = 'Thompson SMG', 			['description'] = 'An automatic rifle commonly referred to as a tommy gun'},
-	['weapon_combatmg_mk2']	 		 = {['name'] = 'weapon_combatmg_mk2', 		 	['label'] = 'Combatmg MK2',		 		['description'] = 'Weapon Combatmg MK2'},
+	-- -- Light Machine Guns
+	-- ['weapon_mg'] 					 = {['name'] = 'weapon_mg', 				 	['label'] = 'Machinegun', 				['description'] = 'An automatic gun that fires bullets in rapid succession for as long as the trigger is pressed'},
+	-- ['weapon_combatmg'] 			 = {['name'] = 'weapon_combatmg', 		 	  	['label'] = 'Combat MG', 				['description'] = 'A combat version of an automatic gun that fires bullets in rapid succession for as long as the trigger is pressed'},
+	-- ['weapon_gusenberg'] 			 = {['name'] = 'weapon_gusenberg', 		 	  	['label'] = 'Thompson SMG', 			['description'] = 'An automatic rifle commonly referred to as a tommy gun'},
+	-- ['weapon_combatmg_mk2']	 		 = {['name'] = 'weapon_combatmg_mk2', 		 	['label'] = 'Combatmg MK2',		 		['description'] = 'Weapon Combatmg MK2'},
 
-	-- Sniper Rifles
-	['weapon_sniperrifle'] 			 = {['name'] = 'weapon_sniperrifle', 	 	  	['label'] = 'Sniper Rifle', 			['description'] = 'A high-precision, long-range rifle'},
-	['weapon_heavysniper'] 			 = {['name'] = 'weapon_heavysniper', 	 	  	['label'] = 'Heavy Sniper', 			['description'] = 'An upgraded high-precision, long-range rifle'},
-	['weapon_marksmanrifle'] 		 = {['name'] = 'weapon_marksmanrifle', 	 	  	['label'] = 'Marksman Rifle', 			['description'] = 'A very accurate single-fire rifle'},
-	['weapon_heavysniper_mk2']		 = {['name'] = 'weapon_heavysniper_mk2', 		['label'] = 'Heavysniper MK2',	 		['description'] = 'Weapon Heavysniper MK2'},
-	['weapon_marksmanrifle_mk2']	 = {['name'] = 'weapon_marksmanrifle_mk2', 		['label'] = 'Marksmanrifle MK2',	 	['description'] = 'Weapon Marksmanrifle MK2'},
+	-- -- Sniper Rifles
+	-- ['weapon_sniperrifle'] 			 = {['name'] = 'weapon_sniperrifle', 	 	  	['label'] = 'Sniper Rifle', 			['description'] = 'A high-precision, long-range rifle'},
+	-- ['weapon_heavysniper'] 			 = {['name'] = 'weapon_heavysniper', 	 	  	['label'] = 'Heavy Sniper', 			['description'] = 'An upgraded high-precision, long-range rifle'},
+	-- ['weapon_marksmanrifle'] 		 = {['name'] = 'weapon_marksmanrifle', 	 	  	['label'] = 'Marksman Rifle', 			['description'] = 'A very accurate single-fire rifle'},
+	-- ['weapon_heavysniper_mk2']		 = {['name'] = 'weapon_heavysniper_mk2', 		['label'] = 'Heavysniper MK2',	 		['description'] = 'Weapon Heavysniper MK2'},
+	-- ['weapon_marksmanrifle_mk2']	 = {['name'] = 'weapon_marksmanrifle_mk2', 		['label'] = 'Marksmanrifle MK2',	 	['description'] = 'Weapon Marksmanrifle MK2'},
 
 	-- Heavy Weapons
-    -- ['weapon_paintgun'] 				 = {['name'] = 'weapon_paintgun', 		 	  	['label'] = 'Paintball Gun', 					['description'] = 'The classics'},
+    ['weapon_paintgun'] 				 = {['name'] = 'weapon_paintgun', 		 	  	['label'] = 'Paintball Gun', 					['description'] = 'The classics'},
 }
 ----------
 ----------
@@ -483,42 +483,42 @@ Config.WeaponItems = {
 -- Pistol selection menu.
 Config.Pistols = {
     ["EnableThisMenu"] = true, -- Make this false if you want to remove the pistol menu
-    [1] = {
-        description = Config.WeaponItems['weapon_pistol']["description"],
-        weapon = 'weapon_pistol',
-    },
-    [2] = {
-        description = Config.WeaponItems['weapon_pistol_mk2']["description"],
-        weapon = 'weapon_pistol_mk2', 
-    },
-    [3] = {
-        description = Config.WeaponItems['weapon_combatpistol']["description"],
-        weapon = 'weapon_combatpistol', 
-    },
-    [4] = {
-        description = Config.WeaponItems['weapon_appistol']["description"],
-        weapon = 'weapon_appistol', 
-    },
-    [5] = {
-        description = Config.WeaponItems['weapon_pistol50']["description"],
-        weapon = 'weapon_pistol50', 
-    },
-    [6] = {
-        description = Config.WeaponItems['weapon_heavypistol']["description"],
-        weapon = 'weapon_heavypistol', 
-    },
-    [7] = {
-        description = Config.WeaponItems['weapon_vintagepistol']["description"],
-        weapon = 'weapon_vintagepistol', 
-    },
-    -- [8] = {
-    --     description = Config.WeaponItems['weapon_paintgun']["description"],
-    --     weapon = 'weapon_paintgun', 
+    -- [1] = {
+    --     description = Config.WeaponItems['weapon_pistol']["description"],
+    --     weapon = 'weapon_pistol',
     -- },
+    -- [2] = {
+    --     description = Config.WeaponItems['weapon_pistol_mk2']["description"],
+    --     weapon = 'weapon_pistol_mk2', 
+    -- },
+    -- [3] = {
+    --     description = Config.WeaponItems['weapon_combatpistol']["description"],
+    --     weapon = 'weapon_combatpistol', 
+    -- },
+    -- [4] = {
+    --     description = Config.WeaponItems['weapon_appistol']["description"],
+    --     weapon = 'weapon_appistol', 
+    -- },
+    -- [5] = {
+    --     description = Config.WeaponItems['weapon_pistol50']["description"],
+    --     weapon = 'weapon_pistol50', 
+    -- },
+    -- [6] = {
+    --     description = Config.WeaponItems['weapon_heavypistol']["description"],
+    --     weapon = 'weapon_heavypistol', 
+    -- },
+    -- [7] = {
+    --     description = Config.WeaponItems['weapon_vintagepistol']["description"],
+    --     weapon = 'weapon_vintagepistol', 
+    -- },
+    [8] = {
+        description = Config.WeaponItems['weapon_paintgun']["description"],
+        weapon = 'weapon_paintgun', 
+    },
 }
 -- Smg selection menu.
 Config.Smgs = {
-    ["EnableThisMenu"] = true, -- Make this false if you want to remove the Smgs menu
+    ["EnableThisMenu"] = false, -- Make this false if you want to remove the Smgs menu
     [1] = {
         description = Config.WeaponItems['weapon_microsmg']["description"],
         weapon = 'weapon_microsmg', 
@@ -554,7 +554,7 @@ Config.Smgs = {
 }
 -- Shotgun selection menu.
 Config.Shotguns = {
-    ["EnableThisMenu"] = true, -- Make this false if you want to remove the Shotguns menu
+    ["EnableThisMenu"] = false, -- Make this false if you want to remove the Shotguns menu
     [1] = {
         description = Config.WeaponItems['weapon_pumpshotgun']["description"],
         weapon = 'weapon_pumpshotgun', 
@@ -594,7 +594,7 @@ Config.Shotguns = {
 }
 -- Assault Rifle selection menu.
 Config.AssaultRifles = {
-    ["EnableThisMenu"] = true, -- Make this false if you want to remove the Assault Rifles menu
+    ["EnableThisMenu"] = false, -- Make this false if you want to remove the Assault Rifles menu
     [1] = {
         description = Config.WeaponItems['weapon_assaultrifle']["description"],
         weapon = 'weapon_assaultrifle', 
@@ -642,7 +642,7 @@ Config.AssaultRifles = {
 }
 -- Sniper Rifle selection menu.
 Config.SniperRifles = {
-    ["EnableThisMenu"] = true, -- Make this false if you want to remove the Snipers menu
+    ["EnableThisMenu"] = false, -- Make this false if you want to remove the Snipers menu
     [1] = {
         description = Config.WeaponItems['weapon_heavysniper']["description"],
         weapon = 'weapon_heavysniper', 

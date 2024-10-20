@@ -6,9 +6,9 @@ Citizen.CreateThread(function()
         N_0x4757f00bc6323cfe(GetHashKey("WEAPON_UNARMED"), 0.2)  	
         N_0x4757f00bc6323cfe(GetHashKey("WEAPON_KNIFE"), 0.5) 		
         N_0x4757f00bc6323cfe(GetHashKey("WEAPON_KNUCKLE"), 0.3) 	
-        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_NIGHTSTICK"), 0.01) 
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_NIGHTSTICK"), 0.2) 
         N_0x4757f00bc6323cfe(GetHashKey("WEAPON_HAMMER"), 0.2)  	
-        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_BAT"), 0.3) 	
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_BAT"), 0.1) 	
         N_0x4757f00bc6323cfe(GetHashKey("WEAPON_GOLFCLUB"), 0.2) 
         N_0x4757f00bc6323cfe(GetHashKey("WEAPON_CROWBAR"), 0.2) 	
         N_0x4757f00bc6323cfe(GetHashKey("WEAPON_BOTTLE"), 0.2)  	
@@ -24,7 +24,7 @@ Citizen.CreateThread(function()
         N_0x4757f00bc6323cfe(GetHashKey("WEAPON_FIREEXTINGUISHER"), 0.1)
         N_0x4757f00bc6323cfe(GetHashKey("WEAPON_REVOLVER"), 0.20)
         N_0x4757f00bc6323cfe(GetHashKey("WEAPON_POOLCUE"), 0.2)
-        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_PIPEWRENCH"), 0.1)	
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_WRENCH"), 0.1)	
         N_0x4757f00bc6323cfe(GetHashKey("WEAPON_PISTOL"), 0.3)
         N_0x4757f00bc6323cfe(GetHashKey("WEAPON_PISTOL_MK2"), 0.3)		
         N_0x4757f00bc6323cfe(GetHashKey("WEAPON_COMBATPISTOL"), 0.7)
@@ -85,5 +85,28 @@ Citizen.CreateThread(function()
         Wait(5)
 
         SetPedSuffersCriticalHits(PlayerPedId(), false)
+    end
+end)
+
+-- Citizen.CreateThread(function()
+--     while true do
+--     Citizen.Wait(0)
+--     DisableControlAction(1, 140, true)
+--     if not IsPlayerTargettingAnything(PlayerId()) then
+--     DisableControlAction(1, 141, true)
+--     DisableControlAction(1, 142, true)
+--     end
+--    end
+--  end)
+
+Citizen.CreateThread(function()
+    while true do
+        Citizen.Wait(0)
+        local ped = PlayerPedId()
+                if IsPedArmed(ped, 6) then
+            DisableControlAction(1, 140, true)
+                DisableControlAction(1, 141, true)
+                DisableControlAction(1, 142, true)
+        end
     end
 end)
