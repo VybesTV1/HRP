@@ -43,7 +43,7 @@ Config.Header = {
 
     -- RIGHT MENU CONFIG
     ["SERVER_NAME"] = "Hypnotize Roleplay",
-    ["SERVER_TEXT"] = "",
+    ["SERVER_TEXT"] = "We Love HRP Dev's",
     ["SERVER_DISCORD"] = "https://discord.gg/2E9BkBSk2t"
 }
 
