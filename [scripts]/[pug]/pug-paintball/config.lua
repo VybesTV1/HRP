@@ -388,18 +388,14 @@ Config.GameModes = {
         description = '12v12 | The first team to capture the enemy flag 3 times wins'
     },
     [4] = {
-        name = 'Gun Game',
-        description = '(BEATA) With every kill comes a new weapon granted. go through '..Config.MaxFFAScore..' weapons to win!'
-    },
-    [5] = {
         name = 'Free For All',
         description = '(BETA) Every man for himself! Earn '..Config.MaxFFAScore..' kills to win!'
     },
-    [6] = {
+    [5] = {
         name = 'One In The Chamber',
         description = '(BETA) You have 1 bullet, dont waste it! Every kill earns one more bullet.'
     },
-    [7] = {
+    [6] = {
         name = 'Random',
         description = '12v12 | Randomly chosen game mode'
     },
@@ -475,7 +471,7 @@ Config.WeaponItems = {
 	-- ['weapon_marksmanrifle_mk2']	 = {['name'] = 'weapon_marksmanrifle_mk2', 		['label'] = 'Marksmanrifle MK2',	 	['description'] = 'Weapon Marksmanrifle MK2'},
 
 	-- Heavy Weapons
-    ['weapon_paintgun'] 				 = {['name'] = 'weapon_paintgun', 		 	  	['label'] = 'Paintball Gun', 					['description'] = 'The classics'},
+    ['weapon_paintball'] 				 = {['name'] = 'weapon_paintball', 		 	  	['label'] = 'Paintball Gun', 					['description'] = 'The classics'},
 }
 ----------
 ----------
@@ -512,149 +508,149 @@ Config.Pistols = {
     --     weapon = 'weapon_vintagepistol', 
     -- },
     [8] = {
-        description = Config.WeaponItems['weapon_paintgun']["description"],
-        weapon = 'weapon_paintgun', 
+        description = Config.WeaponItems['weapon_paintball']["description"],
+        weapon = 'weapon_paintball', 
     },
 }
 -- Smg selection menu.
 Config.Smgs = {
     ["EnableThisMenu"] = false, -- Make this false if you want to remove the Smgs menu
-    [1] = {
-        description = Config.WeaponItems['weapon_microsmg']["description"],
-        weapon = 'weapon_microsmg', 
-    },
-    [2] = {
-        description = Config.WeaponItems['weapon_smg']["description"],
-        weapon = 'weapon_smg', 
-    },
-    [3] = {
-        description = Config.WeaponItems['weapon_smg_mk2']["description"], 
-        weapon = 'weapon_smg_mk2', 
-    },
-    [4] = {
-        description = Config.WeaponItems['weapon_assaultsmg']["description"],
-        weapon = 'weapon_assaultsmg', 
-    },
-    [5] = {
-        description = Config.WeaponItems['weapon_combatpdw']["description"],
-        weapon = 'weapon_combatpdw', 
-    },
-    [6] = {
-        description = Config.WeaponItems['weapon_gusenberg']["description"],
-        weapon = 'weapon_gusenberg', 
-    },
-    [7] = {
-        description = Config.WeaponItems['weapon_machinepistol']["description"],
-        weapon = 'weapon_machinepistol', 
-    },
-    [8] = {
-        description = Config.WeaponItems['weapon_minismg']["description"],
-        weapon = 'weapon_minismg', 
-    },
+    -- [1] = {
+    --     description = Config.WeaponItems['weapon_microsmg']["description"],
+    --     weapon = 'weapon_microsmg', 
+    -- },
+    -- [2] = {
+    --     description = Config.WeaponItems['weapon_smg']["description"],
+    --     weapon = 'weapon_smg', 
+    -- },
+    -- [3] = {
+    --     description = Config.WeaponItems['weapon_smg_mk2']["description"], 
+    --     weapon = 'weapon_smg_mk2', 
+    -- },
+    -- [4] = {
+    --     description = Config.WeaponItems['weapon_assaultsmg']["description"],
+    --     weapon = 'weapon_assaultsmg', 
+    -- },
+    -- [5] = {
+    --     description = Config.WeaponItems['weapon_combatpdw']["description"],
+    --     weapon = 'weapon_combatpdw', 
+    -- },
+    -- [6] = {
+    --     description = Config.WeaponItems['weapon_gusenberg']["description"],
+    --     weapon = 'weapon_gusenberg', 
+    -- },
+    -- [7] = {
+    --     description = Config.WeaponItems['weapon_machinepistol']["description"],
+    --     weapon = 'weapon_machinepistol', 
+    -- },
+    -- [8] = {
+    --     description = Config.WeaponItems['weapon_minismg']["description"],
+    --     weapon = 'weapon_minismg', 
+    -- },
 }
 -- Shotgun selection menu.
 Config.Shotguns = {
     ["EnableThisMenu"] = false, -- Make this false if you want to remove the Shotguns menu
-    [1] = {
-        description = Config.WeaponItems['weapon_pumpshotgun']["description"],
-        weapon = 'weapon_pumpshotgun', 
-    },
-    [2] = {
-        description = Config.WeaponItems['weapon_sawnoffshotgun']["description"],
-        weapon = 'weapon_sawnoffshotgun', 
-    },
-    [3] = {
-        description = Config.WeaponItems['weapon_assaultshotgun']["description"],
-        weapon = 'weapon_assaultshotgun', 
-    },
-    [4] = {
-        description = Config.WeaponItems['weapon_bullpupshotgun']["description"],
-        weapon = 'weapon_bullpupshotgun', 
-    },
-    [5] = {
-        description = Config.WeaponItems['weapon_heavyshotgun']["description"],
-        weapon = 'weapon_heavyshotgun', 
-    },
-    [6] = {
-        description = Config.WeaponItems['weapon_dbshotgun']["description"],
-        weapon = 'weapon_dbshotgun', 
-    },
-    [7] = {
-        description = Config.WeaponItems['weapon_autoshotgun']["description"],
-        weapon = 'weapon_autoshotgun', 
-    },
-    [8] = {
-        description = Config.WeaponItems['weapon_pumpshotgun_mk2']["description"],
-        weapon = 'weapon_pumpshotgun_mk2', 
-    },
-    [9] = {
-        description = Config.WeaponItems['weapon_combatshotgun']["description"],
-        weapon = 'weapon_combatshotgun', 
-    },
+    -- [1] = {
+    --     description = Config.WeaponItems['weapon_pumpshotgun']["description"],
+    --     weapon = 'weapon_pumpshotgun', 
+    -- },
+    -- [2] = {
+    --     description = Config.WeaponItems['weapon_sawnoffshotgun']["description"],
+    --     weapon = 'weapon_sawnoffshotgun', 
+    -- },
+    -- [3] = {
+    --     description = Config.WeaponItems['weapon_assaultshotgun']["description"],
+    --     weapon = 'weapon_assaultshotgun', 
+    -- },
+    -- [4] = {
+    --     description = Config.WeaponItems['weapon_bullpupshotgun']["description"],
+    --     weapon = 'weapon_bullpupshotgun', 
+    -- },
+    -- [5] = {
+    --     description = Config.WeaponItems['weapon_heavyshotgun']["description"],
+    --     weapon = 'weapon_heavyshotgun', 
+    -- },
+    -- [6] = {
+    --     description = Config.WeaponItems['weapon_dbshotgun']["description"],
+    --     weapon = 'weapon_dbshotgun', 
+    -- },
+    -- [7] = {
+    --     description = Config.WeaponItems['weapon_autoshotgun']["description"],
+    --     weapon = 'weapon_autoshotgun', 
+    -- },
+    -- [8] = {
+    --     description = Config.WeaponItems['weapon_pumpshotgun_mk2']["description"],
+    --     weapon = 'weapon_pumpshotgun_mk2', 
+    -- },
+    -- [9] = {
+    --     description = Config.WeaponItems['weapon_combatshotgun']["description"],
+    --     weapon = 'weapon_combatshotgun', 
+    -- },
 }
 -- Assault Rifle selection menu.
 Config.AssaultRifles = {
     ["EnableThisMenu"] = false, -- Make this false if you want to remove the Assault Rifles menu
-    [1] = {
-        description = Config.WeaponItems['weapon_assaultrifle']["description"],
-        weapon = 'weapon_assaultrifle', 
-    },
-    [2] = {
-        description = Config.WeaponItems['weapon_assaultrifle_mk2']["description"],
-        weapon = 'weapon_assaultrifle_mk2', 
-    },
-    [3] = {
-        description = Config.WeaponItems['weapon_carbinerifle']["description"],
-        weapon = 'weapon_carbinerifle', 
-    },
-    [4] = {
-        description = Config.WeaponItems['weapon_carbinerifle_mk2']["description"],
-        weapon = 'weapon_carbinerifle_mk2', 
-    },
-    [5] = {
-        description = Config.WeaponItems['weapon_advancedrifle']["description"],
-        weapon = 'weapon_advancedrifle', 
-    },
-    [6] = {
-        description = Config.WeaponItems['weapon_specialcarbine']["description"],
-        weapon = 'weapon_specialcarbine', 
-    },
-    [7] = {
-        description = Config.WeaponItems['weapon_bullpuprifle']["description"],
-        weapon = 'weapon_bullpuprifle', 
-    },
-    [8] = {
-        description = Config.WeaponItems['weapon_compactrifle']["description"],
-        weapon = 'weapon_compactrifle', 
-    },
-    [9] = {
-        description = Config.WeaponItems['weapon_specialcarbine_mk2']["description"],
-        weapon = 'weapon_specialcarbine_mk2', 
-    },
-    [10] = {
-        description = Config.WeaponItems['weapon_bullpuprifle_mk2']["description"],
-        weapon = 'weapon_bullpuprifle_mk2', 
-    },
-    [11] = {
-        description = Config.WeaponItems['weapon_militaryrifle']["description"],
-        weapon = 'weapon_militaryrifle', 
-    },
+    -- [1] = {
+    --     description = Config.WeaponItems['weapon_assaultrifle']["description"],
+    --     weapon = 'weapon_assaultrifle', 
+    -- },
+    -- [2] = {
+    --     description = Config.WeaponItems['weapon_assaultrifle_mk2']["description"],
+    --     weapon = 'weapon_assaultrifle_mk2', 
+    -- },
+    -- [3] = {
+    --     description = Config.WeaponItems['weapon_carbinerifle']["description"],
+    --     weapon = 'weapon_carbinerifle', 
+    -- },
+    -- [4] = {
+    --     description = Config.WeaponItems['weapon_carbinerifle_mk2']["description"],
+    --     weapon = 'weapon_carbinerifle_mk2', 
+    -- },
+    -- [5] = {
+    --     description = Config.WeaponItems['weapon_advancedrifle']["description"],
+    --     weapon = 'weapon_advancedrifle', 
+    -- },
+    -- [6] = {
+    --     description = Config.WeaponItems['weapon_specialcarbine']["description"],
+    --     weapon = 'weapon_specialcarbine', 
+    -- },
+    -- [7] = {
+    --     description = Config.WeaponItems['weapon_bullpuprifle']["description"],
+    --     weapon = 'weapon_bullpuprifle', 
+    -- },
+    -- [8] = {
+    --     description = Config.WeaponItems['weapon_compactrifle']["description"],
+    --     weapon = 'weapon_compactrifle', 
+    -- },
+    -- [9] = {
+    --     description = Config.WeaponItems['weapon_specialcarbine_mk2']["description"],
+    --     weapon = 'weapon_specialcarbine_mk2', 
+    -- },
+    -- [10] = {
+    --     description = Config.WeaponItems['weapon_bullpuprifle_mk2']["description"],
+    --     weapon = 'weapon_bullpuprifle_mk2', 
+    -- },
+    -- [11] = {
+    --     description = Config.WeaponItems['weapon_militaryrifle']["description"],
+    --     weapon = 'weapon_militaryrifle', 
+    -- },
 }
 -- Sniper Rifle selection menu.
 Config.SniperRifles = {
     ["EnableThisMenu"] = false, -- Make this false if you want to remove the Snipers menu
-    [1] = {
-        description = Config.WeaponItems['weapon_heavysniper']["description"],
-        weapon = 'weapon_heavysniper', 
-    },
-    [2] = {
-        description = Config.WeaponItems['weapon_sniperrifle']["description"],
-        weapon = 'weapon_sniperrifle', 
-    },
-    [3] = {
-        description = Config.WeaponItems['weapon_marksmanrifle']["description"],
-        weapon = 'weapon_marksmanrifle', 
-    },
+    -- [1] = {
+    --     description = Config.WeaponItems['weapon_heavysniper']["description"],
+    --     weapon = 'weapon_heavysniper', 
+    -- },
+    -- [2] = {
+    --     description = Config.WeaponItems['weapon_sniperrifle']["description"],
+    --     weapon = 'weapon_sniperrifle', 
+    -- },
+    -- [3] = {
+    --     description = Config.WeaponItems['weapon_marksmanrifle']["description"],
+    --     weapon = 'weapon_marksmanrifle', 
+    -- },
 }
 ----------
 ----------
