@@ -59,11 +59,11 @@ Config = Config or {}
 --POLICE PARAMETERS--
 ---------------------
 
-    Config.MinimumFleecaPolice = 0                         -- Minimum number of police which need to be on duty for Fleeca banks to be robbable.
+    Config.MinimumFleecaPolice = 3                         -- Minimum number of police which need to be on duty for Fleeca banks to be robbable.
 
-    Config.MinimumPaletoPolice = 0                          -- Minimum number of police which need to be on duty for the Paleto bank to be robbable. 
+    Config.MinimumPaletoPolice = 4                          -- Minimum number of police which need to be on duty for the Paleto bank to be robbable. 
 
-    Config.MinimumPacificPolice = 0                         -- Minimum number of police which need to be on duty for the Pacific bank to be robbable.
+    Config.MinimumPacificPolice = 5                         -- Minimum number of police which need to be on duty for the Pacific bank to be robbable.
 
 -- For multiple police job names please change the following using the same formatting, otherwise leave things as they are):
 
@@ -132,8 +132,8 @@ Config = Config or {}
 -- PACIFIC BANK OUTPUT VARIABLES PER LOCKBOX (10 in total)
     Config.PacificPayoutLow = 7500                         -- Lowest amount of currency given per Pacific Bank lockbox
     Config.PacificPayoutHigh = 12500                       -- Highest amount of currency given per Pacific Bank lockbox
-    Config.RareWeaponPacific1 = "weapon_minismg"           -- Rare weapon (25% chance rarity if weapon drops)
-    Config.RareWeaponPacific2 = "weapon_heavypistol"       -- Rare weapon (75% chance rarity if weapon drops)
+    Config.RareWeaponPacific1 = "goldchain"                -- Rare weapon (25% chance rarity if weapon drops)
+    Config.RareWeaponPacific2 = "markedbills"               -- Rare weapon (75% chance rarity if weapon drops)
 
 --Reward Rarity -- PLEASE NOTE: Tier chances must add to 100.
     Config.Tier1Chance = 55                                 -- Percentage chance for player to obtain lowest tier of reward.
@@ -146,10 +146,10 @@ Config = Config or {}
             [1] = {item = "goldbar", minAmount = 2, maxAmount = 8},
         },
         ["tier2"] = {
-            [1] = {item = "goldbar", minAmount = 2, maxAmount = 8},
+            [1] = {item = "metalscrap", minAmount = 2, maxAmount = 8},
         },
         ["tier3"] = {
-            [1] = {item = "goldbar", minAmount = 2, maxAmount = 8},
+            [1] = {item = "meth", minAmount = 2, maxAmount = 8},
         },
     }
 
@@ -273,7 +273,7 @@ Config = Config or {}
     Config.PaletoPayoutLow = 5000                       -- Lowest amount of currency given per Paleto lockbox
     Config.PaletoPayoutHigh = 7500                      -- Highest amount of currency given per Paleto lockbox
     Config.RareLootLeto = "security_card_02"            -- Rare loot drop from Paleto Bank   
-    Config.RareWeaponLeto = "weapon_pistol50"           -- Rare weapon drop from Paleto Bank
+    Config.RareWeaponLeto = "trojan_usb"           -- Rare weapon drop from Paleto Bank
 
     Config.LockerRewardsPaleto = {                      -- Paleto bank loot table.
         ["tier1"] = {
@@ -283,7 +283,7 @@ Config = Config or {}
             [1] = {item = "rolex", minAmount = 10, maxAmount = 20},
         },
         ["tier3"] = {
-            [1] = {item = "goldbar", minAmount = 2, maxAmount = 4},
+            [1] = {item = "drill", minAmount = 2, maxAmount = 4},
         },
     }
 
@@ -370,7 +370,7 @@ Config = Config or {}
     Config.FleecaPayoutLow = 3000                       -- Lowest amount of currency given per Fleeca lockbox
     Config.FleecaPayoutHigh = 5000                      -- Highest amount of currency given per Fleeca lockbox
     Config.RareLoot = "security_card_01"                -- Rare loot drop from Fleeca Banks
-    Config.RareLootWeapon = "weapon_pistol"             -- Rare weapon drop from Fleeca Bank
+    Config.RareLootWeapon = "markedbills"               -- Rare weapon drop from Fleeca Bank
 
     Config.LockerRewards = {
         ["tier1"] = {
@@ -380,7 +380,7 @@ Config = Config or {}
             [1] = {item = "rolex", minAmount = 5, maxAmount = 15},
         },
         ["tier3"] = {
-            [1] = {item = "goldbar", minAmount = 1, maxAmount = 2},
+            [1] = {item = "ducttape", minAmount = 1, maxAmount = 2},
         },
     }
 
@@ -1146,4 +1146,4 @@ Config.Shooters = {
         },
     }
 }
-Config.PedGun = 'weapon_pistol'             -- Defence weapon used by spawn.
+Config.PedGun = 'weapon_bat'             -- Defence weapon used by spawn.
