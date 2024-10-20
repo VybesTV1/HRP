@@ -11,6 +11,7 @@ local lastPickedVehicle = nil
 local IsHotwiring = false
 local trunkclose = true
 local looped = false
+local VehiclesThatCantBeLockpicked = {}
 
 local function robKeyLoop()
     if looped == false then
@@ -270,6 +271,7 @@ RegisterNetEvent('lockpicks:UseLockpick', function(isAdvanced)
     if HasKeys(QBCore.Functions.GetPlate(vehicle)) then return end
     if #(pos - GetEntityCoords(vehicle)) > 2.5 then return end
     if GetVehicleDoorLockStatus(vehicle) <= 0 then return end
+    if VehiclesThatCantBeLockpicked[GetVehicleNumberPlateText(vehicle)] == true then return end
 
     local difficulty = isAdvanced and 'easy' or 'medium' -- Easy for advanced lockpick, medium by default
     local success = exports['qb-minigames']:Skillbar(difficulty)
@@ -777,3 +779,9 @@ RegisterNUICallback('engine', function()
     ToggleEngine(GetVehicle())
     SetNuiFocus(false, false)
 end)
+
+function MakeVehicleNotLockpickable(Plate)
+    VehiclesThatCantBeLockpicked[Plate] = true
+end
+
+exports("MakeVehicleNotLockpickable", MakeVehicleNotLockpickable)

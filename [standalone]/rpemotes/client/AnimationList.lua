@@ -303,25 +303,25 @@ RP.Walks = {
         "move_m@fire",
         "Fire 3"
     },
-    -- ["Flee"] = {
-    --     "move_f@flee@a"
-    -- },
-    -- ["Flee2"] = {
-    --     "move_f@flee@c",
-    --     "Flee 2"
-    -- },
-    -- ["Flee3"] = {
-    --     "move_m@flee@a",
-    --     "Flee 3"
-    -- },
-    -- ["Flee4"] = {
-    --     "move_m@flee@b",
-    --     "Flee 4"
-    -- },
-    -- ["Flee5"] = {
-    --     "move_m@flee@c",
-    --     "Flee 5"
-    -- },
+    ["Flee"] = {
+        "move_f@flee@a"
+    },
+    ["Flee2"] = {
+        "move_f@flee@c",
+        "Flee 2"
+    },
+    ["Flee3"] = {
+        "move_m@flee@a",
+        "Flee 3"
+    },
+    ["Flee4"] = {
+        "move_m@flee@b",
+        "Flee 4"
+    },
+    ["Flee5"] = {
+        "move_m@flee@c",
+        "Flee 5"
+    },
     ["Floyd"] = {
         "move_characters@floyd"
     },

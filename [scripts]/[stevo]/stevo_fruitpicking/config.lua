@@ -1,5 +1,5 @@
 return {
-    interaction = 'textui', -- 'textui' 'target'
+    interaction = 'target', -- 'textui' 'target'
     progressCircle = true, -- If lib progressCircle should be used instead of progressBar
     moneyItem = 'money',
     types = {

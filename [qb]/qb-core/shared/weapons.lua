@@ -148,4 +148,5 @@ QBShared.Weapons = {
 	-- Animals
 	[`weapon_animal`]                = { name = 'weapon_animal', label = 'Animal', weapontype = 'Animals', ammotype = nil, damagereason = 'Mauled' },
 	[`weapon_cougar`]                = { name = 'weapon_cougar', label = 'Cougar', weapontype = 'Animals', ammotype = nil, damagereason = 'Mauled' },
+	weapon_digiscanner = {name = 'weapon_digiscanner', label= 'Digital Scanner', weight = 100, type = 'weapon', ammotype = nil, image = "WEAPON_DIGISCANNER.png", unique = true, useable = false, description = 'signal scanner'},
 }

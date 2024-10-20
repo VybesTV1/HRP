@@ -31,7 +31,7 @@ Config = {
     AllowInWater = false, -- If turned off, opening the menu and playing an emote will not be possible while swimming
 
     -- Ragdoll options
-    RagdollEnabled = true,     -- You can enable or disable the Ragdoll keybinding here.
+    RagdollEnabled = false,     -- You can enable or disable the Ragdoll keybinding here.
     RagdollKeybind = 'u', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can enable or disable Ragdoll as Toggle here. Only works if RagdollEnabled is set to true.
     RagdollAsToggle = true,
