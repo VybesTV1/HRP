@@ -20,7 +20,7 @@ return {
                 shortRange = true,
                 sprite = 238,
                 display = 4,
-                scale = 0.4,
+                scale = 0.7,
                 colour = 49,
                 name = 'Apple Orchard',
             },
@@ -70,7 +70,7 @@ return {
                 shortRange = true,
                 sprite = 238,
                 display = 4,
-                scale = 0.4,
+                scale = 0.7,
                 colour = 47,
                 name = 'Orange Orchard',
             },
@@ -126,7 +126,7 @@ return {
                 shortRange = true,
                 sprite = 238, -- https://docs.fivem.net/docs/game-references/blips/#blips
                 display = 4,
-                scale = 0.4, -- float
+                scale = 0.7, -- float
                 colour = 5, -- https://docs.fivem.net/docs/game-references/blips/#blip-colors
                 name = 'Pineapple Patch',
             },
@@ -164,7 +164,7 @@ return {
                 shortRange = true,
                 sprite = 238, -- https://docs.fivem.net/docs/game-references/blips/#blips
                 display = 4,
-                scale = 0.4, -- float
+                scale = 0.7, -- float
                 colour = 10, -- https://docs.fivem.net/docs/game-references/blips/#blip-colors
                 name = 'Potato Patch',
             },
@@ -205,7 +205,7 @@ return {
                 shortRange = true,
                 sprite = 238, -- https://docs.fivem.net/docs/game-references/blips/#blips
                 display = 4,
-                scale = 0.4, -- float
+                scale = 0.7, -- float
                 colour = 1, -- https://docs.fivem.net/docs/game-references/blips/#blip-colors
                 name = 'Tomato Plants',
             },
@@ -240,7 +240,7 @@ return {
                 shortRange = true,
                 sprite = 238, -- https://docs.fivem.net/docs/game-references/blips/#blips
                 display = 4,
-                scale = 0.4, -- float
+                scale = 0.7, -- float
                 colour = 47, -- https://docs.fivem.net/docs/game-references/blips/#blip-colors
                 name = 'Pumpkin Patch',
             },
@@ -279,7 +279,7 @@ return {
                 shortRange = true,
                 sprite = 238, -- https://docs.fivem.net/docs/game-references/blips/#blips
                 display = 4,
-                scale = 0.4, -- float
+                scale = 0.7, -- float
                 colour = 1, -- https://docs.fivem.net/docs/game-references/blips/#blip-colors
                 name = 'Strawberry Patch',
             },
@@ -319,7 +319,7 @@ return {
                 shortRange = true,
                 sprite = 52, 
                 display = 4,
-                scale = 0.6, 
+                scale = 0.7, 
                 colour = 32, 
                 name = 'Fruit Buyer',
             },
