@@ -343,7 +343,7 @@ Config.RareItem3Amount = 1                      -- Amount of the rare item playe
 
 Config.LiquorReqItem = "liquorkey"              -- Item needed to attempt to breach a liquor safe.
 
-Config.AlcoholReturn = "dirtymoney"             -- Set to "dirtymoney", "markedbills" or "cash" to alter the reward given.
+Config.AlcoholReturn = "markedbills"             -- Set to "dirtymoney", "markedbills" or "cash" to alter the reward given.
 
 Config.AlcoholminSafeEarn = 9000                -- Minimum amount earnt from stealing from a safe (in dirtymoney)
 Config.AlcoholmaxSafeEarn = 27000               -- Maximum amount earnt from stealing from a safe (in dirtymoney)
