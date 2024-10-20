@@ -1006,12 +1006,4 @@ QBShared.Items = {
     ["strawberry"] = {['name'] = 'strawberry',['label'] = 'Strawberry',['weight'] = 100,['type'] = 'item',['image'] = 'strawberry.png',['unique'] = false,['useable'] = true,['shouldClose'] = true,['combinable'] = nil,['description'] = "A sweet, juicy berry with a bright red color and refreshing taste."},
     ["potato"] = {['name'] = 'potato',['label'] = 'Potato',['weight'] = 80,['type'] = 'item',['image'] = 'potato.png',['unique'] = false,['useable'] = true,['shouldClose'] = true,['combinable'] = nil,['description'] = "A starchy vegetable commonly used in a variety of savory dishes."},
     ["pumpkin"] = {['name'] = 'pumpkin',['label'] = 'Pumpkin',['weight'] = 120,['type'] = 'item',['image'] = 'pumpkin.png',['unique'] = false,['useable'] = true,['shouldClose'] = true,['combinable'] = nil,['description'] = "A hearty squash often used in soups, pies, and festive autumn dishes."},   
-
-    carpart_wheel = { name = 'carpart_wheel', label = 'Wheel', weight = 10000, type = 'item', image = 'carpart_wheel.png', unique = true, useable = false, shouldClose = false, description = 'Wheel from a car' },
-
-    carpart_door = { name = 'carpart_door', label = 'Door', weight = 10000, type = 'item', image = 'carpart_door.png', unique = true, useable = false, shouldClose = false, description = 'Door from a car' },
-
-    carpart_hood = { name = 'carpart_hood', label = 'Hood', weight = 10000, type = 'item', image = 'carpart_hood.png', unique = true, useable = false, shouldClose = false, description = 'Hood from a car' },
-
-    carpart_trunk = { name = 'carpart_trunk', label = 'Trunk', weight = 10000, type = 'item', image = 'carpart_trunk.png', unique = true, useable = false, shouldClose = false, description = 'Trunk from a car' },
 }
