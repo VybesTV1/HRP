@@ -87,7 +87,7 @@ Config.Disable = {
     idleCamera = true,                                            -- disables the idle cinematic camera
     vestDrawable = false,                                         -- disables the vest equipped when using heavy armor
     pistolWhipping = true,                                        -- disables pistol whipping
-    driveby = true,                                              -- disables driveby
+    driveby = false,                                              -- disables driveby
 }
 
 Config.RelieveWeedStress = math.random(15, 20) -- stress relief amount (100 max)
