@@ -45,7 +45,7 @@ dependencies { -- Make sure these are started before cdn-fuel in your server.cfg
     'qb-input',
     'qb-menu',
     -- QBox | Overextended Functionalities (Input, Progressbar, Target, Menu etc.)
-    -- 'ox_lib', -- Ox Library
+    'ox_lib', -- Ox Library
     -- 'ox_target',
 }
 
