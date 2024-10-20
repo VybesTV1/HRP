@@ -1,0 +1,27 @@
+{
+    "notify" : {
+        "picked" : "¡Recogido con éxito!",
+        "sold" : "Vendiste tu %s por $%s",
+        "notenough" : "¡No tienes fruta!",
+        "failedSkill" : "¡Fallaste al recoger algo!"
+    },
+
+    "progress" : {
+        "picking" : "Recogiendo..."
+    },
+
+    "textui" : {
+        "buyer" : "**[E]** Vender fruta"
+    },
+
+    "target" : {
+        "buyer" : "Vender fruta"
+    },
+
+    "menu" : {
+        "buyer" : "Vender artículos al Granjero Joe",
+        "buyer_sell" : "Vender %s",
+        "buyer_sellall" : "Vender todo",
+        "buyer_sellone" : "Vender 1x"
+    }   
+}
