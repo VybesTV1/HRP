@@ -49,7 +49,7 @@ Config.Products = {
         { name = 'cleaningkit',       price = 150, amount = 150 },
     },
     ['police'] = {
-        { name = 'weapon_pistol',       price = 0, amount = 50,   requiredLicense = 'weapon' },
+        { name = 'weapon_combatpistol', price = 0, amount = 50,   requiredLicense = 'weapon' },
         { name = 'weapon_stungun',      price = 0, amount = 50 },
         { name = 'weapon_pumpshotgun',  price = 0, amount = 50,   requiredLicense = 'weapon' },
         { name = 'weapon_smg',          price = 0, amount = 50,   requiredLicense = 'weapon' },
