@@ -88,13 +88,13 @@ Config.Companies.DeleteConversations = true -- allow employees to delete convers
 Config.Companies.Services = {
     {
         job = "police",
-        name = "Police",
+        name = "Hypnotized Police Department",
         icon = "https://cdn-icons-png.flaticon.com/512/7211/7211100.png",
         canCall = true, -- if true, players can call the company
         canMessage = true, -- if true, players can message the company
-        bossRanks = {"boss", "lieutenant"}, -- ranks that can manage the company
+        bossRanks = {"Commissioner"}, -- ranks that can manage the company
         location = {
-            name = "Mission Row",
+            name = "Hypnotized Police Department",
             coords = {
                 x = 428.9,
                 y = -984.5,
@@ -107,11 +107,11 @@ Config.Companies.Services = {
     },
     {
         job = "ambulance",
-        name = "Ambulance",
+        name = "UHS",
         icon = "https://cdn-icons-png.flaticon.com/128/1032/1032989.png",
         canCall = true, -- if true, players can call the company
         canMessage = true, -- if true, players can message the company
-        bossRanks = {"boss", "doctor"}, -- ranks that can manage the company
+        bossRanks = {"Director"}, -- ranks that can manage the company
         location = {
             name = "Pillbox",
             coords = {
@@ -121,14 +121,14 @@ Config.Companies.Services = {
         }
     },
     {
-        job = "mechanic",
-        name = "Mechanic",
+        job = "realestate",
+        name = "Real Estate",
         icon = "https://cdn-icons-png.flaticon.com/128/10281/10281554.png",
         canCall = true, -- if true, players can call the company
         canMessage = true, -- if true, players can message the company
-        bossRanks = {"boss", "worker"}, -- ranks that can manage the company
+        bossRanks = {"owner"}, -- ranks that can manage the company
         location = {
-            name = "LS Customs",
+            name = "Real Estate",
             coords = {
                 x = -336.6,
                 y = -134.3
@@ -136,14 +136,134 @@ Config.Companies.Services = {
         }
     },
     {
-        job = "taxi",
-        name = "Taxi",
+        job = "luxdealer",
+        name = "Luxury Dealer",
         icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
         canCall = true, -- if true, players can call the company
         canMessage = true, -- if true, players can message the company
-        bossRanks = {"boss", "driver"}, -- ranks that can manage the company
+        bossRanks = {"owner"}, -- ranks that can manage the company
         location = {
-            name = "Taxi HQ",
+            name = "Luxury Dealer",
+            coords = {
+                x =984.2,
+                y = -219.0
+            }
+        }
+    },
+    {
+        job = "boatdealer",
+        name = "Boat Dealer",
+        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        canCall = true, -- if true, players can call the company
+        canMessage = true, -- if true, players can message the company
+        bossRanks = {"owner"}, -- ranks that can manage the company
+        location = {
+            name = "Boat Dealer",
+            coords = {
+                x =984.2,
+                y = -219.0
+            }
+        }
+    },
+    {
+        job = "queenbee",
+        name = "Queen Bee Mechanics",
+        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        canCall = true, -- if true, players can call the company
+        canMessage = true, -- if true, players can message the company
+        bossRanks = {"Queen"}, -- ranks that can manage the company
+        location = {
+            name = "Queen Bee Mechanics",
+            coords = {
+                x =984.2,
+                y = -219.0
+            }
+        }
+    },
+    {
+        job = "firefighter",
+        name = "Hypnotize Fire Department",
+        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        canCall = true, -- if true, players can call the company
+        canMessage = true, -- if true, players can message the company
+        bossRanks = {"chief"}, -- ranks that can manage the company
+        location = {
+            name = "Hypnotize Fire Department",
+            coords = {
+                x =984.2,
+                y = -219.0
+            }
+        }
+    },
+    {
+        job = "catcafe",
+        name = "Cat Cafe",
+        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        canCall = true, -- if true, players can call the company
+        canMessage = true, -- if true, players can message the company
+        bossRanks = {"owner"}, -- ranks that can manage the company
+        location = {
+            name = "Cat Cafe",
+            coords = {
+                x =984.2,
+                y = -219.0
+            }
+        }
+    },
+    {
+        job = "henhouse",
+        name = "Hen House",
+        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        canCall = true, -- if true, players can call the company
+        canMessage = true, -- if true, players can message the company
+        bossRanks = {"owner"}, -- ranks that can manage the company
+        location = {
+            name = "Hen House",
+            coords = {
+                x =984.2,
+                y = -219.0
+            }
+        }
+    },
+    {
+        job = "burgershot",
+        name = "burgershot",
+        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        canCall = true, -- if true, players can call the company
+        canMessage = true, -- if true, players can message the company
+        bossRanks = {"owner"}, -- ranks that can manage the company
+        location = {
+            name = "burgershot",
+            coords = {
+                x =984.2,
+                y = -219.0
+            }
+        }
+    },
+    {
+        job = "fishnchips",
+        name = "Fish N Chips",
+        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        canCall = true, -- if true, players can call the company
+        canMessage = true, -- if true, players can message the company
+        bossRanks = {"owner"}, -- ranks that can manage the company
+        location = {
+            name = "Fish N Chips",
+            coords = {
+                x =984.2,
+                y = -219.0
+            }
+        }
+    },
+    {
+        job = "icecream",
+        name = "Polar Ice Crea",
+        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        canCall = true, -- if true, players can call the company
+        canMessage = true, -- if true, players can message the company
+        bossRanks = {"owner"}, -- ranks that can manage the company
+        location = {
+            name = "Polar Ice Crea",
             coords = {
                 x =984.2,
                 y = -219.0
@@ -181,7 +301,7 @@ Config.Valet.Drive = true -- should a ped bring the car, or should it just spawn
 Config.Valet.DisableDamages = false -- disable vehicle damages (engine & body health) on esx
 Config.Valet.FixTakeOut = false -- repair the vehicle after taking it out?
 
-Config.HouseScript = "auto" --[[
+Config.HouseScript = "ps-housing" --[[
     The housing script you use on your server
     Supported:
         * loaf_housing - https://store.loaf-scripts.com/package/4310850
