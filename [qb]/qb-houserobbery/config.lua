@@ -70,22 +70,22 @@ Config.Rewards = { -- rewards pool for tiers, adjust to your server needs
 
     Tiers = {
         [1] = {
-            ["cabin"] = {"diamond_ring", "goldchain", "weed_skunk", "bandage", "beer", "fitbit"},
+            ["cabin"] = {"diamond_ring", "goldchain", "bandage", "beer", "fitbit"},
             ["kitchen"] = {"10kgoldchain", "rolex", "goldchain", "goldbar", "diamond_ring"},
-            ["chest"] = {"rolex", "diamond_ring", "goldchain", "weed_skunk", "lighter"},
-            ["livingroom"] = {"weed_ak47", "rolex", "diamond_ring", "goldchain"},
+            ["chest"] = {"rolex", "diamond_ring", "goldchain", "lighter"},
+            ["livingroom"] = {"rolex", "diamond_ring", "goldchain"},
         },
         [2] = {
-            ["cabin"] = {"diamond_ring", "goldchain", "weed_skunk", "bandage", "beer", "fitbit"},
+            ["cabin"] = {"diamond_ring", "goldchain", "bandage", "beer", "fitbit"},
             ["kitchen"] = {"10kgoldchain", "rolex", "goldchain", "goldbar", "diamond_ring"},
-            ["chest"] = {"rolex", "diamond_ring", "goldchain", "weed_skunk", "lighter"},
-            ["livingroom"] = {"weed_ak47", "rolex", "diamond_ring", "goldchain"},
+            ["chest"] = {"rolex", "diamond_ring", "goldchain", "lighter"},
+            ["livingroom"] = {"rolex", "diamond_ring", "goldchain"},
         },
         [3] = {
-            ["cabin"] = {"diamond_ring", "goldchain", "weed_skunk", "bandage", "beer", "fitbit"},
+            ["cabin"] = {"diamond_ring", "goldchain", "bandage", "beer", "fitbit"},
             ["kitchen"] = {"10kgoldchain", "rolex", "goldchain", "goldbar", "diamond_ring"},
-            ["chest"] = {"rolex", "diamond_ring", "goldchain", "weed_skunk", "lighter"},
-            ["livingroom"] = {"weed_ak47", "rolex", "diamond_ring", "goldchain"},
+            ["chest"] = {"rolex", "diamond_ring", "goldchain", "lighter"},
+            ["livingroom"] = {"rolex", "diamond_ring", "goldchain"},
         },
     },        
     
