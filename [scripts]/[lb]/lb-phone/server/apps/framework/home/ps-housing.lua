@@ -46,7 +46,7 @@ lib.RegisterCallback("phone:home:getOwnedHouses", function(source, cb)
     local formattedHouses = {}
     local houses = MySQL.Sync.fetchAll(([[
         SELECT *
-        FROM your_table
+        FROM properties
         WHERE owner_citizenid = @identifier
             OR JSON_CONTAINS(has_access, JSON_QUOTE(@identifier))
     ]]), {
