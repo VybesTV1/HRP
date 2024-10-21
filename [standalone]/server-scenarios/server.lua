@@ -1,1 +1,0 @@
-print("Server Scenarios by TayMcKenzieNZ has been loaded successfully.")
