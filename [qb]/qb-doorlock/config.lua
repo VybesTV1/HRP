@@ -1214,3 +1214,39 @@ Config.DoorList['ps_mloproperty3_1'] = {
     doorType = 'door',
     objYaw = 180,
 }
+
+-- ps_mloproperty9_1 created by VybesTV
+Config.DoorList['ps_mloproperty9_1'] = {
+    distance = 2.5,
+    locked = true,
+    doorRate = 1.0,
+    doors = {
+        {objName = 159994461, objYaw = 291, objCoords = vec3(-816.716003, 179.097961, 72.827377)},
+        {objName = -1686014385, objYaw = 291, objCoords = vec3(-816.106812, 177.510864, 72.827377)}
+    },
+    doorType = 'door',
+}
+
+-- ps_mloproperty9_2 created by VybesTV
+Config.DoorList['ps_mloproperty9_2'] = {
+    distance = 2.5,
+    locked = true,
+    doorRate = 1.0,
+    doors = {
+        {objName = -1454760130, objYaw = 21, objCoords = vec3(-796.565674, 177.221375, 73.040451)},
+        {objName = 1245831483, objYaw = 21, objCoords = vec3(-794.505127, 178.012375, 73.040451)}
+    },
+    doorType = 'door',
+}
+
+-- ps_mloproperty9_3 created by VybesTV
+Config.DoorList['ps_mloproperty9_3'] = {
+    distance = 2.5,
+    locked = true,
+    doorRate = 1.0,
+    doors = {
+        {objName = -1454760130, objYaw = 111, objCoords = vec3(-793.394287, 180.507462, 73.040451)},
+        {objName = 1245831483, objYaw = 111, objCoords = vec3(-794.185303, 182.568008, 73.040451)}
+    },
+    doorType = 'door',
+}
