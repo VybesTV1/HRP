@@ -3806,7 +3806,7 @@ $(document).ready(() => {
       color9: "#6E707C",
       color10: "#8F741B",
       image: "img/LSPD.webp",
-      name: "LOS SANTOS POLICE",
+      name: "HYPNOTIZE POLICE",
     },
     bcso: {
       color1: "#333333",
