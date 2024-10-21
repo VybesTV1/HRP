@@ -3,8 +3,8 @@
 
 Citizen.CreateThread(function()
     while true do
-        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_UNARMED"), 0.2)  	
-        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_KNIFE"), 0.5) 		
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_UNARMED"), 0.4)  	
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_KNIFE"), 0.3) 		
         N_0x4757f00bc6323cfe(GetHashKey("WEAPON_KNUCKLE"), 0.3) 	
         N_0x4757f00bc6323cfe(GetHashKey("WEAPON_NIGHTSTICK"), 0.2) 
         N_0x4757f00bc6323cfe(GetHashKey("WEAPON_HAMMER"), 0.2)  	
