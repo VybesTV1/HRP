@@ -1043,4 +1043,4 @@ end)
 
 exports('getApartmentDoor', function (apartment)
     return Config.Apartments?[apartment]?.door
-  end)
+end)
