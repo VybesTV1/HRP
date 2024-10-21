@@ -59,11 +59,11 @@ Config = Config or {}
 --POLICE PARAMETERS--
 ---------------------
 
-    Config.MinimumFleecaPolice = 2                         -- Minimum number of police which need to be on duty for Fleeca banks to be robbable.
+    Config.MinimumFleecaPolice = 1                         -- Minimum number of police which need to be on duty for Fleeca banks to be robbable.
 
-    Config.MinimumPaletoPolice = 4                          -- Minimum number of police which need to be on duty for the Paleto bank to be robbable. 
+    Config.MinimumPaletoPolice = 1                          -- Minimum number of police which need to be on duty for the Paleto bank to be robbable. 
 
-    Config.MinimumPacificPolice = 5                         -- Minimum number of police which need to be on duty for the Pacific bank to be robbable.
+    Config.MinimumPacificPolice = 1                         -- Minimum number of police which need to be on duty for the Pacific bank to be robbable.
 
 -- For multiple police job names please change the following using the same formatting, otherwise leave things as they are):
 
