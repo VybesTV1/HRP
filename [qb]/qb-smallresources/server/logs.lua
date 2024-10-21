@@ -40,6 +40,7 @@ local Webhooks = {
     ['house'] = 'https://discord.com/api/webhooks/1297820341103493183/1TklvPsegNODCtEJTQ0Zdkz6a4L5RcpgJtdFz0RQVNUmlgmRANAZ2OQygBfxjJLUFdNE',
     ['qbjobs'] = 'https://discord.com/api/webhooks/1297820341103493183/1TklvPsegNODCtEJTQ0Zdkz6a4L5RcpgJtdFz0RQVNUmlgmRANAZ2OQygBfxjJLUFdNE',
     ['pshousing'] = 'https://discord.com/api/webhooks/1297820341103493183/1TklvPsegNODCtEJTQ0Zdkz6a4L5RcpgJtdFz0RQVNUmlgmRANAZ2OQygBfxjJLUFdNE',
+    ['ps-adminmenu'] = 'https://discord.com/api/webhooks/1297996154067353641/j_mY5uWLiGPEHu7Z2kF7OYRkTUJElpgr2vdmvev3R9Z2aYBeiY2hxOApRDnm0iQnmyvG',
 }
 
 local colors = { -- https://www.spycolor.com/
