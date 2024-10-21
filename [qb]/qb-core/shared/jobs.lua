@@ -62,7 +62,7 @@ QBShared.Jobs = {
 			['1'] = { name = 'House Sales', payment = 75 },
 			['2'] = { name = 'Business Sales', payment = 100 },
 			['3'] = { name = 'Broker', payment = 125 },
-			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+			['4'] = { name = 'owner', isboss = true, payment = 150 },
 		},
 	},
 	luxdealer = {
@@ -74,7 +74,7 @@ QBShared.Jobs = {
 			['1'] = { name = 'Showroom Sales', payment = 75 },
 			['2'] = { name = 'Business Sales', payment = 100 },
 			['3'] = { name = 'Finance', payment = 125 },
-			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+			['4'] = { name = 'owner', isboss = true, payment = 150 },
 		},
 	},
 	boatdealer = {
@@ -86,7 +86,7 @@ QBShared.Jobs = {
 			['1'] = { name = 'Showroom Sales', payment = 75 },
 			['2'] = { name = 'Business Sales', payment = 100 },
 			['3'] = { name = 'Finance', payment = 125 },
-			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+			['4'] = { name = 'owner', isboss = true, payment = 150 },
 		},
 	},
 	queenbee = {
@@ -103,7 +103,7 @@ QBShared.Jobs = {
 		},
 	},
 	firefighter = {
-		label = 'Hypnotized Fire Department',
+		label = 'Hypnotize Fire Department',
 		type = 'firefighter',
 		defaultDuty = true,
 		offDutyPay = false,
@@ -124,7 +124,7 @@ QBShared.Jobs = {
 			['1'] = { name = 'Novice', payment = 75 },
 			['2'] = { name = 'Experienced', payment = 100 },
 			['3'] = { name = 'Advanced', payment = 125 },
-			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+			['4'] = { name = 'owner', isboss = true, payment = 150 },
 		},
 	},
 	henhouse = {
@@ -136,7 +136,7 @@ QBShared.Jobs = {
 			['1'] = { name = 'Novice', payment = 75 },
 			['2'] = { name = 'Experienced', payment = 100 },
 			['3'] = { name = 'Advanced', payment = 125 },
-			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+			['4'] = { name = 'owner', isboss = true, payment = 150 },
         },
 	},
 	burgershot = {
@@ -148,7 +148,7 @@ QBShared.Jobs = {
 			['1'] = { name = 'Novice', payment = 75 },
 			['2'] = { name = 'Experienced', payment = 100 },
 			['3'] = { name = 'Advanced', payment = 125 },
-			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+			['4'] = { name = 'owner', isboss = true, payment = 150 },
         },
 	},
 	fishnchips = {
@@ -159,7 +159,7 @@ QBShared.Jobs = {
             ['0'] = { name = 'Kitchen Porter', payment = 25 },
             ['1'] = { name = 'Team Member', payment = 50 },
             ['2'] = { name = 'Sales Manager', payment = 75 },
-            ['3'] = { name = 'Restaurant Manager', isboss= true, payment = 100 },
+            ['3'] = { name = 'owner', isboss= true, payment = 100 },
 			
         },
     },
@@ -171,7 +171,7 @@ QBShared.Jobs = {
             ['0'] = { name = 'Kitchen Porter', payment = 25 },
             ['1'] = { name = 'Team Member', payment = 50 },
             ['2'] = { name = 'Sales Manager', payment = 75 },
-            ['3'] = { name = 'Shop Manager', isboss= true, payment = 100 },
+            ['3'] = { name = 'owner', isboss= true, payment = 100 },
         },
 	},
 }
