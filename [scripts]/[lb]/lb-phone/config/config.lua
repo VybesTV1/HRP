@@ -89,7 +89,7 @@ Config.Companies.Services = {
     {
         job = "police",
         name = "Hypnotized Police Department",
-        icon = "https://cdn-icons-png.flaticon.com/512/7211/7211100.png",
+        icon = "https://r2.fivemanage.com/Ub4hhaLQfNGw1E6k1nFoR/images/Police_logo.png",
         canCall = true, -- if true, players can call the company
         canMessage = true, -- if true, players can message the company
         bossRanks = {"Commissioner"}, -- ranks that can manage the company
@@ -108,7 +108,7 @@ Config.Companies.Services = {
     {
         job = "ambulance",
         name = "UHS",
-        icon = "https://cdn-icons-png.flaticon.com/128/1032/1032989.png",
+        icon = "https://r2.fivemanage.com/Ub4hhaLQfNGw1E6k1nFoR/images/UHS_logo.png",
         canCall = true, -- if true, players can call the company
         canMessage = true, -- if true, players can message the company
         bossRanks = {"Director"}, -- ranks that can manage the company
@@ -123,7 +123,7 @@ Config.Companies.Services = {
     {
         job = "realestate",
         name = "Real Estate",
-        icon = "https://cdn-icons-png.flaticon.com/128/10281/10281554.png",
+        icon = "https://r2.fivemanage.com/Ub4hhaLQfNGw1E6k1nFoR/images/realestate-phone.png",
         canCall = true, -- if true, players can call the company
         canMessage = true, -- if true, players can message the company
         bossRanks = {"owner"}, -- ranks that can manage the company
@@ -138,7 +138,7 @@ Config.Companies.Services = {
     {
         job = "luxdealer",
         name = "Luxury Dealer",
-        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        icon = "https://r2.fivemanage.com/Ub4hhaLQfNGw1E6k1nFoR/images/luxury-cars-logo_20448-238.png",
         canCall = true, -- if true, players can call the company
         canMessage = true, -- if true, players can message the company
         bossRanks = {"owner"}, -- ranks that can manage the company
@@ -153,7 +153,7 @@ Config.Companies.Services = {
     {
         job = "boatdealer",
         name = "Boat Dealer",
-        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        icon = "https://r2.fivemanage.com/Ub4hhaLQfNGw1E6k1nFoR/images/seafarers-craft-unique-vector-logo-design-yacht-repair_579306-39836.png",
         canCall = true, -- if true, players can call the company
         canMessage = true, -- if true, players can message the company
         bossRanks = {"owner"}, -- ranks that can manage the company
@@ -168,7 +168,7 @@ Config.Companies.Services = {
     {
         job = "queenbee",
         name = "Queen Bee Mechanics",
-        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        icon = "https://r2.fivemanage.com/Ub4hhaLQfNGw1E6k1nFoR/images/queenbee-phone.png",
         canCall = true, -- if true, players can call the company
         canMessage = true, -- if true, players can message the company
         bossRanks = {"Queen"}, -- ranks that can manage the company
@@ -183,7 +183,7 @@ Config.Companies.Services = {
     {
         job = "firefighter",
         name = "Hypnotize Fire Department",
-        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        icon = "https://r2.fivemanage.com/Ub4hhaLQfNGw1E6k1nFoR/images/HFD_logo.png",
         canCall = true, -- if true, players can call the company
         canMessage = true, -- if true, players can message the company
         bossRanks = {"chief"}, -- ranks that can manage the company
@@ -198,7 +198,7 @@ Config.Companies.Services = {
     {
         job = "catcafe",
         name = "Cat Cafe",
-        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        icon = "https://r2.fivemanage.com/Ub4hhaLQfNGw1E6k1nFoR/images/Uwu_cafe_logo.png",
         canCall = true, -- if true, players can call the company
         canMessage = true, -- if true, players can message the company
         bossRanks = {"owner"}, -- ranks that can manage the company
@@ -213,7 +213,7 @@ Config.Companies.Services = {
     {
         job = "henhouse",
         name = "Hen House",
-        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        icon = "https://r2.fivemanage.com/Ub4hhaLQfNGw1E6k1nFoR/images/hen_house.jpg",
         canCall = true, -- if true, players can call the company
         canMessage = true, -- if true, players can message the company
         bossRanks = {"owner"}, -- ranks that can manage the company
@@ -228,7 +228,7 @@ Config.Companies.Services = {
     {
         job = "burgershot",
         name = "burgershot",
-        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        icon = "https://r2.fivemanage.com/Ub4hhaLQfNGw1E6k1nFoR/images/burgershot.png",
         canCall = true, -- if true, players can call the company
         canMessage = true, -- if true, players can message the company
         bossRanks = {"owner"}, -- ranks that can manage the company
@@ -243,7 +243,7 @@ Config.Companies.Services = {
     {
         job = "fishnchips",
         name = "Fish N Chips",
-        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        icon = "https://r2.fivemanage.com/Ub4hhaLQfNGw1E6k1nFoR/images/fishnchips.jpg",
         canCall = true, -- if true, players can call the company
         canMessage = true, -- if true, players can message the company
         bossRanks = {"owner"}, -- ranks that can manage the company
@@ -258,7 +258,7 @@ Config.Companies.Services = {
     {
         job = "icecream",
         name = "Polar Ice Crea",
-        icon = "https://cdn-icons-png.flaticon.com/128/433/433449.png",
+        icon = "https://r2.fivemanage.com/Ub4hhaLQfNGw1E6k1nFoR/images/polar_ice.jpg",
         canCall = true, -- if true, players can call the company
         canMessage = true, -- if true, players can message the company
         bossRanks = {"owner"}, -- ranks that can manage the company
