@@ -118,12 +118,12 @@ Config.Return_Vehicle = { --This is the price players pay for their vehicle to b
 
 
 Config.Impound = {
-    ENABLE = true, --Do you want to use the built in impound system?
+    ENABLE = false, --Do you want to use the built in impound system?
     chat_command = 'impound', --Customise the chat command to impound vehicles.
 
     Authorized_Jobs = { --Only jobs inside this table can impound vehicles or unimpound vehicles.
         ['police'] = true,
-        ['mechanic'] = true,
+        ['queenbee'] = true,
         --['add_more_here'] = true,
     },
 
@@ -403,7 +403,7 @@ Config.StaffPerms = {
 
 
 Config.InsideGarage = {
-    ENABLE = true, --Do you want to allow players to use the inside garage?
+    ENABLE = false, --Do you want to allow players to use the inside garage?
     only_showcars_inthisgarage = false, --Do you want the inside garage to only show the vehicles which are currently stored at that garage (eg., garage A).  (this works for inside garage only, even with this enabled all the cars will show in the outside UI).
     shell_z_axis = 30, --This is how low under the ground the garage shell will spawn, you could use math.random(10,50) to make it random each time so players dont see each other in their garage.
     shell_time_script = 'easytime', --Choose which time script you are using so we can set the time when you enter the shell. [ 'easytime' / 'vsync' / 'qbcore' / 'other' ].
@@ -489,7 +489,7 @@ Config.InsideGarage = {
 
 
 Config.JobVehicles = {
-    ENABLE = true, --Do you want players with defined jobs (below) to be able to use the garage ui to spawn job vehicles? (if disabled none of the options below will be used).
+    ENABLE = false, --Do you want players with defined jobs (below) to be able to use the garage ui to spawn job vehicles? (if disabled none of the options below will be used).
     choose_liverys = false, --Do you want players to be able to change liverys when they spawn a vehicle at a job garage?
     share_job_keys = false, --Do you want job vehicle keys to be automatically shared with other players with the same job? (requires you to be using the built in cd_garage keys feature).
 
@@ -633,24 +633,9 @@ else
     UIText = '<b>'..L('garage')..'</b></p>'..L('open_garage_1')
 end
 
-Config.Locations = {
+Config.Locations = { 
     {
-        Garage_ID = 'A', --The very first car garage's `garage_id` must be the same as the default value of the `garage_id` in the database as when a vehicle is purchased it gets sent to this garage. You can change the garage id's to what ever you like but make sure to also change the default garage_id in the database.
-        Type = 'car', --The type of vehicles which use this garage. ('car'/'boat'/'air').
-        Dist = 10, --The distance that you can use this garage.
-        x_1 = 215.09, y_1 = -805.17, z_1 = 30.81, --This is the location of the garage, where you press e to open for example.
-        EventName1 = 'cd_garage:QuickChoose', --DONT CHANGE THIS.
-        EventName2 = 'cd_garage:EnterGarage', --DONT CHANGE THIS.
-        Name = UIText, --You dont need to change this.
-        x_2 = 212.42, y_2 = -798.77, z_2 = 30.88, h_2 = 336.61, --This is the location where the vehicle spawns.
-        EnableBlip = true, --If disabled, this garage blip will not show on the map.
-        JobRestricted = nil, --This will allow only players with certain jobs to use this. This is not a job garage, its still a normal garage. (SINGLE JOB EXAMPLE:  JobRestricted = {'police'},  MULTIPLE JOBS EXAMPLE:  JobRestricted = {'police', 'ambulance'}, )
-        ShellType = '10cargarage_shell', --[ '10cargarage_shell' / '40cargarage_shell' / nil ] --You can choose the shell which is loaded when you enter the inside garage from this location. If you set it to nil the script will load a shell based on the amount of cars you own.
-    },
-
-    
-    {
-        Garage_ID = 'B', --PINK MOTEL
+        Garage_ID = 'Pink Motel', --PINK MOTEL
         Type = 'car',
         Dist = 10,
         x_1 = 273.0, y_1 = -343.85, z_1 = 44.91,
@@ -664,7 +649,7 @@ Config.Locations = {
     },
 
     {
-        Garage_ID = 'C', --GROVE
+        Garage_ID = 'Grove Street', --GROVE
         Type = 'car',
         Dist = 10,
         x_1 = -71.46, y_1 = -1821.83, z_1 = 26.94,
@@ -678,7 +663,7 @@ Config.Locations = {
     },
 
     {
-        Garage_ID = 'D', --MIRROR
+        Garage_ID = 'Mirror Park', --MIRROR
         Type = 'car',
         Dist = 10,
         x_1 = 1032.84, y_1 = -765.1, z_1 = 58.18,
@@ -692,7 +677,7 @@ Config.Locations = {
     },
 
     {
-        Garage_ID = 'E', --BEACH
+        Garage_ID = 'Vespucci Beach', --BEACH
         Type = 'car',
         Dist = 10,
         x_1 = -1248.69, y_1 = -1425.71, z_1 = 4.32,
@@ -706,35 +691,7 @@ Config.Locations = {
     },
 
     {
-        Garage_ID = 'F', --G O HIGHWAY
-        Type = 'car',
-        Dist = 10,
-        x_1 = -2961.58, y_1 = 375.93, z_1 = 15.02,
-        EventName1 = 'cd_garage:QuickChoose',
-        EventName2 = 'cd_garage:EnterGarage',
-        Name = UIText,
-        x_2 = -2964.96, y_2 = 372.07, z_2 = 14.78, h_2 = 86.07,
-        EnableBlip = true,
-        JobRestricted = nil,
-        ShellType = '10cargarage_shell',
-    },
-
-    {
-        Garage_ID = 'G', --SANDY WEST
-        Type = 'car',
-        Dist = 10,
-        x_1 = 217.33, y_1 = 2605.65, z_1 = 46.04,
-        EventName1 = 'cd_garage:QuickChoose',
-        EventName2 = 'cd_garage:EnterGarage',
-        Name = UIText,
-        x_2 = 216.94, y_2 = 2608.44, z_2 = 46.33, h_2 = 14.07,
-        EnableBlip = true,
-        JobRestricted = nil,
-        ShellType = '10cargarage_shell',
-    },
-
-    {
-        Garage_ID = 'H', --SANDY MAIN
+        Garage_ID = 'Sandu Shores', --SANDY MAIN
         Type = 'car',
         Dist = 10,
         x_1 = 1878.44, y_1 = 3760.1, z_1 = 32.94,
@@ -748,21 +705,7 @@ Config.Locations = {
     },
 
     {
-        Garage_ID = 'I', --VINEWOOD
-        Type = 'car',
-        Dist = 10,
-        x_1 = 365.21, y_1 = 295.65, z_1 = 103.46,
-        EventName1 = 'cd_garage:QuickChoose',
-        EventName2 = 'cd_garage:EnterGarage',
-        Name = UIText,
-        x_2 = 364.84, y_2 = 289.73, z_2 = 103.42, h_2 = 164.23,
-        EnableBlip = true,
-        JobRestricted = nil,
-        ShellType = '10cargarage_shell',
-    },
-
-    {
-        Garage_ID = 'J', --GRAPESEED
+        Garage_ID = 'Grapeseed', --GRAPESEED
         Type = 'car',
         Dist = 10,
         x_1 = 1713.06, y_1 = 4745.32, z_1 = 41.96,
@@ -776,7 +719,7 @@ Config.Locations = {
     },
 
     {
-        Garage_ID = 'K', --PALETO
+        Garage_ID = 'Paleto Bay', --PALETO
         Type = 'car',
         Dist = 10,
         x_1 = 107.32, y_1 = 6611.77, z_1 = 31.98,
@@ -840,18 +783,6 @@ Config.ImpoundLocations = { --DO NOT CHANGE THE TABLE IDENTIFIERSs, for example 
             scale = 0.5, --Size of the blip.
             colour = 3, --Colour of the blip.
             name = L('car_city_impound'), --This can be changed in the Locales.
-        }
-    },
-
-    ['car_2'] = { 
-        ImpoundID = 2,
-        coords = {x = 1893.48, y = 3713.50, z = 32.77},
-        spawnpoint = {x = 1887.123, y = 3710.348, z = 31.92, h = 212.0},
-        blip = {
-            sprite = 357,
-            scale = 0.5,
-            colour = 3,
-            name = L('car_sandy_impound'),
         }
     },
 

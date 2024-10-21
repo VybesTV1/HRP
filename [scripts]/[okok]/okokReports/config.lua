@@ -2,7 +2,7 @@ Config = {}
 
 Config.Debug = false
 
-Config.Framework = 'QB' -- ESX / QB / STANDALONE
+Config.Framework = 'STANDALONE' -- ESX / QB / STANDALONE
 
 Config.UseNewStaffCheckMethod = false -- **QBCORE and ESX ONLY** true = will check if a player is staff in another way (this could fix problems with /repots command)
 
@@ -24,7 +24,7 @@ Config.NoAdminAssistingText = 'None'
 
 Config.TeleportBackAfterConcluding = true
 
-Config.NewReportNotifyType = 'STANDALONE' -- QB or STANDALONE
+Config.NewReportNotifyType = 'QB' -- QB or STANDALONE
 
 Config.LatestSendNotifyToAdmin = true
 
@@ -48,8 +48,8 @@ Config.AdminGroups = { -- Used for ESX and QB
 -- Used to set the admins when using the STANDALONE version
 -- Types of identifiers: steam: | license: | xbl: | live: | discord: | fivem: | ip:
 Config.StandaloneStaffIdentifiers = { 
-	'license:9asg8d9812g3989as8dy8912398123y89123y221', -- Example, change this
-	'license:09asyhhdh8912h389asgdhh912g389asgd98y123' -- Example, change this
+	'license:86ed0f66bcbd74221e2d3f5607ee06e4f588a8c8', --VybesTV
+	'license:c9cd104ed17526c63aeddb6a20d22ab020f2f102' --ReeceOmega
 }
 
 Config.Notifications = {
