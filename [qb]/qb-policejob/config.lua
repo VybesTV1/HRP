@@ -126,16 +126,16 @@ Config.CarItems = {
 Config.AuthorizedVehicles = {
     -- Grade 0 and higher
     [0] = {
-        ukpolballer = 'Police Car 1',
-        ukpolbike = 'Police Car 2',
-        ukpoleveron = 'Police Car 3',
-        ukpoljackal = 'Police Car 4',
-        ukpoloracle = 'Police Car 5',
-        ukpolrebla = 'Police Car 6',
-        ukpolrhinehart = 'Police Car 7',
-        ukpolspeedo = 'Police Car 8',
-        ukpolstreiter = 'Police Car 9',
-        ukpoltailgater = 'Police Car 10',
+        ukpolballer = 'Marked Baller',
+        ukpolbike = 'Marked Bike',
+        ukpoleveron = 'Marked Everon',
+        ukpoljackal = 'Marked Jackal',
+        ukpoloracle = 'Makerd Oracle',
+        ukpolrebla = 'Marked Rebla',
+        ukpolrhinehart = 'Marked Rhinehart',
+        ukpolspeedo = 'Marked Speedo',
+        ukpolstreiter = 'Makred Streiter',
+        ukpoltailgater = 'Marked Tailgater',
     },
 }
 
