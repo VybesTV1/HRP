@@ -42,7 +42,7 @@ Config.PoliceMinutesCooldown = 5                -- Change minutes to change aler
 --MZ-SKILLS--
 -------------
 
-Config.mzskills = false                          -- Set to 'false' if you do not wish to use this resource with mz-skills
+Config.mzskills = true                          -- Set to 'false' if you do not wish to use this resource with mz-skills
 
 --if "Config.mzskills = true", then the following parameters apply:
 
