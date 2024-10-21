@@ -27,11 +27,11 @@ Config = Config or {}
 -- if "Config.psdispatch = true", then the following applies: 
     Config.NewVersion = true                                -- Set to "false" if you are using ps-dispatch v1. Set to true if you are using ps-dispatch v2
 
-    Config.skillcheck = false                                -- Set this to "false" to disable the use of skillchecks in mz-bankrobbery
+    Config.skillcheck = true                                -- Set this to "false" to disable the use of skillchecks in mz-bankrobbery
 
     Config.IgnoreThermiteUsage = true                       -- Set to "false" to allow thermite usage with powerplants (not necessary for mz-bankrobbery so keep disabled if you are not using the powerplant function for anything else)
 
-    Config.mzskills = false                                  -- Set to "false" to disable mz-skills XP integration with "Hacking" and "Heist Reputation"
+    Config.mzskills = true                                  -- Set to "false" to disable mz-skills XP integration with "Hacking" and "Heist Reputation"
 --if "Config.mzskills = true", then: 
     Config.CriminalXPSkill = "Heist Reputation"             -- You can change the name of the Criminal XP skill (but make sure it is the same as mz-skills/config.lua)
     Config.CrimXPlvl8 = 12800
@@ -59,11 +59,11 @@ Config = Config or {}
 --POLICE PARAMETERS--
 ---------------------
 
-    Config.MinimumFleecaPolice = 1                         -- Minimum number of police which need to be on duty for Fleeca banks to be robbable.
+    Config.MinimumFleecaPolice = 3                         -- Minimum number of police which need to be on duty for Fleeca banks to be robbable.
 
-    Config.MinimumPaletoPolice = 1                          -- Minimum number of police which need to be on duty for the Paleto bank to be robbable. 
+    Config.MinimumPaletoPolice = 4                          -- Minimum number of police which need to be on duty for the Paleto bank to be robbable. 
 
-    Config.MinimumPacificPolice = 1                         -- Minimum number of police which need to be on duty for the Pacific bank to be robbable.
+    Config.MinimumPacificPolice = 5                         -- Minimum number of police which need to be on duty for the Pacific bank to be robbable.
 
 -- For multiple police job names please change the following using the same formatting, otherwise leave things as they are):
 
