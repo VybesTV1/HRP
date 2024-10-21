@@ -1040,3 +1040,7 @@ RegisterNetEvent('ps-housing:server:resetMetaData', function()
     insideMeta.property_id = nil
     Player.Functions.SetMetaData("inside", insideMeta)
 end)
+
+exports('getApartmentDoor', function (apartment)
+    return Config.Apartments?[apartment]?.door
+  end)
