@@ -344,21 +344,6 @@ end
 
 exports('CanAddItem', CanAddItem)
 
---- Gets the total free weight of the player's inventory.
---- @param source number The player's server ID.
---- @return number - Returns the free weight of the players inventory. Error will return 0
-function GetFreeWeight(source)
-    if not source then warn("Source was not passed into GetFreeWeight") return 0 end
-    local Player = QBCore.Functions.GetPlayer(source)
-    if not Player then return 0 end
-
-    local totalWeight = GetTotalWeight(Player.PlayerData.items)
-    local freeWeight = Config.MaxWeight - totalWeight
-    return freeWeight
-end
-
-exports('GetFreeWeight', GetFreeWeight)
-
 function ClearInventory(source, filterItems)
     local player = QBCore.Functions.GetPlayer(source)
     local savedItemData = {}
@@ -379,6 +364,12 @@ function ClearInventory(source, filterItems)
         TriggerEvent('qb-log:server:CreateLog', 'playerinventory', 'ClearInventory', 'red', logMessage)
         if Player(source).state.inv_busy then TriggerClientEvent('qb-inventory:client:updateInventory', source) end
     end
+
+    -- Added Code (highqez_cashitem)
+    if player and player.PlayerData and player.PlayerData.source then
+        TriggerEvent('highqez_cashitem:server:ClearInventory', player.PlayerData.source)
+    end
+
 end
 
 exports('ClearInventory', ClearInventory)
@@ -459,18 +450,6 @@ function OpenInventoryById(source, targetId)
 end
 
 exports('OpenInventoryById', OpenInventoryById)
-
--- Clears a given stash of all items inside
---- @param identifier string
-function ClearStash(identifier)
-    if not identifier then return end
-    local inventory = Inventories[identifier]
-    if not inventory then return end
-    inventory.items = {}
-    MySQL.prepare('UPDATE inventories SET items = ? WHERE identifier = ?', { json.encode(inventory.items), identifier })
-end
-
-exports('ClearStash', ClearStash)
 
 --- @param shopData table The data of the shop to create.
 function CreateShop(shopData)
@@ -682,6 +661,12 @@ function AddItem(identifier, item, amount, slot, info, reason)
         '**Reason:** ' .. addReason .. '\n' ..
         '**Resource:** ' .. resourceName
     )
+
+    -- Added Code (highqez_cashitem)
+    if player and player.PlayerData and player.PlayerData.source then
+        TriggerEvent('highqez_cashitem:server:AddItem', player.PlayerData.source, item, amount)
+    end
+
     return true
 end
 
@@ -754,13 +739,13 @@ function RemoveItem(identifier, item, amount, slot, reason)
         '**Reason:** ' .. removeReason .. '\n' ..
         '**Resource:** ' .. resourceName
     )
+
+    -- Added Code (highqez_cashitem)
+    if player and player.PlayerData and player.PlayerData.source then
+        TriggerEvent('highqez_cashitem:server:RemoveItem', player.PlayerData.source, item, amount)
+    end
+
     return true
 end
 
 exports('RemoveItem', RemoveItem)
-
-function GetInventory(identifier)
-    return Inventories[identifier]
-end
-
-exports('GetInventory', GetInventory)
