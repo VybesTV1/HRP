@@ -1016,4 +1016,10 @@ QBShared.Items = {
 	['usb4'] 				 		= {['name'] = 'usb4', 			  	  		['label'] = 'Green USB', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'usbgreen.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'The Blank USB has downloaded a particular encryption marking it green.'},
 
     cash                = {name = 'cash',label = 'Cash',weight = 0,type = 'item',image = 'cash.png',unique = false,useable = false,shouldClose = false,combinable = nil,description = 'Currency'},
+
+    ["weap_craftingtable"] = {['name'] = 'weap_craftingtable',['label'] = 'Weapon Crafting Table',['weight'] = 500,['type'] = 'item',['image'] = 'weap_craftingtable.png',['unique'] = false,['useable'] = true,['shouldClose'] = true,['combinable'] = nil,['description'] = ""},
+    ["item_craftingtable"] = {['name'] = 'item_craftingtable',['label'] = 'Item Crafting Table',['weight'] = 500,['type'] = 'item',['image'] = 'item_craftingtable.png',['unique'] = false,['useable'] = true,['shouldClose'] = true,['combinable'] = nil,['description'] = ""},
+    ["stevo_exampleblueprint"] = {['name'] = 'stevo_exampleblueprint',['label'] = 'Example Blueprint',['weight'] = 190,['type'] = 'item',['image'] = 'stevo_exampleblueprint.png',['unique'] = false,['useable'] = false,['useable'] = false,['combinable'] = nil,['description'] = ""},
+    ['oldmoneywash'] = {['name'] = 'oldmoneywash',['label'] = 'T100 Washer',['weight'] = 250,['type'] = 'item',['image'] = 'oldmoneywash.png',['unique'] = false,['useable'] = true,['shouldClose'] = true,['combinable'] = nil,['description'] = "A basic money washer for handling smaller loads of dirty cash."},
+    ['deluxemoneywash'] = {['name'] = 'deluxemoneywash',['label'] = 'T2000 Washer',['weight'] = 250,['type'] = 'item',['image'] = 'deluxemoneywash.png', ['unique'] = false,['useable'] = true,['shouldClose'] = true,['combinable'] = nil,['description'] = "An advanced money washer for handling larger loads of dirty cash."},
 }

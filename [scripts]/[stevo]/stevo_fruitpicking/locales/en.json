@@ -1,0 +1,29 @@
+
+
+{
+    "notify" : {
+        "picked" : "Successfully picked!",
+        "sold" : "You sold your %s for $%s",
+        "notenough" : "You do not have any!",
+        "failedSkill" : "You failed to pick anything!"
+    },
+
+    "progress" : {
+        "picking" : "Picking..."
+    },
+
+    "textui" : {
+        "buyer" : "**[E]** Sell Fruit"
+    },
+
+    "target" : {
+        "buyer" : "Sell Fruit"
+    },
+
+    "menu" : {
+        "buyer" : "Sell items to Farmer Joe",
+        "buyer_sell" : "Sell %s",
+        "buyer_sellall" : "Sell All",
+        "buyer_sellone" : "Sell 1x"
+    }   
+}

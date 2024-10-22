@@ -96,7 +96,7 @@ Config.circleparses = 7                         -- number of circle parses a pla
 Config.circletime = 13                          -- time for player to complete one parse of the circle
 
 -- Reward type:
-Config.CashRegisterReturn = "markedbills"        -- Set to "dirtymoney", "markedbills" or "cash" to alter the reward given.
+Config.CashRegisterReturn = "dirtymoney"        -- Set to "dirtymoney", "markedbills" or "cash" to alter the reward given.
 Config.minRegisterEarn = 150                   -- Minimum amount earnt from stealing from a cash register
 Config.maxRegisterEarn = 500                   -- Maximum amount earnt from stealing from a cash register
 
