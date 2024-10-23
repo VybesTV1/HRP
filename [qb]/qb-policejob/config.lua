@@ -27,36 +27,36 @@ Config.Objects = {
 
 Config.Locations = {
     duty = {
-        vector3(-585.99, -421.41, 35.17),
+        vector3(-585.99, -421.41, 35.17), --City Police
         vector3(-449.811, 6012.909, 31.815),
     },
     vehicle = {
-        vector4(-576.21, -423.74, 30.52, 88.67),
+        vector4(-576.21, -423.74, 30.52, 88.67), --City Police
     },
     stash = {
-        vector3(-603.81, -416.57, 35.17),
+        vector3(-596.56, -410.4, 35.17), --City Police
     },
     impound = {
-        vector3(395.15, -1645.54, 29.29),
+        vector3(395.15, -1645.54, 29.29), --City Police
         vector3(-436.14, 5982.63, 31.34),
     },
     helicopter = {
-        vector4(-595.52, -431.38, 51.38, 101.65),
+        vector4(-595.52, -431.38, 51.38, 101.65), --City Police
         vector4(-475.43, 5988.353, 31.716, 31.34),
     },
     trash = {
-        vector3(-600.69, -418.39, 35.17),
+        vector3(-600.92, -418.89, 35.85), --City Police
     },
     fingerprint = {
-        vector3(-571.38, -447.38, 31.16),
+        vector3(-571.38, -447.38, 31.16), --City Police
     },
     evidence = {
-        vector3(-571.48, -441.16, 31.16),
-        vector3(-584.21, -441.22, 31.16),
-        vector3(455.1456, -985.462, 30.689),
+        vector3(-571.48, -441.16, 31.16), --City Police
+        vector3(-584.21, -441.22, 31.16), --City Police
+        vector3(455.1456, -985.462, 30.689), --City Police
     },
     stations = {
-        { label = 'Police Station',        coords = vector4(-580.44, -390.86, 34.93, 295.88) },
+        { label = 'Police Department',        coords = vector4(-580.44, -390.86, 34.93, 295.88) }, --City Police
         { label = 'Prison',                coords = vector4(1845.903, 2585.873, 45.672, 272.249) },
     },
 }
@@ -120,7 +120,7 @@ Config.Radars = {
 Config.CarItems = {
     [1] = {name = "heavyarmor", amount = 2, info = {}, type = "item", slot = 1,},
     [2] = {name = "empty_evidence_bag", amount = 10, info = {}, type = "item", slot = 2,},
-    [3] = {name = "police_stormram", amount = 1, info = {}, type = "item", slot = 3,},
+    [3] = {name = "police_stormram", amount = 5, info = {}, type = "item", slot = 3,},
 }
 
 Config.AuthorizedVehicles = {
