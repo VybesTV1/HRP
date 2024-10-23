@@ -28,10 +28,8 @@ Config.Products = {
         { name = 'twerks_candy',  price = 2,   amount = 50 },
         { name = 'snikkel_candy', price = 2,   amount = 50 },
         { name = 'sandwich',      price = 2,   amount = 50 },
-        { name = 'beer',          price = 7,   amount = 50 },
-        { name = 'whiskey',       price = 10,  amount = 50 },
-        { name = 'vodka',         price = 12,  amount = 50 },
         { name = 'bandage',       price = 100, amount = 50 },
+        { name = 'jackolantern',  price = 15,  amount = 50 },
     },
     ['liquor'] = {
         { name = 'beer',    price = 7,  amount = 50 },
