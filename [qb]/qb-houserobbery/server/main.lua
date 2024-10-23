@@ -65,12 +65,12 @@ RegisterNetEvent('qb-houserobbery:server:searchCabin', function(cabin, house)
             local randomItem = Config.Rewards.Tiers[Tier][Config.Houses[house]["furniture"][cabin]["type"]][math.random(1, #Config.Rewards.Tiers[Tier][Config.Houses[house]["furniture"][cabin]["type"]])]
             local itemInfo = QBCore.Shared.Items[randomItem]
             if math.random(1, 100) == 69 then
-                randomItem = "painkillers"
+                randomItem = "plastic"
                 itemInfo = QBCore.Shared.Items[randomItem]
                 Player.Functions.AddItem(randomItem, 2)
                 TriggerClientEvent('inventory:client:ItemBox', src, itemInfo, "add")
             elseif math.random(1, 100) == 35 then
-                randomItem = "weed_og-kush_seed"
+                randomItem = "goldchain"
                 itemInfo = QBCore.Shared.Items[randomItem]
                 Player.Functions.AddItem(randomItem, 1)
                 TriggerClientEvent('inventory:client:ItemBox', src, itemInfo, "add")
@@ -81,11 +81,11 @@ RegisterNetEvent('qb-houserobbery:server:searchCabin', function(cabin, house)
                         itemAmount = math.random(15, 30)
                     elseif randomItem == "goldchain" then
                         itemAmount = math.random(1, 4)
-                    elseif randomItem == "pistol_ammo" then
+                    elseif randomItem == "goldchain" then
                         itemAmount = math.random(1, 3)
                     elseif randomItem == "weed_skunk" then
                         itemAmount = math.random(1, 6)
-                    elseif randomItem == "cryptostick" then
+                    elseif randomItem == "goldchain" then
                         itemAmount = math.random(1, 2)
                     end
 
