@@ -1022,4 +1022,7 @@ QBShared.Items = {
     ["stevo_exampleblueprint"] = {['name'] = 'stevo_exampleblueprint',['label'] = 'Example Blueprint',['weight'] = 190,['type'] = 'item',['image'] = 'stevo_exampleblueprint.png',['unique'] = false,['useable'] = false,['useable'] = false,['combinable'] = nil,['description'] = ""},
     ['oldmoneywash'] = {['name'] = 'oldmoneywash',['label'] = 'T100 Washer',['weight'] = 250,['type'] = 'item',['image'] = 'oldmoneywash.png',['unique'] = false,['useable'] = true,['shouldClose'] = true,['combinable'] = nil,['description'] = "A basic money washer for handling smaller loads of dirty cash."},
     ['deluxemoneywash'] = {['name'] = 'deluxemoneywash',['label'] = 'T2000 Washer',['weight'] = 250,['type'] = 'item',['image'] = 'deluxemoneywash.png', ['unique'] = false,['useable'] = true,['shouldClose'] = true,['combinable'] = nil,['description'] = "An advanced money washer for handling larger loads of dirty cash."},
+
+    ["jackolantern"] = {["name"] = "jackolantern", ["label"] = "jackolantern", ["weight"] = 100, ["type"] = "item", ["image"] = "jackolantern.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Wasibi Brand jackolantern" },
+    ghostcam = { name = 'ghostcam', label = 'Ghost Camera', weight = 100, type = 'item', image = 'ghostcam.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A camera for capturing spookies.' },
 }
