@@ -242,34 +242,34 @@ Config.Weed = {
     --Clean
     Clean = {
         header = "Clean Weed",
-        description = "Ingredients: 1x Weed bud with leaves",
+        description = "Ingredients: 5x Weed bud with leaves",
         coords = vector3(1038.67, -3205.93, -38.3),
         radius = 0.8,
         teleport = vector3(1039.3 - 0.8, -3205.95, -37.69 - 1.4),
         heading = 90.0,
         leave = vector3(1039.28, -3205.38, -39.17),
         RequiredItems = {
-            { item = "weed_bud", count = 1, remove = true },
+            { item = "weed_bud", count = 5, remove = true },
         },
         AddItems = {
-            { item = "weed_budclean", count = 1 },
+            { item = "weed_budclean", count = 5 },
         },
-        Log = "Has proccessed 1x Weed bud with leaves into 1x Weed bud"
+        Log = "Has proccessed 5x Weed bud with leaves into 5x Weed bud"
     },
     --Package
     Package = {
         header = "Pack Weed",
-        description = "Ingredients: 5x Weed bud, 1x Plastic bag",
+        description = "Ingredients: 5x Weed bud, 5x Plastic bag",
         coords = vector3(1036.35, -3203.13, -38.24),
         radius = 0.8,
         RequiredItems = {
             { item = "weed_budclean", count = 5, remove = true },
-            { item = "plastic_bag", count = 1, remove = true },
+            { item = "plastic_bag", count = 5, remove = true },
         },
         AddItems = {
-            { item = "weed_package", count = 1 },
+            { item = "weed_package", count = 5 },
         },
-        Log = "Has proccessed 5x Weed bud, 1x Plastic bag into 1x Weed Packed"
+        Log = "Has proccessed 5x Weed bud, 5x Plastic bag into 5x Weed Packed"
     },
 }
 

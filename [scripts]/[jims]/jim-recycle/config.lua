@@ -150,14 +150,13 @@ Config = {
 	},
 	RecycleAmounts = {
 		["Recycle"] = {
-			Min = 5,
+			Min = 10,
 			Max = 10,
 		},
 		["Trade"] = {
-			{ amount = 1, itemGive = 1, Min = 1, Max = 1, },
-			{ amount = 10, itemGive = 1, Min = 2, Max = 5, },
-			{ amount = 100, itemGive = 6, Min = 5, Max = 14, },
-			{ amount = 1000, itemGive = 8, Min = 10, Max = 28, },
+			{ amount = 10, itemGive = 5, Min = 5, Max = 10, },
+			{ amount = 100, itemGive = 10, Min = 10, Max = 15, },
+			{ amount = 1000, itemGive = 100, Min = 15, Max = 20, },
 		},
 	}
 }

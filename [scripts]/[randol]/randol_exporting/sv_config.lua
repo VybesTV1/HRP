@@ -2,7 +2,7 @@ return {
     DeleteVehicleTimer = 2, -- minutes before the vehicle gets cleaned up after explosion.
     Vehicles = {
         S = {
-            threshold = 10000,
+            threshold = 400,
             timer = 120, -- seconds,
             payout = {min = 450, max = 500},
             list = {
@@ -28,7 +28,7 @@ return {
             xp = { min = 3, max = 5 }
         },
         A = {
-            threshold = 7000,
+            threshold = 300,
             timer = 180, -- seconds,
             payout = {min = 350, max = 400},
             list = {
@@ -52,7 +52,7 @@ return {
             xp = { min = 3, max = 5 }
         },
         B = {
-            threshold = 5500,
+            threshold = 200,
             timer = 180, -- seconds,
             payout = {min = 250, max = 300},
             list = {
@@ -74,7 +74,7 @@ return {
             xp = { min = 3, max = 5 }
         },
         C = {
-            threshold = 1000,
+            threshold = 100,
             timer = 180, -- seconds,
             payout = {min = 150, max = 200},
             list = {
