@@ -7,6 +7,7 @@ local takeHostage = {
 		`WEAPON_PISTOL`,
 		`WEAPON_COMBATPISTOL`,
 		`WEAPON_WRENCH`,
+		`WEAPON_SNSPISTOL`,
 
 		--etc add guns you want
 	},
