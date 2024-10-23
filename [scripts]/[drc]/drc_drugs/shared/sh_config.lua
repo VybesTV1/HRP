@@ -139,8 +139,8 @@ Config.Dealer = {
             MaxAmount = 5 },
         { label = 'Blunt Wraps', item = 'weed_wrap', description = "Buy Blunt wraps for: $", price = 20, MinAmount = 1,
             MaxAmount = 5 },
-        { label = 'Plastic Bag', item = 'plastic_bag', description = "Buy Plastic Bag for: $", price = 10, MinAmount = 1,
-            MaxAmount = 10 },
+        { label = 'Plastic Bag', item = 'plastic_bag', description = "Buy Plastic Bag for: $", price = 5, MinAmount = 1,
+            MaxAmount = 100 },
     },
     Ped = {
         { model = "s_m_y_dealer_01", coords = vec4(461.50, -1869.95, 26.01, 127.25), scenario = "WORLD_HUMAN_SMOKING" },
