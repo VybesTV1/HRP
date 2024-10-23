@@ -27,7 +27,7 @@ AddEventHandler("lusty94_fishnchips:server:bill:player", function(playerId, amou
                         TriggerClientEvent('QBCore:Notify', source, 'Invoice Successfully Sent', 'success')
 
                         --if using old qb-core method where mnagement handles money then use this snippet below
-                        exports['qb-management']:AddMoney('fishnchips', amount) -- add amount of sale to societ fund for job defined in config, society name needs to be in database tables also
+                        exports['qb-banking']:AddMoney('fishnchips', amount) -- add amount of sale to societ fund for job defined in config, society name needs to be in database tables also
                          
                         -- if using new qb-core method where banking replaces management menu for money options then uncomment this snippet below and comment out the one above for management
                         --exports['qb-banking']:AddMoney('fishnchips', amount)

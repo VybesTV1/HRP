@@ -512,7 +512,7 @@ function addMoneyToSociety()
     elseif main.societyPayments.qbBossMenu then
         TriggerEvent('qb-bossmenu:server:addAccountMoney', main.societyPayments.societyName, amount)
     elseif main.societyPayments.qbManagement then
-        exports['qb-management']:AddMoney(main.societyPayments.societyName, amount)
+        exports['qb-banking']:AddMoney(main.societyPayments.societyName, amount)
     end
 end
 

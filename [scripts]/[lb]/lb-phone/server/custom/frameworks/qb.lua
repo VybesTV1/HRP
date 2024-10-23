@@ -511,7 +511,7 @@ end)
 
 local function getSocietyMoney(job)
     local success, res = pcall(function()
-        return exports["qb-management"]:GetAccount(job)
+        return exports["qb-banking"]:GetAccount(job)
     end)
 
     if success then
@@ -535,7 +535,7 @@ lib.RegisterCallback("phone:services:addMoney", function(source, cb, amount)
     end
 
     local success, _ = pcall(function()
-        return exports["qb-management"]:AddMoney(job, amount)
+        return exports["qb-banking"]:AddMoney(job, amount)
     end)
 
     if success or exports["qb-banking"]:AddMoney(job, amount) then
@@ -553,7 +553,7 @@ lib.RegisterCallback("phone:services:removeMoney", function(source, cb, amount)
     end
 
     local success, res = pcall(function()
-        return exports["qb-management"]:RemoveMoney(job, amount)
+        return exports["qb-banking"]:RemoveMoney(job, amount)
     end)
 
     if not success then

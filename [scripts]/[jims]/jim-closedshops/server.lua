@@ -80,7 +80,7 @@ RegisterServerEvent('jim-closedshops:GetItem', function(amount, billtype, item, 
 					exports["Renewed-Banking"]:addAccountMoney(tostring(job), cost - (cost * 0.15))
 					if Config.Debug then print("^5Debug^7: ^3Renewed^7-^3Banking^7(^3Job^7): ^2Adding ^7$^6"..(cost - (cost * 0.15)).." ^2to account ^7'^6"..tostring(job).."^7'") end
 				else
-					exports["qb-management"]:AddMoney(tostring(job), cost - (cost * 0.15))
+					exports["qb-banking"]:AddMoney(tostring(job), cost - (cost * 0.15))
 					if Config.Debug then print("^5Debug^7: ^3QB^7-^3Management^7(^3Job^7): ^2Adding ^7$^6"..(cost - (cost * 0.15)).." ^2to account ^7'^6"..tostring(job).."^7'") end
 				end
 				if exports.ox_inventory:AddItem(src, item, amount) then
@@ -103,7 +103,7 @@ RegisterServerEvent('jim-closedshops:GetItem', function(amount, billtype, item, 
 					exports["Renewed-Banking"]:addAccountMoney(tostring(job), cost - (cost * 0.15))
 					if Config.Debug then print("^5Debug^7: ^3Renewed^7-^3Banking^7(^3Job^7): ^2Adding ^7$^6"..(cost - (cost * 0.15)).." ^2to account ^7'^6"..tostring(job).."^7'") end
 				else
-					exports["qb-management"]:AddMoney(tostring(job), cost - (cost * 0.15))
+					exports["qb-banking"]:AddMoney(tostring(job), cost - (cost * 0.15))
 					if Config.Debug then print("^5Debug^7: ^3QB^7-^3Management^7(^3Job^7): ^2Adding ^7$^6"..(cost - (cost * 0.15)).." ^2to account ^7'^6"..tostring(job).."^7'") end
 				end
 				if Player.Functions.AddItem(item, amount) then

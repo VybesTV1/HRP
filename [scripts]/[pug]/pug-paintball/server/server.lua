@@ -157,7 +157,7 @@ local function CheckToEndGame(src)
 				if Framework == "QBCore" then
 					if Config.PaintballIsABusiness then
 						local BusinessPay = round(cashprize * (#allplayers) / (#winningteam) * 0.15)
-						exports["qb-management"]:AddMoney(Config.PaintballBusinessName, tonumber(BusinessPay))
+						exports["qb-banking"]:AddMoney(Config.PaintballBusinessName, tonumber(BusinessPay))
 					end
 				end
 			end
@@ -204,7 +204,7 @@ local function ResetPaintballGame(teamname,winningteam)
 		if Framework == "QBCore" then
 			if Config.PaintballIsABusiness then
 				local BusinessPay = round(cashprize * (#allplayers) / (#winningteam) * 0.15)
-				exports["qb-management"]:AddMoney(Config.PaintballBusinessName, tonumber(BusinessPay))
+				exports["qb-banking"]:AddMoney(Config.PaintballBusinessName, tonumber(BusinessPay))
 			end
 		end
 	end

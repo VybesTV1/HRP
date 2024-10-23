@@ -43,7 +43,7 @@ main = {
         qbBossMenu = false,
         esxAddonAccount = false,
         societyName = "firefighters",
-        amountPerFire = {3000, 7000} -- Random number between 3k and 7k
+        amountPerFire = {500, 750} -- Random number between 3k and 7k
     },
     -- This section allows you to setup spreadable fires
     spreadableFires = {
@@ -321,9 +321,9 @@ main = {
         -- Please note though, if you have not set the above up, it will be sent to all players
         -- Enable this if you aren't using any other alert system, such as our integrtation with the Inferno Pager system.
         inGameAlerts = {
-            notification = true,
+            notification = false,
             sound = { -- https://wiki.rage.mp/index.php?title=Sounds (titles are the audio ref)
-                enabled = true,
+                enabled = false,
                 soundName = "CONFIRM_BEEP",
                 soundSet = "HUD_MINI_GAME_SOUNDSET",
             }
@@ -380,8 +380,8 @@ main = {
         },
 
         psDispatch = {
-            enabled = false,
-            jobs = {'police'},
+            enabled = true,
+            jobs = {'firefighter'},
             resourceName = "ps-dispatch",
             displayCode = "10-420",
             blipName = "New Fire",
