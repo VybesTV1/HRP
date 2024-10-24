@@ -1,24 +1,4 @@
 -- ## GABZ - UWU CAFE
--- ## COORDINATES: -580.862, -1079.083, 22.330
-
--- main entry
-table.insert(Config.DoorList, {
-	maxDistance = 2.5,
-	authorizedJobs = { ['unemployed']=0 },
-	locked = true,
-	slides = false,
-	audioRemote = false,
-	doors = {
-		{objHash = -69331849, objHeading = 0.0, objCoords = vector3(-580.3611, -1069.627, 22.48975)}, -- denis3d_catcafe_maindoors_r
-		{objHash = 526179188, objHeading = 0.0, objCoords = vector3(-581.6678, -1069.627, 22.48975)} -- denis3d_catcafe_maindoors_l
- },
-	lockpick = false,		
-	-- oldMethod = true,
-	-- audioLock = {['file'] = 'metal-locker.ogg', ['volume'] = 0.6},
-	-- audioUnlock = {['file'] = 'metallic-creak.ogg', ['volume'] = 0.7},
-	-- autoLock = 1000
-})
-
 -- employees access
 table.insert(Config.DoorList, {
 	objHeading = 89.999977111816,
@@ -26,7 +6,7 @@ table.insert(Config.DoorList, {
 	slides = false,
 	garage = false,
 	lockpick = false,
-	authorizedJobs = { ['unemployed']=0 },
+	authorizedJobs = { ['catcafe']=0 },
 	maxDistance = 2.0,
 	fixText = false,
 	audioRemote = false,
@@ -45,7 +25,7 @@ table.insert(Config.DoorList, {
 	slides = false,
 	garage = false,
 	lockpick = false,
-	authorizedJobs = { ['unemployed']=0 },
+	authorizedJobs = { ['catcafe']=0 },
 	maxDistance = 2.0,
 	fixText = false,
 	audioRemote = false,
@@ -64,7 +44,7 @@ table.insert(Config.DoorList, {
 	slides = true,
 	garage = false,
 	lockpick = false,
-	authorizedJobs = { ['unemployed']=0 },
+	authorizedJobs = { ['catcafe']=0 },
 	maxDistance = 6.0,
 	fixText = false,
 	audioRemote = false,
@@ -84,7 +64,7 @@ table.insert(Config.DoorList, {
 	slides = false,
 	objHeading = 89.999977111816,
 	locked = true,
-	authorizedJobs = { ['unemployed']=0 },
+	authorizedJobs = { ['catcafe']=0 },
 	lockpick = false,
 	audioRemote = false,
 	maxDistance = 2.0,
@@ -103,7 +83,7 @@ table.insert(Config.DoorList, {
 	slides = false,
 	garage = false,
 	lockpick = false,
-	authorizedJobs = { ['unemployed']=0 },
+	authorizedJobs = { ['catcafe']=0 },
 	maxDistance = 2.0,
 	fixText = false,
 	audioRemote = false,
@@ -122,7 +102,7 @@ table.insert(Config.DoorList, {
 	slides = false,
 	garage = false,
 	lockpick = false,
-	authorizedJobs = { ['unemployed']=0 },
+	authorizedJobs = { ['catcafe']=0 },
 	maxDistance = 2.0,
 	fixText = false,
 	audioRemote = false,
@@ -141,7 +121,7 @@ table.insert(Config.DoorList, {
 	slides = false,
 	garage = false,
 	lockpick = false,
-	authorizedJobs = { ['unemployed']=0 },
+	authorizedJobs = { ['catcafe']=0 },
 	maxDistance = 2.0,
 	fixText = true,
 	setText = true,
@@ -162,7 +142,7 @@ table.insert(Config.DoorList, {
 	slides = false,
 	garage = false,
 	lockpick = false,
-	authorizedJobs = { ['unemployed']=0 },
+	authorizedJobs = { ['catcafe']=0 },
 	maxDistance = 2.0,
 	fixText = false,
 	audioRemote = false,
@@ -181,7 +161,7 @@ table.insert(Config.DoorList, {
 	slides = false,
 	garage = false,
 	lockpick = false,
-	authorizedJobs = { ['unemployed']=0 },
+	authorizedJobs = { ['catcafe']=0 },
 	maxDistance = 2.0,
 	fixText = false,
 	audioRemote = false,
@@ -200,7 +180,7 @@ table.insert(Config.DoorList, {
 	slides = false,
 	garage = false,
 	lockpick = false,
-	authorizedJobs = { ['unemployed']=0 },
+	authorizedJobs = { ['catcafe']=0 },
 	maxDistance = 2.0,
 	fixText = false,
 	audioRemote = false,
@@ -219,7 +199,7 @@ table.insert(Config.DoorList, {
 	slides = false,
 	garage = false,
 	lockpick = false,
-	authorizedJobs = { ['unemployed']=0 },
+	authorizedJobs = { ['catcafe']=0 },
 	maxDistance = 2.0,
 	fixText = false,
 	audioRemote = false,
@@ -238,7 +218,7 @@ table.insert(Config.DoorList, {
 	slides = false,
 	garage = false,
 	lockpick = false,
-	authorizedJobs = { ['unemployed']=0 },
+	authorizedJobs = { ['catcafe']=0 },
 	maxDistance = 2.0,
 	fixText = false,
 	audioRemote = false,

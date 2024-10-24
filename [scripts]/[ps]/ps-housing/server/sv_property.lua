@@ -390,6 +390,7 @@ function Property:UpdateOwner(data)
     })
 
     self.propertyData.furnitures = {} -- to be fetched on enter
+    TriggerEvent('qb-weed:client:leaveHouse')
 
     TriggerClientEvent("ps-housing:client:updateProperty", -1, "UpdateOwner", self.property_id, citizenid)
     TriggerClientEvent("ps-housing:client:updateProperty", -1, "UpdateForSale", self.property_id, 0)

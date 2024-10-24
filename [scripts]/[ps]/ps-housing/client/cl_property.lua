@@ -131,10 +131,12 @@ function Property:RegisterMlo()
             distance = 40,
             onEnter = function()
                 self:LoadFurnitures()
+                TriggerEvent('qb-weed:client:getHousePlants', self.property_id)
             end,
             onExit = function()
                 self:UnloadFurnitures()
                 self.propertyData.furnitures = {}
+                TriggerEvent('qb-weed:client:leaveHouse')
             end
         })
     end
@@ -232,6 +234,7 @@ function Property:RegisterPropertyEntrance()
                 onExit = function()
                     self:UnloadFurnitures()
                     self.propertyData.furnitures = {}
+                    TriggerEvent('qb-weed:client:leaveHouse')
                 end
             })
         }
@@ -330,6 +333,7 @@ function Property:EnterShell()
             self:CreateShell()
         end
         self:LoadFurnitures()
+        TriggerEvent('qb-weed:client:getHousePlants', self.property_id)
     end
 
     self.inProperty = true
@@ -357,6 +361,7 @@ function Property:LeaveShell()
 
         self:UnloadFurnitures()
         self.propertyData.furnitures = {}
+        TriggerEvent('qb-weed:client:leaveHouse')
         if not isIpl then
             self.shell:DespawnShell()
             self.shell = nil
