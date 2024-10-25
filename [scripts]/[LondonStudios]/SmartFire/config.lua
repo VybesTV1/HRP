@@ -267,7 +267,7 @@ main = {
         main = {
             QBCore = { -- This enables the job check for QBCore
                 enabled = true,
-                jobs = {"fire", "firefighter"},
+                jobs = {"firefighter"},
             },
             ESX = {  -- This enables the job check for ESX
                 enabled = false,
@@ -321,9 +321,9 @@ main = {
         -- Please note though, if you have not set the above up, it will be sent to all players
         -- Enable this if you aren't using any other alert system, such as our integrtation with the Inferno Pager system.
         inGameAlerts = {
-            notification = false,
+            notification = true,
             sound = { -- https://wiki.rage.mp/index.php?title=Sounds (titles are the audio ref)
-                enabled = false,
+                enabled = true,
                 soundName = "CONFIRM_BEEP",
                 soundSet = "HUD_MINI_GAME_SOUNDSET",
             }
@@ -380,7 +380,7 @@ main = {
         },
 
         psDispatch = {
-            enabled = true,
+            enabled = false,
             jobs = {'firefighter'},
             resourceName = "ps-dispatch",
             displayCode = "10-420",
