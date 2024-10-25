@@ -1025,4 +1025,7 @@ QBShared.Items = {
 
     ["jackolantern"] = {["name"] = "jackolantern", ["label"] = "jackolantern", ["weight"] = 100, ["type"] = "item", ["image"] = "jackolantern.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "jackolantern" },
     ghostcam = { name = 'ghostcam', label = 'Ghost Camera', weight = 100, type = 'item', image = 'ghostcam.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A camera for capturing spookies.' },
+
+    ["syphoningkit"]				 = {["name"] = "syphoningkit", 					["label"] = "Syphoning Kit", 			["weight"] = 5000, 		["type"] = "item", 		["image"] = "syphoningkit.png", 		["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "A kit made to siphon gasoline from vehicles."},
+	["jerrycan"]				 	 = {["name"] = "jerrycan", 						["label"] = "Jerry Can", 				["weight"] = 15000, 	["type"] = "item", 		["image"] = "jerrycan.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "A Jerry Can made to hold gasoline."},
 }
