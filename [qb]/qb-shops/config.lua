@@ -43,8 +43,12 @@ Config.Products = {
         { name = 'phone',             price = 850, amount = 50 },
         { name = 'radio',             price = 250, amount = 50 },
         { name = 'binoculars',        price = 50,  amount = 50 },
-        { name = 'fitbit',            price = 400, amount = 150 },
         { name = 'cleaningkit',       price = 150, amount = 150 },
+        { name = 'diving_gear',       price = 2500, amount = 50 },
+        { name = 'diving_fill',       price = 1500, amount = 250 },
+        { name = 'skateboard',        price = 550, amount = 50 },
+        { name = 'pd_screwdriver',    price = 450,  amount = 50 },
+        { name = 'oldmoneywash',      price = 50000, amount = 150 },
     },
     ['police'] = {
         { name = 'weapon_combatpistol', price = 0, amount = 50,   requiredLicense = 'weapon' },

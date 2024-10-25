@@ -70,22 +70,22 @@ Config.Rewards = { -- rewards pool for tiers, adjust to your server needs
 
     Tiers = {
         [1] = {
-            ["cabin"] = {"diamond_ring", "goldchain", "bandage", "beer", "fitbit"},
-            ["kitchen"] = {"10kgoldchain", "rolex", "goldchain", "goldbar", "diamond_ring"},
-            ["chest"] = {"rolex", "diamond_ring", "goldchain", "lighter"},
-            ["livingroom"] = {"rolex", "diamond_ring", "goldchain"},
+            ["cabin"] = {"silverearring", "goldchain", "art3", "silverchain", "mdtablet"},
+            ["kitchen"] = {"mdspeakers", "rolex", "art7", "art2", "diamond_ring"},
+            ["chest"] = {"art4", "checkbook", "art6", "art1"},
+            ["livingroom"] = {"mdlaptop", "mddesktop", "art5", "mdmonitor"},
         },
         [2] = {
-            ["cabin"] = {"diamond_ring", "goldchain", "bandage", "beer", "fitbit"},
-            ["kitchen"] = {"10kgoldchain", "rolex", "goldchain", "goldbar", "diamond_ring"},
-            ["chest"] = {"rolex", "diamond_ring", "goldchain", "lighter"},
-            ["livingroom"] = {"rolex", "diamond_ring", "goldchain"},
+            ["cabin"] = {"silverearring", "goldchain", "art3", "silverchain", "mdtablet"},
+            ["kitchen"] = {"mdspeakers", "rolex", "art7", "art2", "diamond_ring"},
+            ["chest"] = {"art4", "checkbook", "art6", "art1"},
+            ["livingroom"] = {"mdlaptop", "mddesktop", "art5", "mdmonitor"},
         },
         [3] = {
-            ["cabin"] = {"diamond_ring", "goldchain", "bandage", "beer", "fitbit"},
-            ["kitchen"] = {"10kgoldchain", "rolex", "goldchain", "goldbar", "diamond_ring"},
-            ["chest"] = {"rolex", "diamond_ring", "goldchain", "lighter"},
-            ["livingroom"] = {"rolex", "diamond_ring", "goldchain"},
+            ["cabin"] = {"silverearring", "goldchain", "art3", "silverchain", "mdtablet"},
+            ["kitchen"] = {"mdspeakers", "rolex", "art7", "art2", "diamond_ring"},
+            ["chest"] = {"art4", "checkbook", "art6", "art1"},
+            ["livingroom"] = {"mdlaptop", "mddesktop", "art5", "mdmonitor"},
         },
     },        
     

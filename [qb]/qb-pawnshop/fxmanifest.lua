@@ -1,9 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
-lua54 'yes'
-author 'Kakarot'
-description 'Allows players to sell items for money'
-version '1.2.0'
+
+description 'QB-Pawnshop'
+version '2.0.0'
 
 shared_scripts {
     '@qb-core/shared/locale.lua',
@@ -23,3 +22,5 @@ client_scripts {
     '@PolyZone/ComboZone.lua',
     'client/main.lua'
 }
+
+lua54 'yes'

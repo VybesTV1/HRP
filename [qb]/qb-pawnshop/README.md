@@ -1,20 +1,21 @@
 # qb-pawnshop
-Pawn Shop For QB-Core
+
+If you like my work and want to support me : [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F2F3EU9ME)
+
+Pawn Shop For QB-Core with added functionalities.
+
+Preview : https://youtu.be/e4ECV8iKzlA
+
+
+
+# Added functions
+
+- Multiple locations with peds and target
+- Different items per location
+- Availability to show / hide blip
+- Option to show / hide not owned items that can be sold
+- Configurable option to enable melting at the location
 
 # License
 
-    QBCore Framework
-    Copyright (C) 2021 Joshua Eger
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>
+This resource is a fork of [qb-pawnshop](https://github.com/qbcore-framework/qb-pawnshop).

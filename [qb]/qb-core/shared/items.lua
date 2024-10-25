@@ -334,7 +334,7 @@ QBShared.Items = {
     iphone                       = { name = 'iphone', label = 'iPhone', weight = 1000, type = 'item', image = 'iphone.png', unique = false, useable = false, shouldClose = true, description = 'Very expensive phone' },
     samsungphone                 = { name = 'samsungphone', label = 'Samsung S10', weight = 1000, type = 'item', image = 'samsungphone.png', unique = false, useable = false, shouldClose = true, description = 'Very expensive phone' },
     laptop                       = { name = 'laptop', label = 'Laptop', weight = 4000, type = 'item', image = 'laptop.png', unique = false, useable = false, shouldClose = true, description = 'Expensive laptop' },
-    tablet                       = { name = 'tablet', label = 'Real Estate Tablet', weight = 2000, type = 'item', image = 'tablet.png', unique = false, useable = true, shouldClose = true, description = 'Expensive tablet' },
+    tablet                       = { name = 'tablet', label = 'Real Estate Tablet', weight = 2000, type = 'item', image = 'tablet.png', unique = false, useable = true, shouldClose = true, description = 'To see all you hosuing needs!!!' },
     fitbit                       = { name = 'fitbit', label = 'Fitbit', weight = 500, type = 'item', image = 'fitbit.png', unique = true, useable = true, shouldClose = true, description = 'I like fitbit' },
     radioscanner                 = { name = 'radioscanner', label = 'Radio Scanner', weight = 1000, type = 'item', image = 'radioscanner.png', unique = false, useable = false, shouldClose = true, description = 'With this you can get some police alerts. Not 100% effective however' },
     pinger                       = { name = 'pinger', label = 'Pinger', weight = 1000, type = 'item', image = 'pinger.png', unique = false, useable = false, shouldClose = true, description = 'With a pinger and your phone you can send out your location' },
@@ -1023,6 +1023,6 @@ QBShared.Items = {
     ['oldmoneywash'] = {['name'] = 'oldmoneywash',['label'] = 'T100 Washer',['weight'] = 250,['type'] = 'item',['image'] = 'oldmoneywash.png',['unique'] = false,['useable'] = true,['shouldClose'] = true,['combinable'] = nil,['description'] = "A basic money washer for handling smaller loads of dirty cash."},
     ['deluxemoneywash'] = {['name'] = 'deluxemoneywash',['label'] = 'T2000 Washer',['weight'] = 250,['type'] = 'item',['image'] = 'deluxemoneywash.png', ['unique'] = false,['useable'] = true,['shouldClose'] = true,['combinable'] = nil,['description'] = "An advanced money washer for handling larger loads of dirty cash."},
 
-    ["jackolantern"] = {["name"] = "jackolantern", ["label"] = "jackolantern", ["weight"] = 100, ["type"] = "item", ["image"] = "jackolantern.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Wasibi Brand jackolantern" },
+    ["jackolantern"] = {["name"] = "jackolantern", ["label"] = "jackolantern", ["weight"] = 100, ["type"] = "item", ["image"] = "jackolantern.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "jackolantern" },
     ghostcam = { name = 'ghostcam', label = 'Ghost Camera', weight = 100, type = 'item', image = 'ghostcam.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A camera for capturing spookies.' },
 }
