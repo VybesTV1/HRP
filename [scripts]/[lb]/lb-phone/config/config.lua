@@ -529,19 +529,19 @@ Config.WordBlacklist.Words = {
 }
 
 Config.AutoFollow = {}
-Config.AutoFollow.Enabled = false
+Config.AutoFollow.Enabled = true
 
 Config.AutoFollow.Birdy = {}
 Config.AutoFollow.Birdy.Enabled = true
-Config.AutoFollow.Birdy.Accounts = { "gunz", "anotherusername" } -- array of usernames to automatically follow when creating an account. e.g. "username", "anotherusername"
+Config.AutoFollow.Birdy.Accounts = {"gunz"} -- array of usernames to automatically follow when creating an account. e.g. "username", "anotherusername"
 
 Config.AutoFollow.InstaPic = {}
 Config.AutoFollow.InstaPic.Enabled = true
-Config.AutoFollow.InstaPic.Accounts = { "gunz", "anotherusername" } -- array of usernames to automatically follow when creating an account. e.g. "username", "anotherusername"
+Config.AutoFollow.InstaPic.Accounts = {"gunz"} -- array of usernames to automatically follow when creating an account. e.g. "username", "anotherusername"
 
 Config.AutoFollow.Trendy = {}
 Config.AutoFollow.Trendy.Enabled = true
-Config.AutoFollow.Trendy.Accounts = { "gunz", "anotherusername" } -- array of usernames to automatically follow when creating an account. e.g. "username", "anotherusername"
+Config.AutoFollow.Trendy.Accounts = {"gunz"} -- array of usernames to automatically follow when creating an account. e.g. "username", "anotherusername"
 
 Config.AutoBackup = true -- should the phone automatically create a backup when you get a new phone?
 
