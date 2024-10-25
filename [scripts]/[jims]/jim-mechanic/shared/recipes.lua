@@ -65,6 +65,9 @@ Crafting = {
 			{ ["cleaningkit"] = { ["rubber"] = 5, },
 				["amount"] = 1,
 			},
+			{ ["pd_licence_plate_flipper"] = { ["rubber"] = 5, },
+				["amount"] = 1,
+			},
 		},
 	},
 	Perform = {
