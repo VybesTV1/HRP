@@ -11,7 +11,7 @@ Config = {
 	BuyMoneyType = 'bank',										-- Type of money you receive for buying items
 	Animations = 'rpemotes',									-- 'rpemotes' | Add more in shared.lua
 
-	Dispatch = { name = 'ps-dispatch', chance = 20 },			-- Dispatch resource name and percentage chance for police to be called when illegal fish are caught
+	Dispatch = { name = 'ps-dispatch', chance = 100 },			-- Dispatch resource name and percentage chance for police to be called when illegal fish are caught
 	
 	FishingAnimation = 'fishing1',								-- Animation used for fishing
 	DigAnimation = 'dig',										-- Animation used for digging
@@ -21,40 +21,40 @@ Config = {
 	XPIncrease = { legal = 2, exotic = 4 },						-- How much XP is gained for catching legal and exotic fish
 
 	RiverFish = {												-- Prices are (price + weight). You can set a base price for all fish, then adjust fish weight accordingly
-		[1] = { name = 'bream', price = 20, weight = {1, 8} },
-		[2] = { name = 'pike', price = 300, weight = {2, 60} },
-		[3] = { name = 'rainbowtrout', price = 20, weight = {6, 8} },
-		[4] = { name = 'salmon', price = 20, weight = {3, 50} },
+		[1] = { name = 'bream', price = 10, weight = {1, 8} },
+		[2] = { name = 'pike', price = 100, weight = {2, 60} },
+		[3] = { name = 'rainbowtrout', price = 15, weight = {6, 8} },
+		[4] = { name = 'salmon', price = 30, weight = {3, 50} },
 		[5] = { name = 'smallmouthbass', price = 20, weight = {2, 10} },
 	},
 	LakeFish = {
-		[1] = { name = 'bullhead', price = 20, weight = {2, 20} },
-		[2] = { name = 'carp', price = 20, weight = {4, 30} },
-		[3] = { name = 'chub', price = 20, weight = {1, 5} },
-		[4] = { name = 'largemouthbass', price = 20, weight = {2, 20} },
-		[5] = { name = 'sturgeon', price = 300, weight = {6, 310} },
+		[1] = { name = 'bullhead', price = 40, weight = {2, 20} },
+		[2] = { name = 'carp', price = 50, weight = {4, 30} },
+		[3] = { name = 'chub', price = 2, weight = {1, 5} },
+		[4] = { name = 'largemouthbass', price = 25, weight = {2, 20} },
+		[5] = { name = 'sturgeon', price = 100, weight = {6, 310} },
 	},
 	OceanFish = {
-		[1] = { name = 'clam', price = 20, weight = {1, 1} },
-		[2] = { name = 'clownfish', price = 20, weight = {1, 7} },
+		[1] = { name = 'clam', price = 5, weight = {1, 1} },
+		[2] = { name = 'clownfish', price = 10, weight = {1, 7} },
 		[3] = { name = 'cod', price = 20, weight = {11, 26} },
-		[4] = { name = 'crab', price = 20, weight = {1, 5} },
-		[5] = { name = 'flounder', price = 20, weight = {1, 7} },
-		[6] = { name = 'mackerel', price = 20, weight = {1, 5} },
-		[7] = { name = 'mussel', price = 20, weight = {1, 1} },
+		[4] = { name = 'crab', price = 5, weight = {1, 5} },
+		[5] = { name = 'flounder', price = 15, weight = {1, 7} },
+		[6] = { name = 'mackerel', price = 35, weight = {1, 5} },
+		[7] = { name = 'mussel', price = 5, weight = {1, 1} },
 	},
 	ExoticFish = {
-		[0] = { xp = 0, chance = 10, name = 'stingray', price = 100, weight = {25, 75} },
-		[1] = { xp = 50, chance = 10, name = 'dolphin', price = 100, weight = {150, 225} },
-		[2] = { xp = 200, chance = 10, name = 'hammerheadshark', price = 100, weight = {200, 400} },
-		[3] = { xp = 350, chance = 10, name = 'tigershark', price = 100, weight = {425, 875} },
-		[4] = { xp = 500, chance = 5, name = 'killerwhale', price = 100, weight = {1850, 2750} },
+		[0] = { xp = 0, chance = 9, name = 'stingray', price = 150, weight = {25, 75} },
+		[1] = { xp = 50, chance = 8, name = 'dolphin', price = 250, weight = {150, 225} },
+		[2] = { xp = 200, chance = 7, name = 'hammerheadshark', price = 350, weight = {200, 400} },
+		[3] = { xp = 350, chance = 6, name = 'tigershark', price = 450, weight = {425, 875} },
+		[4] = { xp = 500, chance = 5, name = 'killerwhale', price = 550, weight = {1850, 2750} },
 	},
 	EquipmentTypes = {
-		[1] = { name = 'fishingrod', price = 125 },
-		[2] = { name = 'fishingbait', price = 10 },
-		[3] = { name = 'shovel', price = 75 },
-		[4] = { name = 'anchor', price = 350 },
+		[1] = { name = 'fishingrod', price = 150 },
+		[2] = { name = 'fishingbait', price = 15 },
+		[3] = { name = 'shovel', price = 25 },
+		[4] = { name = 'anchor', price = 45 },
 	},
 	IllegalFishingZones = {
 		vector3(-2228.04, -1868.32, -0.2),
@@ -63,9 +63,7 @@ Config = {
 
 Fishery = {
 	[1] = { name = 'Fishery', location = vector4(-1816.63, -1193.36, 14.3, 330.93), seller = 'legal', model = `s_m_y_busboy_01`, scenario = "WORLD_HUMAN_CLIPBOARD", sprite = 68, colour = 3, enableBlip = true },
-	[2] = { name = 'Fishery', location = vector4(-3275.45, 964.59, 8.35, 312.12), seller = 'legal', model = `s_m_y_busboy_01`, scenario = "WORLD_HUMAN_CLIPBOARD", sprite = 68, colour = 3, enableBlip = true },
-	[3] = { name = 'Fishery', location = vector4(-1593.06, 5203.02, 4.31, 346.59), seller = 'legal', model = `s_m_y_busboy_01`, scenario = "WORLD_HUMAN_CLIPBOARD", sprite = 68, colour = 3, enableBlip = true },
-	[4] = { name = 'Exotic Fishery', location = vector4(-1597.16, -937.93, 8.78, 51.58), seller = 'exotic', model = `cs_tom`, scenario = "WORLD_HUMAN_CLIPBOARD", sprite = 68, colour = 1, enableBlip = false },
+	[2] = { name = 'Exotic Fishery', location = vector4(-1597.16, -937.93, 8.78, 51.58), seller = 'exotic', model = `cs_tom`, scenario = "WORLD_HUMAN_CLIPBOARD", sprite = 68, colour = 1, enableBlip = false },
 }
 
 Bait = {

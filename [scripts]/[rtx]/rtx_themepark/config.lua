@@ -59,7 +59,7 @@ Config.AttractionsSettings = {
 		waitforplayers = 20000, -- in miliseconds
 		exitcoords = {coords = vector3(-1640.03, -1075.81, 12.15), heading = 52.5}, -- coordinates for exit the attraction
 		animcooldown = 1000, -- in miliseconds
-		ticketprice = 10, -- price for ticket
+		ticketprice = 25, -- price for ticket
 		speedmodifier = 1.0, -- attraction speed, default speed is 1.0
 		maxrounds = 10, -- change this you want more rounds at maximum speed (changing this number to a higher number will change the duration of the attraction)
 	},
@@ -69,7 +69,7 @@ Config.AttractionsSettings = {
 		waitforplayers = 20000, -- in miliseconds	
 		exitcoords = {coords = vector3(-1619.91, -1073.14, 12.01), heading = 345.5}, -- coordinates for exit the attraction
 		animcooldown = 1000, -- in miliseconds		
-		ticketprice = 10, -- price for ticket
+		ticketprice = 20, -- price for ticket
 		speedmodifier = 1.0, -- attraction speed, default speed is 1.0
 		maxrounds = 20, -- change this you want more rounds at maximum speed (changing this number to a higher number will change the duration of the attraction)
 		normalstyle = true, -- change this if you want different style of top scan (Top Scan starts spinning at a different angle)
@@ -80,7 +80,7 @@ Config.AttractionsSettings = {
 		waitforplayers = 20000, -- in miliseconds	
 		exitcoords = {coords = vector3(-1702.23, -1105.6, 12.15), heading = 321.5}, -- coordinates for exit the attraction
 		animcooldown = 1000,			
-		ticketprice = 10, -- price for ticket
+		ticketprice = 30, -- price for ticket
 		speedmodifier = 1.0, -- attraction speed, default speed is 1.0
 		maxrounds = 2, -- change this you want more rounds at maximum speed (changing this number to a higher number will change the duration of the attraction)
 	},	
@@ -89,7 +89,7 @@ Config.AttractionsSettings = {
 		usedistance = 1.5, -- distance for use attraction
 		waitforplayers = 20000, -- in miliseconds
 		exitcoords = {coords = vector3(-1685.04, -1115.26, 12.15), heading = 352.5}, -- coordinates for exit the attraction		
-		ticketprice = 10, -- price for ticket
+		ticketprice = 15, -- price for ticket
 		speedmodifier = 1.0, -- attraction speed, default speed is 1.0
 		timeontop = 10000, -- in miliseconds (the time that the detonator will wait at the top before going down.)
 	},	
@@ -99,7 +99,7 @@ Config.AttractionsSettings = {
 		waitforplayers = 20000, -- in miliseconds
 		exitcoords = {coords = vector3(-1660.67, -1115.0, 12.04), heading = 50.5}, -- coordinates for exit the attraction
 		animcooldown = 1000, -- in miliseconds		
-		ticketprice = 10, -- price for ticket
+		ticketprice = 20, -- price for ticket
 		speedmodifier = 1.0, -- attraction speed, default speed is 1.0
 		maxrounds = 5, -- change this you want more rounds at maximum speed (changing this number to a higher number will change the duration of the attraction)
 	},	
@@ -110,7 +110,7 @@ Config.AttractionsSettings = {
 		seatdistance = 2.0, -- distance for seat as a passenger.
 		minminutes = 1, -- minimum minutes in bumper cars
 		maxminutes = 10, -- max minutes in bumper cars
-		priceperminute = 10, -- price for ticket per minute
+		priceperminute = 35, -- price for ticket per minute
 		maxplayers = 15, -- maximum number of players for bumper cars
 		bumperusekey = "E", -- bumper cars key for seat as a passenger.
 		bumperleavekey = "E",-- bumper cars key for leave bumper cars
@@ -123,7 +123,7 @@ Config.AttractionsSettings = {
 		ferrisseatanimcooldown = 1000, -- in miliseconds
 		ferrisseatwait = 5000, -- in miliseconds
 		ferrisexitcoords = {coords = vector3(-1686.27, -1098.77, 12.5), heading = 140.0}, -- coordinates for exit the attraction
-		ticketprice = 10, -- price for ticket
+		ticketprice = 20, -- price for ticket
 	},	
 	shootingrange = { -- If you have some script which block weapons, you can add some bypass to allow weapon_musket to be used withount inventory item use, we also trigger this event when shooting range is started TriggerEvent("rtx_themepark:Shooter:Started", true) and when shooting range ends TriggerEvent("rtx_themepark:Shooter:Started", false), you can create event handler for our event in your script
 		disable = false, -- enable this if you dont want to use this attraction
@@ -135,7 +135,7 @@ Config.AttractionsSettings = {
 		maxmistakes = 5, -- maximum number of mistakes before cancellation
 		timetoshoot = 5, -- maximum number of seconds to hit the target
 		shootingrangeweapon = "weapon_musket", -- weapon name which you want to use in shootin range
-		ticketprice = 10, -- price for ticket
+		ticketprice = 15, -- price for ticket
 		shootingrangeusekey = "E", -- shooting range key for start game.
 	},	
 	rollercoaster = {
@@ -144,7 +144,7 @@ Config.AttractionsSettings = {
 		usedistance = 2.0, -- distance for use attraction
 		waitforplayers = 5000, -- in miliseconds
 		animcooldown = 1000, -- in miliseconds
-		ticketprice = 10, -- price for ticket
+		ticketprice = 30, -- price for ticket
 		speedmodifier = 1, -- attraction speed, default speed is 1 (for roller coaster always increase the numbers by 1 digit, do not use decimal numbers)
 	},		
 }

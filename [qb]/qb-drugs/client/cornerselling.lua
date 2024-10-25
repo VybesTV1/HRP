@@ -28,9 +28,10 @@ end
 -- Fixed:
 -- swapped the condition to `random <= Config.PoliceCallChance` so "Config.PoliceCallChance", represents the call probability.
 local function PoliceCall()
-    local random = math.random(1, 100)
+    local random = math.random(50, 100)
     if random <= Config.PoliceCallChance then
-        TriggerServerEvent('police:server:policeAlert', 'Drug sale in progress')
+        --TriggerServerEvent('police:server:policeAlert', 'Drug sale in progress')
+        exports['ps-dispatch']:DrugSale()
     end
 end
 
